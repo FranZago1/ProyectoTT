@@ -1,0 +1,106 @@
+# Configuración del traductor de carruseles (EN -> ES-AR).
+# Medidas en píxeles sobre la slide normalizada a 1080x1350.
+
+salida:
+  ancho: 1080
+  alto: 1350
+
+rasterizado:
+  dpi: 220            # 200-300 según el .md
+  motor: pymupdf      # pymupdf | pdftoppm (plan B automático si falla)
+
+preparar:
+  # Umbral para considerar "blanco de página" (márgenes del PDF, si se rasteriza).
+  umbral_blanco: 250
+  # Aplanado del fondo (elimina el degradado gris superior, sombras de borde y la flecha "<").
+  fondo_lum_min: 200        # luminancia mínima de un píxel de fondo
+  fondo_sat_max: 14         # saturación HSV máxima (0-255) de un píxel de fondo
+  fondo_var_max: 6.0        # varianza local máxima (fondo liso)
+  celda_fondo: 40           # px por celda al estimar el campo de iluminación
+  suavizado_fondo: 2.0      # sigma (en celdas) del suavizado del campo
+  umbral_a_fondo: 244       # tras aplanar, todo lo más claro que esto y gris pasa a fondo puro
+  franja_ui_superior: 0.09  # alto (fracción del ancho) de la franja de la barra de Instagram
+  # Flecha "<": esquina superior izquierda (fracciones del ANCHO: x1, y1).
+  flecha_region: [0.11, 0.10]
+  # Contador "n / 7" (fracciones de la captura: x0, y0, x1, y1).
+  contador_region: [0.75, 0.0, 1.0, 0.18]
+  umbral_contenido: 30      # diferencia con el fondo para considerar "contenido" al centrar la ventana
+  relacion_aspecto: 1.25    # alto / ancho (1080x1350)
+
+ocr:
+  # Orden de prueba. En macOS se antepone ocrmac automáticamente.
+  # Se probó EasyOCR sobre 2 slides y quedó por debajo de Tesseract en el cuerpo (ver DECISIONES.md).
+  motores: [tesseract, easyocr, ninguno]
+  escala_etiquetas: 2.0   # ampliación para la pasada dispersa sobre gráficos
+  idioma: en
+  confianza_min: 0.30
+
+extraer:
+  separacion_parrafo_factor: 0.9   # gap > factor * alto de línea => nuevo bloque
+  umbral_fondo: 22                  # diferencia con el fondo por fila para "tinta"
+  min_alto_grafico: 120
+  # Grosor de trazo (en em) por encima del cual una línea se considera negrita
+  # (medido en la referencia: Inter Regular ≈ 0,085-0,09 em; Bold ≈ 0,115-0,12 em).
+  umbral_negrita: 0.103
+
+render:
+  fuente_dir: fuentes
+  fuentes:
+    regular: Inter-Regular.otf
+    medium: Inter-Medium.otf
+    semibold: Inter-SemiBold.otf
+    bold: Inter-Bold.otf
+    extrabold: Inter-ExtraBold.otf
+  peso_por_rol:
+    titulo: extrabold
+    subtitulo: semibold
+    cuerpo: regular
+    destacado: semibold
+    cita: medium
+    pie: regular
+    otro: regular
+  # Tamaños por defecto si plan.json no trae tam_px (medidos sobre carruseles del mismo formato).
+  tam_por_rol:
+    titulo: 76
+    subtitulo: 40
+    cuerpo: 34
+    destacado: 34
+    cita: 34
+    pie: 22
+    otro: 30
+  color_texto: "#1A1A1A"
+  color_pie: "#8A8A8A"
+  ancho_columna: 0.75          # fracción del ancho de la slide (si no hay medida del original)
+  ancho_columna_max: 0.80      # tope: nunca más ancho que esto
+  interlineado: 1.28           # múltiplo del tamaño de fuente
+  espacio_entre_bloques: 0.75  # múltiplo del tamaño de fuente del bloque siguiente
+  margen_superior_min: 60
+  separacion_grafico_min: 24   # px libres entre texto y gráfico
+  reduccion_minima: 0.90       # no bajar de 90 % del tamaño
+  alineacion_vertical: centro  # centro | arriba (dentro de la zona de texto)
+  margen_borrado_px: 6         # se agranda la caja al borrar texto
+
+graficos:
+  dpi: 200
+  verde: "#4F8A5B"
+  rojo: "#B85A4E"
+  gris: "#9A9A9A"
+  naranja: "#E8A048"
+  rojo_intenso: "#C9433A"
+  texto: "#1A1A1A"
+  ejes: "#BDBDBD"
+  semilla: 42
+
+paleta:
+  k: 8
+  k_acentos: 6
+  muestras: 60000
+
+# Fuentes de entrada por slug. Si un slug no figura, se usa entrada/<slug>/ tal cual.
+carruseles:
+  fat-tails:
+    entrada: referencia          # entrada/referencia/
+    paginas: [2, 7, 6, 1, 8, 4, 3]
+  ergodicity:
+    entrada: referencia
+    paginas: [5, 9, 10, 11, 12, 13, 14]

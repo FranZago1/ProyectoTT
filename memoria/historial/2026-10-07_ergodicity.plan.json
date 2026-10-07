@@ -1,0 +1,955 @@
+{
+ "slug": "ergodicity",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 5,
+   "elementos_ui_eliminados": [
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    145,
+    130,
+    937,
+    590
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Ergodicity",
+     "texto_es": "Ergodicidad",
+     "peso": "bold",
+     "tam_px": 91,
+     "interlineado": null,
+     "color": "#1B1B1B",
+     "caja": [
+      314,
+      130,
+      770,
+      222
+     ],
+     "ancho_px": 470
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "The Reason Expected Value Destroys Portfolios",
+     "texto_es": "Por qué el valor esperado destruye carteras",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": 1.38,
+     "color": "#181818",
+     "caja": [
+      177,
+      298,
+      902,
+      384
+     ],
+     "ancho_px": 747,
+     "espacio_antes": 59
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Physicists solved this decades ago. Hedge funds use it to size every bet. Economics still gets it wrong. Here's why it matters.",
+     "texto_es": "Los físicos lo resolvieron hace décadas. Los fondos de cobertura lo usan para dimensionar cada apuesta. La economía todavía se equivoca. Veamos por qué importa.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#191919",
+     "caja": [
+      145,
+      459,
+      937,
+      590
+     ],
+     "ancho_px": 816,
+     "espacio_antes": 59
+    },
+    {
+     "rol": "pie",
+     "texto_en": "An ergodic measure for Diffusion Monte Carlo ground state wavefunctions",
+     "texto_es": "Una medida ergódica para funciones de onda del estado fundamental en Monte Carlo por difusión",
+     "peso": "regular",
+     "tam_px": 20.2,
+     "interlineado": 1.3,
+     "color": "#8C8C8C",
+     "caja": [
+      186,
+      1198,
+      894,
+      1225
+     ],
+     "fijo": true
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      186,
+      715,
+      894,
+      1180
+     ],
+     "estrategia": "C",
+     "justificacion": "Figura académica (física): se conserva; solo se traduce el rótulo del eje Y.",
+     "tipo": "funciones de onda de Monte Carlo por difusión (figura importada)",
+     "etiquetas": [
+      {
+       "texto_en": "Relative probability",
+       "texto_es": "Probabilidad relativa",
+       "caja": [
+        209,
+        864,
+        231,
+        986
+       ],
+       "tam_px": 13.5,
+       "rotacion": 90,
+       "color": "#222222",
+       "font_nota": "Arial en el original"
+      }
+     ]
+    }
+   ],
+   "funcion": "Portada: concepto + promesa + gancho",
+   "notas_revisar": [
+    "Gráfico de portada sin relación con el tema: muestra funciones de onda de Monte Carlo por difusión (física cuántica), no ergodicidad en finanzas. Sugerencia: reemplazarlo por el gráfico de 10.000 personas vs. 1 persona.",
+    "El pie quedó en dos líneas (el español es más largo); revisar en Canva."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 466.1,
+    "y": 124,
+    "limite": 640
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 9,
+   "elementos_ui_eliminados": [
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    143,
+    219,
+    938,
+    731
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "Imagine a coin flip. Heads, your wealth grows by 50%. Tails, it drops by 40%.",
+     "texto_es": "Imaginá una tirada de moneda. Si sale cara, tu patrimonio crece un 50 %. Si sale ceca, cae un 40 %.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#191919",
+     "caja": [
+      150,
+      219,
+      933,
+      302
+     ],
+     "ancho_px": 806
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "You win 50. You lose 40. The win is bigger. Average it out and you're up 5 every flip.",
+     "texto_es": "Ganás 50. Perdés 40. La ganancia es mayor. Si promediás, quedás 5 arriba en cada tirada.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.32,
+     "color": "#181818",
+     "caja": [
+      193,
+      362,
+      884,
+      449
+     ],
+     "ancho_px": 712,
+     "espacio_antes": 46
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "This is what every finance textbook teaches. Maximize expected value. Take every positive EV bet.",
+     "texto_es": "Esto es lo que enseña cualquier manual de finanzas. Maximizá el valor esperado. Tomá toda apuesta con valor esperado positivo.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.47,
+     "color": "#181818",
+     "caja": [
+      143,
+      505,
+      938,
+      630
+     ],
+     "ancho_px": 819,
+     "espacio_antes": 41
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "The math looks bulletproof.",
+     "texto_es": "La matemática parece infalible.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#191919",
+     "caja": [
+      313,
+      697,
+      765,
+      731
+     ],
+     "ancho_px": 466,
+     "espacio_antes": 53
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      262,
+      798,
+      818,
+      1142
+     ],
+     "estrategia": "B",
+     "justificacion": "Valores exactos del texto: +50 %, −40 % y valor esperado +5 % (0,5 × 1,50 + 0,5 × 0,60 = 1,05).",
+     "tipo": "barras: cara +50 %, ceca −40 %, valor esperado +5 %",
+     "datos": {
+      "tipo": "moneda_valor_esperado",
+      "ganancia_pct": 50,
+      "perdida_pct": 40,
+      "formula": "(0,5 × 1,50) + (0,5 × 0,60) = 1,05",
+      "etiquetas": [
+       "Cara\n+50 %",
+       "Ceca\n−40 %",
+       "Valor\nesperado"
+      ]
+     }
+    }
+   ],
+   "funcion": "Experimento mental: moneda +50 % / −40 %",
+   "notas_revisar": [],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.94,
+    "alto_total": 489.9,
+    "y": 227,
+    "limite": 752
+   },
+   "avisos_render": [
+    "texto reducido al 94 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 10,
+   "elementos_ui_eliminados": [
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    146,
+    178,
+    935,
+    738
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "Run this exact game on 10,000 people simultaneously. The average wealth of the group explodes upward.",
+     "texto_es": "Jugá exactamente este juego con 10.000 personas a la vez. El patrimonio promedio del grupo se dispara hacia arriba.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.46,
+     "color": "#181818",
+     "caja": [
+      146,
+      178,
+      935,
+      309
+     ],
+     "ancho_px": 813
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Now run it on one person, flipping a thousand times in a row.",
+     "texto_es": "Ahora jugalo con una sola persona, que tira la moneda mil veces seguidas.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#171717",
+     "caja": [
+      173,
+      370,
+      908,
+      446
+     ],
+     "ancho_px": 757,
+     "espacio_antes": 45
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "They go broke. Every single time.",
+     "texto_es": "Termina en la ruina. Todas las veces.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#181818",
+     "caja": [
+      265,
+      513,
+      813,
+      547
+     ],
+     "ancho_px": 564,
+     "espacio_antes": 54
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Same bet. Same odds. Same math. Opposite outcome. The expected value was real. It just wasn't yours.",
+     "texto_es": "Misma apuesta. Mismas probabilidades. Misma matemática. Resultado opuesto. El valor esperado era real. Simplemente no era el tuyo.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.46,
+     "color": "#191919",
+     "caja": [
+      174,
+      606,
+      906,
+      738
+     ],
+     "ancho_px": 754,
+     "espacio_antes": 45
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      250,
+      800,
+      838,
+      1184
+     ],
+     "estrategia": "B",
+     "justificacion": "Simulación del juego (+50 % / −40 %): se regenera con semilla fija (42); regenerado, no idéntico.",
+     "tipo": "dos paneles en escala log: patrimonio promedio de 10.000 personas y 5 trayectorias individuales, 300 tiradas",
+     "datos": {
+      "tipo": "simulacion_conjunto",
+      "semilla": 42,
+      "personas": 10000,
+      "tiradas": 300,
+      "trayectorias": 5,
+      "inicial": 100,
+      "ganancia_pct": 50,
+      "perdida_pct": 40,
+      "titulo_1": "10.000 personas\n(patrimonio promedio)",
+      "titulo_2": "1 persona\n(patrimonio real)",
+      "rotulo_x": "Tiradas"
+     }
+    }
+   ],
+   "funcion": "Paradoja: promedio de 10.000 personas vs. una persona en el tiempo",
+   "notas_revisar": [
+    "Gráfico: las trayectorias no coinciden con las del original (otra realización aleatoria); el eje Y del panel izquierdo llega a 10³ y no a 10⁵ como en el original.",
+    "Afirmación absoluta: «Termina en la ruina. Todas las veces.» Es un resultado con probabilidad 1 en el límite (tiempo infinito), no en cada caso finito: tras 1.000 tiradas, una minoría ínfima sigue arriba del capital inicial.",
+    "Inconsistencia: el texto habla de mil tiradas y el gráfico muestra 300.",
+    "Precisión: con 10.000 personas el promedio muestral no «se dispara» indefinidamente; termina dominado por pocas trayectorias y cae (se ve en el propio gráfico). El valor esperado sí crece (1,05ⁿ)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.98,
+    "alto_total": 571.6,
+    "y": 169,
+    "limite": 757
+   },
+   "avisos_render": [
+    "texto reducido al 98 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 11,
+   "elementos_ui_eliminados": [
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    125,
+    130,
+    955,
+    829
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "So what's actually happening?",
+     "texto_es": "Entonces, ¿qué está pasando en realidad?",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": null,
+     "color": "#171717",
+     "caja": [
+      243,
+      130,
+      838,
+      171
+     ],
+     "ancho_px": 613
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Start with $100. Heads. You gain 50%. You now have $150.",
+     "texto_es": "Empezás con $100. Sale cara. Ganás un 50 %. Ahora tenés $150.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#191919",
+     "caja": [
+      156,
+      229,
+      924,
+      310
+     ],
+     "ancho_px": 791,
+     "espacio_antes": 44
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Next flip. Tails. You lose 40%. But that 40% is taken from $150, not from your original $100. 40% of $150 is $60. So you drop to $90.",
+     "texto_es": "Siguiente tirada. Sale ceca. Perdés un 40 %. Pero ese 40 % se calcula sobre $150, no sobre tus $100 originales. El 40 % de $150 es $60. Entonces bajás a $90.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#181818",
+     "caja": [
+      132,
+      369,
+      944,
+      500
+     ],
+     "ancho_px": 836,
+     "espacio_antes": 43
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "One win. One loss. You should be back to even. But you're down $10.",
+     "texto_es": "Una ganancia. Una pérdida. Deberías haber quedado igual. Pero estás $10 abajo.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.38,
+     "color": "#181818",
+     "caja": [
+      125,
+      556,
+      955,
+      638
+     ],
+     "ancho_px": 855,
+     "espacio_antes": 41
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "This is the trick. The gain is 50% of a small number. The loss is 40% of a bigger number. The percentages look fair. The dollars don't.",
+     "texto_es": "Esta es la trampa. La ganancia es el 50 % de un número menor. La pérdida es el 40 % de un número mayor. Los porcentajes parecen justos. Los dólares, no.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#191919",
+     "caja": [
+      135,
+      699,
+      945,
+      829
+     ],
+     "ancho_px": 834,
+     "espacio_antes": 46
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      262,
+      898,
+      812,
+      1230
+     ],
+     "estrategia": "B",
+     "justificacion": "Valores exactos del texto: $100 → $150 → $90, pérdida de $60.",
+     "tipo": "barras: inicio $100, cara $150, ceca $90; línea de punto de equilibrio en $100",
+     "datos": {
+      "tipo": "caminos_barras",
+      "inicial": 100,
+      "ganancia_pct": 50,
+      "perdida_pct": 40,
+      "etiquetas": [
+       "Inicio",
+       "Cara\n+50 %",
+       "Ceca\n−40 %"
+      ],
+      "rotulo_y": "Patrimonio ($)",
+      "etiqueta_equilibrio": "Punto de\nequilibrio"
+     }
+    }
+   ],
+   "funcion": "Explicación paso a paso con $100",
+   "notas_revisar": [],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.92,
+    "alto_total": 648.2,
+    "y": 154,
+    "limite": 851
+   },
+   "avisos_render": [
+    "texto reducido al 92 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 12,
+   "elementos_ui_eliminados": [
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    125,
+    180,
+    955,
+    742
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "Now flip the order. Start with $100. Tails first. You lose 40%. You're at $60.",
+     "texto_es": "Ahora invertí el orden. Empezás con $100. Primero sale ceca. Perdés un 40 %. Quedás en $60.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#181818",
+     "caja": [
+      143,
+      180,
+      938,
+      260
+     ],
+     "ancho_px": 819
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Heads next. You gain 50% of $60. That's only $30. You climb to $90.",
+     "texto_es": "Después sale cara. Ganás el 50 % de $60. Son apenas $30. Subís a $90.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#191919",
+     "caja": [
+      128,
+      323,
+      951,
+      403
+     ],
+     "ancho_px": 848,
+     "espacio_antes": 47
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "Different order. Same result. $90. It doesn't matter whether you win first or lose first. You always end up poorer.",
+     "texto_es": "Distinto orden. Mismo resultado. $90. No importa si primero ganás o primero perdés. Siempre terminás más pobre.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.47,
+     "color": "#181818",
+     "caja": [
+      125,
+      471,
+      955,
+      602
+     ],
+     "ancho_px": 855,
+     "espacio_antes": 51
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Do this enough times and you go to zero. Not bad luck. Just math.",
+     "texto_es": "Repetilo suficientes veces y llegás a cero. No es mala suerte. Es matemática.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.47,
+     "color": "#191919",
+     "caja": [
+      142,
+      667,
+      938,
+      742
+     ],
+     "ancho_px": 820,
+     "espacio_antes": 51
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      250,
+      812,
+      835,
+      1187
+     ],
+     "estrategia": "B",
+     "justificacion": "Datos exactos: caminos $100 → $150 → $90 y $100 → $60 → $90; serie alternada cara/ceca de 30 tiradas (determinística).",
+     "tipo": "dos paneles: ambos caminos terminan en $90; alternar cara y ceca 30 veces lleva a ~$20,6",
+     "datos": {
+      "tipo": "caminos_y_ruina",
+      "inicial": 100,
+      "ganancia_pct": 50,
+      "perdida_pct": 40,
+      "tiradas_ruina": 30,
+      "titulo_1": "Ambos caminos = $90",
+      "titulo_2": "Repetir = ruina",
+      "leyenda_gana": "Gana primero",
+      "leyenda_pierde": "Pierde primero",
+      "etiquetas_x": [
+       "Inicio",
+       "Tirada 1",
+       "Tirada 2"
+      ],
+      "rotulo_x": "Tiradas"
+     }
+    }
+   ],
+   "funcion": "El orden no importa: siempre se pierde",
+   "notas_revisar": [
+    "Precisión: «llegás a cero» es asintótico; el patrimonio tiende a cero pero nunca lo alcanza (tras 30 tiradas alternadas quedan $20,6)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.98,
+    "alto_total": 582.8,
+    "y": 168,
+    "limite": 765
+   },
+   "avisos_render": [
+    "texto reducido al 98 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 13,
+   "elementos_ui_eliminados": [
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    137,
+    121,
+    943,
+    819
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "This is why the Kelly Criterion works",
+     "texto_es": "Por esto funciona el criterio de Kelly",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": null,
+     "color": "#181818",
+     "caja": [
+      186,
+      121,
+      894,
+      160
+     ],
+     "ancho_px": 729
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Kelly doesn't maximize expected value. It maximizes the geometric growth rate. The thing that actually determines your wealth over time.",
+     "texto_es": "Kelly no maximiza el valor esperado. Maximiza la tasa de crecimiento geométrica. Lo que realmente determina tu patrimonio a lo largo del tiempo.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#191919",
+     "caja": [
+      154,
+      221,
+      926,
+      353
+     ],
+     "ancho_px": 795,
+     "espacio_antes": 47
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "In 1956, Kelly solved this at Bell Labs. In 2020, physicist Ole Peters proved it formally. Bloomberg ran the headline: everything we've learned about modern economics is wrong.",
+     "texto_es": "En 1956, Kelly lo resolvió en Bell Labs. En 2020, el físico Ole Peters lo demostró formalmente. Bloomberg lo tituló así: todo lo que aprendimos sobre la economía moderna está mal.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#161616",
+     "caja": [
+      137,
+      408,
+      943,
+      588
+     ],
+     "ancho_px": 830,
+     "espacio_antes": 39
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "The gap between what happens on average and what happens to you over time is called ergodicity. When they diverge, expected value lies.",
+     "texto_es": "La brecha entre lo que pasa en promedio y lo que te pasa a vos a lo largo del tiempo se llama ergodicidad. Cuando divergen, el valor esperado miente.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#191919",
+     "caja": [
+      144,
+      650,
+      934,
+      819
+     ],
+     "ancho_px": 814,
+     "espacio_antes": 46
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      262,
+      892,
+      812,
+      1236
+     ],
+     "estrategia": "B",
+     "justificacion": "Fórmula exacta: g(f) = 0,5·ln(1 + 0,5f) + 0,5·ln(1 − 0,4f); óptimo f = 0,25; g(1) ≈ −0,053.",
+     "tipo": "curva de Kelly g(f) con el óptimo (f = 25 %) y apostar todo (f = 100 %, g ≈ −0,053)",
+     "datos": {
+      "tipo": "kelly",
+      "p": 0.5,
+      "ganancia_pct": 50,
+      "perdida_pct": 40,
+      "texto_optimo": "Óptimo de Kelly\nf = {f}",
+      "texto_total": "Apostar todo (f = 100 %)\ng = {g}",
+      "rotulo_x": "Fracción del patrimonio apostada (f)",
+      "rotulo_y": "Tasa de crecimiento g(f)"
+     }
+    }
+   ],
+   "funcion": "Solución (criterio de Kelly) + historia (Kelly 1956, Ole Peters)",
+   "notas_revisar": [
+    "Fecha incorrecta: «en 2020 Ole Peters lo probó formalmente». Sus trabajos centrales son de 2011 («Optimal leverage from non-ergodicity») y 2016 (con Murray Gell-Mann, «Evaluating gambles using dynamics»); la nota de Bloomberg con ese titular es de 2017. La traducción es fiel; corregir el año.",
+    "Precisión: la brecha entre promedio y trayectoria es la NO ergodicidad; «ergodicidad» es cuando ambos coinciden. La traducción es fiel; considerar «se llama no ergodicidad».",
+    "Gráfico regenerado con la fórmula exacta; el original superponía «All-In» sobre el tick 0,8 (corregido)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 717.7,
+    "y": 110,
+    "limite": 843
+   },
+   "avisos_render": [],
+   "control_calidad": []
+  },
+  {
+   "n": 7,
+   "pagina_origen": 14,
+   "elementos_ui_eliminados": [
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    122,
+    399,
+    955,
+    952
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "What ergodicity teaches us isn't mathematical...",
+     "texto_es": "Lo que nos enseña la ergodicidad no es matemático…",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#171717",
+     "caja": [
+      150,
+      399,
+      928,
+      433
+     ],
+     "ancho_px": 801
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "It's that you don't live a thousand lives simultaneously.",
+     "texto_es": "Es que no vivís mil vidas al mismo tiempo.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#181818",
+     "caja": [
+      224,
+      493,
+      857,
+      574
+     ],
+     "ancho_px": 652,
+     "espacio_antes": 47
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "You live one life, sequentially. Every bet changes the size of the next one. Every loss makes recovery harder. The average of all possible outcomes is irrelevant if your personal path hits zero.",
+     "texto_es": "Vivís una sola vida, en secuencia. Cada apuesta cambia el tamaño de la siguiente. Cada pérdida hace más difícil la recuperación. El promedio de todos los resultados posibles es irrelevante si tu propio camino llega a cero.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#181818",
+     "caja": [
+      122,
+      634,
+      955,
+      814
+     ],
+     "ancho_px": 858,
+     "espacio_antes": 44
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The market doesn't owe you the expected value. It only owes you the path you actually walk.",
+     "texto_es": "El mercado no te debe el valor esperado. Solo te debe el camino que efectivamente recorrés.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#171717",
+     "caja": [
+      131,
+      871,
+      949,
+      952
+     ],
+     "ancho_px": 843,
+     "espacio_antes": 41
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Cierre aforístico sin gráfico",
+   "notas_revisar": [],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 609.7,
+    "y": 390,
+    "limite": 1230
+   },
+   "avisos_render": [],
+   "control_calidad": []
+  }
+ ],
+ "orden": [
+  5,
+  9,
+  10,
+  11,
+  12,
+  13,
+  14
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "Ergodicity: The Reason Expected Value Destroys Portfolios",
+ "titulo_es": "Ergodicidad: por qué el valor esperado destruye carteras",
+ "glosario_nuevo": [
+  {
+   "en": "portfolios",
+   "es": "carteras"
+  },
+  {
+   "en": "size every bet",
+   "es": "dimensionar cada apuesta"
+  },
+  {
+   "en": "finance textbook",
+   "es": "manual de finanzas"
+  },
+  {
+   "en": "positive EV bet",
+   "es": "apuesta con valor esperado positivo"
+  },
+  {
+   "en": "odds",
+   "es": "probabilidades"
+  },
+  {
+   "en": "go broke",
+   "es": "terminar en la ruina"
+  },
+  {
+   "en": "the trick",
+   "es": "la trampa"
+  },
+  {
+   "en": "Start (eje)",
+   "es": "Inicio"
+  },
+  {
+   "en": "Flip 1 / Flip 2",
+   "es": "Tirada 1 / Tirada 2"
+  },
+  {
+   "en": "Win first / Lose first",
+   "es": "Gana primero / Pierde primero"
+  },
+  {
+   "en": "Kelly Optimal",
+   "es": "óptimo de Kelly"
+  },
+  {
+   "en": "All-In",
+   "es": "apostar todo"
+  },
+  {
+   "en": "growth rate",
+   "es": "tasa de crecimiento"
+  },
+  {
+   "en": "Fraction of Wealth Bet",
+   "es": "fracción del patrimonio apostada"
+  },
+  {
+   "en": "Relative probability",
+   "es": "probabilidad relativa"
+  },
+  {
+   "en": "ground state wavefunctions",
+   "es": "funciones de onda del estado fundamental"
+  },
+  {
+   "en": "Diffusion Monte Carlo",
+   "es": "Monte Carlo por difusión"
+  },
+  {
+   "en": "average wealth / actual wealth",
+   "es": "patrimonio promedio / patrimonio real"
+  }
+ ]
+}
