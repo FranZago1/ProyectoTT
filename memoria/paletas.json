@@ -1,0 +1,122 @@
+{
+  "fat-tails": {
+    "fondo": "#FEFEFE",
+    "texto": "#070707",
+    "contenido": [
+      {
+        "hex": "#070707",
+        "proporcion": 0.251
+      },
+      {
+        "hex": "#8E8283",
+        "proporcion": 0.15
+      },
+      {
+        "hex": "#CBCDCB",
+        "proporcion": 0.129
+      },
+      {
+        "hex": "#ACA8A6",
+        "proporcion": 0.125
+      },
+      {
+        "hex": "#302E30",
+        "proporcion": 0.11
+      },
+      {
+        "hex": "#5B5A60",
+        "proporcion": 0.104
+      },
+      {
+        "hex": "#D67247",
+        "proporcion": 0.07
+      },
+      {
+        "hex": "#7B96BC",
+        "proporcion": 0.06
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#E4AA58",
+        "proporcion": 0.321
+      },
+      {
+        "hex": "#C9443E",
+        "proporcion": 0.31
+      },
+      {
+        "hex": "#73A3D7",
+        "proporcion": 0.142
+      },
+      {
+        "hex": "#627D9C",
+        "proporcion": 0.095
+      },
+      {
+        "hex": "#4E5D8C",
+        "proporcion": 0.066
+      },
+      {
+        "hex": "#561F56",
+        "proporcion": 0.066
+      }
+    ]
+  },
+  "ergodicity": {
+    "fondo": "#FEFEFE",
+    "texto": "#1D1D1D",
+    "contenido": [
+      {
+        "hex": "#1D1D1D",
+        "proporcion": 0.36
+      },
+      {
+        "hex": "#3F403F",
+        "proporcion": 0.135
+      },
+      {
+        "hex": "#5E7163",
+        "proporcion": 0.121
+      },
+      {
+        "hex": "#9E9B9B",
+        "proporcion": 0.092
+      },
+      {
+        "hex": "#838382",
+        "proporcion": 0.091
+      },
+      {
+        "hex": "#D0CECB",
+        "proporcion": 0.088
+      },
+      {
+        "hex": "#B6B5B3",
+        "proporcion": 0.08
+      },
+      {
+        "hex": "#B36257",
+        "proporcion": 0.034
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#568E66",
+        "proporcion": 0.409
+      },
+      {
+        "hex": "#B96257",
+        "proporcion": 0.338
+      },
+      {
+        "hex": "#3D6E4B",
+        "proporcion": 0.119
+      },
+      {
+        "hex": "#8B4E47",
+        "proporcion": 0.09
+      }
+    ]
+  }
+}

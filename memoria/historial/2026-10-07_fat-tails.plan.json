@@ -1,0 +1,947 @@
+{
+ "slug": "fat-tails",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 2,
+   "elementos_ui_eliminados": [
+    "márgenes blancos de la página",
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    145,
+    125,
+    936,
+    365
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Fat Tails",
+     "texto_es": "Colas gruesas",
+     "peso": "bold",
+     "tam_px": 95,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      348,
+      125,
+      731,
+      202
+     ],
+     "ancho_px": 394
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "How Quants Profit From the Impossible",
+     "texto_es": "Cómo los analistas cuantitativos (quants) ganan con lo imposible",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": null,
+     "color": "#010101",
+     "caja": [
+      145,
+      322,
+      936,
+      365
+     ],
+     "ancho_px": 815,
+     "espacio_antes": 104
+    },
+    {
+     "rol": "pie",
+     "texto_en": "Fat tail vs normal distribution",
+     "texto_es": "Cola gruesa vs. distribución normal",
+     "peso": "regular",
+     "tam_px": 36.5,
+     "interlineado": 1.25,
+     "color": "#0A0A0A",
+     "caja": [
+      291,
+      1193,
+      788,
+      1226
+     ],
+     "fijo": true
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      88,
+      556,
+      916,
+      1180
+     ],
+     "estrategia": "C",
+     "justificacion": "Figura académica con notación matemática (P(x), x); no tiene texto en lenguaje natural.",
+     "tipo": "densidades de probabilidad (cola gruesa vs. normal), figura importada",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Portada: concepto + promesa",
+   "notas_revisar": [
+    "Gráfico de portada: las curvas no están rotuladas; no se puede saber cuál es la normal y cuál la de cola gruesa (la verde está centrada en −2). Considerar una figura con leyenda."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 322.3,
+    "y": 101,
+    "limite": 448
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 7,
+   "elementos_ui_eliminados": [
+    "márgenes blancos de la página",
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    115,
+    57,
+    968,
+    631
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The Math Is Lying to You",
+     "texto_es": "La matemática te miente",
+     "peso": "bold",
+     "tam_px": 72,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      115,
+      57,
+      968,
+      129
+     ],
+     "ancho_px": 879
+    },
+    {
+     "rol": "cita",
+     "texto_en": "\"Past performance doesn't guarantee future results\"",
+     "texto_es": "“Rendimientos pasados no garantizan rendimientos futuros”",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#060606",
+     "caja": [
+      125,
+      209,
+      960,
+      244
+     ],
+     "ancho_px": 860,
+     "espacio_antes": 67
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "You've seen the disclaimers. You've heard that crashes are rare. That markets recover. That if you zoom out, everything goes up. What nobody tells you is that every single one of those reassurances is based on a math model that is provably, dangerously wrong.",
+     "texto_es": "Viste las advertencias legales. Escuchaste que los derrumbes son raros. Que los mercados se recuperan. Que, si mirás el largo plazo, todo sube. Lo que nadie te dice es que cada una de esas frases tranquilizadoras se apoya en un modelo matemático que está equivocado de forma demostrable y peligrosa.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.42,
+     "color": "#020202",
+     "caja": [
+      125,
+      323,
+      960,
+      631
+     ],
+     "ancho_px": 860,
+     "espacio_antes": 65
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      141,
+      745,
+      883,
+      1300
+     ],
+     "estrategia": "C",
+     "justificacion": "Campana de Gauss con σ y porcentajes sobre relleno con textura: solo se traduce el rótulo del eje, que está sobre fondo liso.",
+     "tipo": "campana de Gauss con bandas de ±1σ, ±2σ y ±3σ (68,3 %, 95,4 %, 99,7 %)",
+     "etiquetas": [
+      {
+       "texto_en": "Standard Deviations from the Mean",
+       "texto_es": "Desvíos estándar respecto de la media",
+       "caja": [
+        350,
+        1272,
+        740,
+        1297
+       ],
+       "tam_px": 22.9,
+       "color": "#2A2A2A"
+      },
+      {
+       "texto_en": "68.3%",
+       "texto_es": "68.3%",
+       "caja": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "conservar": true
+      }
+     ]
+    }
+   ],
+   "funcion": "Mito: «la matemática te miente» (advertencias y modelo equivocado)",
+   "notas_revisar": [
+    "Gráfico: los porcentajes 68.3% / 95.4% / 99.7% quedaron con formato original (están sobre el relleno con textura). En Canva: reemplazar por 68,3 % / 95,4 % / 99,7 %.",
+    "Gráfico: el primer rótulo del eje dice «4σ» y debería ser «−4σ» (error del original)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.9,
+    "alto_total": 620.0,
+    "y": 40,
+    "limite": 676
+   },
+   "avisos_render": [
+    "texto reducido al 90 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 6,
+   "elementos_ui_eliminados": [
+    "márgenes blancos de la página",
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    193,
+    51,
+    911,
+    594
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "Most risk models assume price moves follow something called a normal distribution — a bell curve. Small moves happen constantly. Big moves almost never. Crashes? Basically impossible. In 2008, this model said the crash that just wiped out the global economy should only happen once in the lifetime of the entire universe. Your parents remember it.",
+     "texto_es": "La mayoría de los modelos de riesgo supone que los movimientos de precios siguen algo llamado distribución normal —una campana de Gauss—. Los movimientos pequeños ocurren todo el tiempo. Los grandes, casi nunca. ¿Los derrumbes? Prácticamente imposibles. En 2008, este modelo decía que el derrumbe que acababa de arrasar con la economía global debería ocurrir una sola vez en toda la vida del universo. Tus padres lo recuerdan.",
+     "peso": "regular",
+     "tam_px": 39,
+     "interlineado": 1.44,
+     "color": "#040404",
+     "caja": [
+      193,
+      51,
+      911,
+      594
+     ],
+     "ancho_px": 740
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      222,
+      715,
+      850,
+      1305
+     ],
+     "estrategia": "A",
+     "justificacion": "Serie real del S&P 500: no se reconstruye a ojo. Pocos rótulos sobre fondo liso: se reescriben título, rótulo del eje y ticks de miles.",
+     "tipo": "línea: S&P 500, nivel diario, feb-2007 a dic-2009 (captura de terceros)",
+     "etiquetas": [
+      {
+       "texto_en": "The S&P 500 looked bearish for all of 2008",
+       "texto_es": "El S&P 500 se mostró bajista durante todo 2008",
+       "caja": [
+        222,
+        717,
+        824,
+        753
+       ],
+       "tam_px": 28.5,
+       "peso": "semibold",
+       "color": "#3D3D3D"
+      },
+      {
+       "texto_en": "Index level",
+       "texto_es": "Nivel del índice",
+       "caja": [
+        232,
+        980,
+        260,
+        1092
+       ],
+       "tam_px": 15.5,
+       "rotacion": 90,
+       "color": "#A3A3A3"
+      },
+      {
+       "texto_en": "1,600",
+       "texto_es": "1.600",
+       "caja": [
+        260,
+        797,
+        308,
+        819
+       ],
+       "tam_px": 15.5,
+       "alineacion": "izquierda",
+       "color": "#9E9E9E",
+       "margen_borrado": 1
+      },
+      {
+       "texto_en": "1,500",
+       "texto_es": "1.500",
+       "caja": [
+        260,
+        840,
+        308,
+        862
+       ],
+       "tam_px": 15.5,
+       "alineacion": "izquierda",
+       "color": "#9E9E9E",
+       "margen_borrado": 1
+      },
+      {
+       "texto_en": "1,400",
+       "texto_es": "1.400",
+       "caja": [
+        260,
+        882,
+        308,
+        904
+       ],
+       "tam_px": 15.5,
+       "alineacion": "izquierda",
+       "color": "#9E9E9E",
+       "margen_borrado": 1
+      },
+      {
+       "texto_en": "1,300",
+       "texto_es": "1.300",
+       "caja": [
+        260,
+        925,
+        308,
+        947
+       ],
+       "tam_px": 15.5,
+       "alineacion": "izquierda",
+       "color": "#9E9E9E",
+       "margen_borrado": 1
+      },
+      {
+       "texto_en": "1,200",
+       "texto_es": "1.200",
+       "caja": [
+        260,
+        966,
+        308,
+        988
+       ],
+       "tam_px": 15.5,
+       "alineacion": "izquierda",
+       "color": "#9E9E9E",
+       "margen_borrado": 1
+      },
+      {
+       "texto_en": "1,100",
+       "texto_es": "1.100",
+       "caja": [
+        260,
+        1010,
+        308,
+        1032
+       ],
+       "tam_px": 15.5,
+       "alineacion": "izquierda",
+       "color": "#9E9E9E",
+       "margen_borrado": 1
+      },
+      {
+       "texto_en": "1,000",
+       "texto_es": "1.000",
+       "caja": [
+        260,
+        1053,
+        308,
+        1075
+       ],
+       "tam_px": 15.5,
+       "alineacion": "izquierda",
+       "color": "#9E9E9E",
+       "margen_borrado": 1
+      }
+     ]
+    }
+   ],
+   "funcion": "El modelo normal y la crisis de 2008",
+   "notas_revisar": [
+    "Gráfico: las fechas del eje X están en formato de EE. UU. (mes/día/año, p. ej. 3/23/07). Quedaron sin tocar (texto rotado y chico); en Canva convendría reemplazarlas por día/mes/año o por meses.",
+    "Gráfico: el título dice «todo 2008» pero la serie abarca de febrero de 2007 a diciembre de 2009.",
+    "Afirmación imprecisa: «en 2008 este modelo decía que el derrumbe debería ocurrir una vez en la vida del universo». La frase célebre de ese tipo es de agosto de 2007 (David Viniar, Goldman Sachs: «movimientos de 25 desvíos estándar, varios días seguidos») y es una hipérbole; no hay un modelo único que lo «dijera». Verificar o suavizar."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.9,
+    "alto_total": 556.0,
+    "y": 42,
+    "limite": 642
+   },
+   "avisos_render": [
+    "texto reducido al 90 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 1,
+   "elementos_ui_eliminados": [
+    "márgenes blancos de la página",
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    139,
+    61,
+    946,
+    672
+   ],
+   "bloques": [
+    {
+     "rol": "subtitulo",
+     "texto_en": "This is what quants call :",
+     "texto_es": "Esto es lo que los quants llaman:",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": null,
+     "color": "#020202",
+     "caja": [
+      289,
+      61,
+      785,
+      103
+     ],
+     "ancho_px": 511
+    },
+    {
+     "rol": "titulo",
+     "texto_en": "FAT TAILS",
+     "texto_es": "COLAS GRUESAS",
+     "peso": "bold",
+     "tam_px": 58,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      398,
+      201,
+      683,
+      247
+     ],
+     "ancho_px": 294,
+     "espacio_antes": 81
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "It just means extreme events happen way more often than the math says they should. The bell curve says 99.7% of moves stay small and predictable. Reality says closer to 95%. That missing 5% is where people get rich — or lose everything overnight.",
+     "texto_es": "Simplemente significa que los eventos extremos ocurren mucho más seguido de lo que la matemática dice que deberían. La campana de Gauss dice que el 99,7 % de los movimientos se mantiene pequeño y predecible. La realidad indica algo más cercano al 95 %. Ese 5 % que falta es donde la gente se hace rica —o lo pierde todo de un día para el otro.",
+     "peso": "regular",
+     "tam_px": 39,
+     "interlineado": 1.44,
+     "color": "#020202",
+     "caja": [
+      139,
+      354,
+      946,
+      672
+     ],
+     "ancho_px": 831,
+     "espacio_antes": 91
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      165,
+      772,
+      893,
+      1300
+     ],
+     "estrategia": "C",
+     "justificacion": "Figura académica con notación (E(L), VaR, ES): se traducen solo «Loss» y «5% probability».",
+     "tipo": "densidad de pérdidas con E(L), VaR y ES; cola del 5 % sombreada (figura importada)",
+     "etiquetas": [
+      {
+       "texto_en": "Loss",
+       "texto_es": "Pérdida",
+       "caja": [
+        544,
+        1269,
+        602,
+        1296
+       ],
+       "tam_px": 26,
+       "fuente": "LiberationSerif-Regular.ttf",
+       "color": "#1A1A1A"
+      },
+      {
+       "texto_en": "5% probability",
+       "texto_es": "5 % de probabilidad",
+       "caja": [
+        652,
+        1156,
+        824,
+        1188
+       ],
+       "caja_borrar": [
+        655,
+        1156,
+        822,
+        1192
+       ],
+       "borrado": "inpaint",
+       "halo": 3,
+       "tam_px": 25,
+       "fuente": "LiberationSerif-Regular.ttf",
+       "alineacion": "izquierda",
+       "desplazamiento": [
+        -8,
+        -2
+       ],
+       "color": "#1A1A1A"
+      }
+     ]
+    }
+   ],
+   "funcion": "Nombre del concepto (colas gruesas) y su definición",
+   "notas_revisar": [
+    "Afirmación sin sustento citado: «la realidad dice más cerca del 95 %». No hay fuente; el valor depende del activo, el período y la frecuencia de los retornos.",
+    "Gráfico: el eje X del original muestra 10, 5, 0, 5, 10 (sin signos negativos). Se conservó.",
+    "Gráfico: «5 % de probabilidad» se reescribió sobre la cola con un halo blanco; revisar en Canva que la línea de ES y la curva se lean bien detrás del rótulo."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.9,
+    "alto_total": 675.5,
+    "y": 60,
+    "limite": 710
+   },
+   "avisos_render": [
+    "texto reducido al 90 % para entrar en la zona",
+    "zona de texto extendida hasta 24 px del gráfico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 8,
+   "elementos_ui_eliminados": [
+    "márgenes blancos de la página",
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    115,
+    120,
+    970,
+    641
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "There's actually a number that tells you how badly the bell curve is fooling you. It's called kurtosis. A perfect bell curve scores a 3. The S&P 500? Around 10. Crypto? Regularly above 15. The higher it is, the more \"once in a lifetime\" events are quietly heading your way. Think of kurtosis as a lie detector for your risk model.",
+     "texto_es": "Existe un número que te dice cuánto te está engañando la campana de Gauss. Se llama curtosis. Una campana de Gauss perfecta marca 3. ¿El S&P 500? Alrededor de 10. ¿Cripto? Con frecuencia, por encima de 15. Cuanto más alto es, más eventos “de una vez en la vida” se acercan en silencio hacia vos. Pensá en la curtosis como un detector de mentiras para tu modelo de riesgo.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#010101",
+     "caja": [
+      115,
+      120,
+      970,
+      641
+     ],
+     "ancho_px": 881
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      120,
+      768,
+      960,
+      1240
+     ],
+     "estrategia": "B",
+     "justificacion": "Barras con valores dados en el texto (3, ~10, 15+): se regenera exacto.",
+     "tipo": "barras: curtosis de la campana de Gauss (3), S&P 500 (~10) y cripto (15+)",
+     "datos": {
+      "tipo": "barras_curtosis",
+      "valores": [
+       3,
+       10,
+       15
+      ],
+      "etiquetas_valor": [
+       "3",
+       "~10",
+       "15+"
+      ],
+      "color_valor": [
+       "#CFCFCF",
+       "#FFFFFF",
+       "#FFFFFF"
+      ],
+      "colores": [
+       "#CDCDCD",
+       "naranja",
+       "rojo_intenso"
+      ],
+      "categorias": [
+       "Campana de Gauss",
+       "S&P 500",
+       "Cripto"
+      ],
+      "subtitulos": [
+       "Lo que suponen los modelos",
+       "3 veces más eventos extremos",
+       "5 veces más eventos extremos"
+      ],
+      "rotulo_eje": "CURTOSIS",
+      "titulo_1": "Cuanto más alto el número,",
+      "titulo_2": "más te miente tu modelo."
+     }
+    }
+   ],
+   "funcion": "Cómo medirlo: la curtosis",
+   "notas_revisar": [
+    "Afirmación no derivable: «3x / 5x más eventos extremos» no se deduce de una curtosis de 10 o 15; además la curtosis del S&P 500 depende mucho del período y de la frecuencia (diaria, mensual). Verificar o quitar.",
+    "Precisión técnica: 3 es la curtosis de la normal; muchas fuentes reportan el exceso de curtosis (normal = 0). Conviene aclarar qué medida se usa."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 527.6,
+    "y": 114,
+    "limite": 692
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 4,
+   "elementos_ui_eliminados": [
+    "márgenes blancos de la página",
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    127,
+    61,
+    957,
+    633
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "This is exactly how Long-Term Capital Management collapsed. Two Nobel Prize winners. The smartest quants on the planet. $100 billion in positions. Their models said they were untouchable. In 1998, a fat tail event nearly took down the entire global financial system. The Federal Reserve had to organize a $3.6 billion rescue. The models were flawless — reality just didn't cooperate.",
+     "texto_es": "Así exactamente colapsó Long-Term Capital Management. Dos premios Nobel. Los quants más brillantes del planeta. US$ 100.000 millones en posiciones. Sus modelos decían que eran intocables. En 1998, un evento de cola gruesa casi derriba todo el sistema financiero global. La Reserva Federal tuvo que organizar un rescate de US$ 3.600 millones. Los modelos eran impecables —la realidad simplemente no cooperó.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.4,
+     "color": "#020202",
+     "caja": [
+      127,
+      61,
+      957,
+      633
+     ],
+     "ancho_px": 855
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      0,
+      780,
+      1080,
+      1298
+     ],
+     "estrategia": "D",
+     "justificacion": "Línea de tiempo con mucho texto chico: se conserva la imagen y se entrega la traducción completa para rehacerla en Canva.",
+     "tipo": "línea de tiempo de la crisis de LTCM, 1994-1999 (captura de terceros)",
+     "etiquetas": [],
+     "textos_es": [
+      "Título: CRISIS DE LTCM: CRONOLOGÍA",
+      "1994: John Meriwether funda Long-Term Capital Management (LTCM) con alrededor de US$ 1.000 millones en activos iniciales.",
+      "1994-1997: enorme éxito de LTCM.",
+      "1997: crisis cambiaria asiática (→ devaluación…).",
+      "Noviembre de 1997: comienzo de la crisis rusa.",
+      "1998: debacle de LTCM. Mayo: la cartera pierde un 6 %. Junio: pérdidas del 10 %. Julio: caída de la cartera del 18 %. Agosto: las bolsas se desploman; LTCM pierde US$ 553 millones, o el 15 % de su capital: prácticamente todas sus posiciones juegan en contra. Fines de agosto: el fondo LTCM pierde el 44 % de su valor. Septiembre: el rendimiento de LTCM entra en caída libre y cierra el mes con una baja de más del 83 %.",
+      "17 de agosto de 1998: Rusia entra en default de sus bonos soberanos.",
+      "23 de septiembre de 1998: Warren Buffett ofrece comprar LTCM por US$ 250 millones y recapitalizarlo con US$ 4.000 millones (US$ 3.000 millones de Berkshire Hathaway, US$ 700 millones de AIG y US$ 300 millones de Goldman Sachs). Buffett le da a LTCM apenas unas horas para decidir sobre su propuesta. Por diversas razones, la oferta es rechazada.",
+      "26-27 de septiembre de 1998: se reúnen 100 abogados que representan al consorcio de 14 bancos. Pasan el fin de semana tratando de entender los complejos activos, deudas, estructura y gestión de LTCM.",
+      "28 de septiembre de 1998: el capital propio de LTCM cae de US$ 2.300 millones a US$ 400 millones entre el 1 y el 28 de septiembre de 1998. La deuda sigue por encima de US$ 100.000 millones, lo que implica un apalancamiento de más de 250 a 1. El consorcio de 14 bancos aporta US$ 3.600 millones en fondos de rescate, a cambio de los cuales recibe el 90 % de la propiedad de LTCM.",
+      "Diciembre de 1999: bajo la conducción del consorcio, LTCM liquida sus posiciones antes de diciembre de 1999 y devuelve US$ 3.600 millones de capital al consorcio."
+     ]
+    }
+   ],
+   "funcion": "Caso histórico: LTCM (1998)",
+   "notas_revisar": [
+    "Gráfico (estrategia D): REHACER EN CANVA la línea de tiempo con los textos de textos_es.md (se conservó la imagen original en inglés).",
+    "Afirmación imprecisa: la Reserva Federal (de Nueva York) coordinó el rescate, pero los US$ 3.600 millones los pusieron 14 bancos privados, no la Fed. La traducción es fiel; considerar aclararlo.",
+    "Cifra a verificar: «US$ 100.000 millones en posiciones». Las fuentes hablan de unos US$ 125.000 millones en activos y más de US$ 1 billón (1 trillion) de nocional en derivados.",
+    "Línea de tiempo: la fecha de cierre del fondo (dic-1999 / principios de 2000) y la devolución de «US$ 3.600 millones de capital» deberían verificarse antes de rehacerla."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 620.9,
+    "y": 48,
+    "limite": 694
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 7,
+   "pagina_origen": 3,
+   "elementos_ui_eliminados": [
+    "márgenes blancos de la página",
+    "degradados/sombras de borde (aplanado de fondo)",
+    "flecha '<' y barra superior de Instagram",
+    "contador 'n / 7'"
+   ],
+   "color_fondo": "#FEFEFE",
+   "zona_texto": [
+    121,
+    44,
+    964,
+    791
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Ed Thorp",
+     "texto_es": "Ed Thorp",
+     "peso": "bold",
+     "tam_px": 49,
+     "interlineado": null,
+     "color": "#010101",
+     "caja": [
+      428,
+      44,
+      645,
+      91
+     ],
+     "ancho_px": 224
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The same man who used the Kelly Criterion to beat casinos and then built one of the most successful hedge funds in history — survived 1998 without a scratch. Why? He never trusted the bell curve. He built every model expecting fat tails. The quants who survive decades aren't the ones with the smartest math. They're the ones who respect what the math can't see.",
+     "texto_es": "El mismo hombre que usó el criterio de Kelly para ganarles a los casinos y después construyó uno de los fondos de cobertura más exitosos de la historia — atravesó 1998 sin un rasguño. ¿Por qué? Nunca confió en la campana de Gauss. Construyó cada modelo esperando colas gruesas. Los quants que sobreviven décadas no son los que tienen la matemática más sofisticada. Son los que respetan lo que la matemática no puede ver.",
+     "peso": "regular",
+     "tam_px": 44,
+     "interlineado": 1.43,
+     "color": "#020202",
+     "caja": [
+      121,
+      181,
+      964,
+      791
+     ],
+     "ancho_px": 868,
+     "espacio_antes": 73
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      214,
+      900,
+      870,
+      1310
+     ],
+     "estrategia": "C",
+     "justificacion": "Ilustración: se conserva; el bloque de definición está sobre fondo liso y se traduce.",
+     "tipo": "ilustración de un cisne negro con definición de diccionario",
+     "etiquetas": [
+      {
+       "texto_en": "Black Swan",
+       "texto_es": "Cisne negro",
+       "caja": [
+        614,
+        970,
+        830,
+        1012
+       ],
+       "tam_px": 36.6,
+       "peso": "bold",
+       "alineacion": "izquierda",
+       "color": "#1A1A1A"
+      },
+      {
+       "texto_en": "[blak 'swän]",
+       "texto_es": "[blak 'swän]",
+       "caja": [
+        0,
+        0,
+        0,
+        0
+       ],
+       "conservar": true
+      },
+      {
+       "texto_en": "An unpredictable event that is beyond what is normally expected of a situation and has potentially severe consequences.",
+       "texto_es": "Un evento impredecible\nque excede lo que\nnormalmente se espera\nde una situación y que\ntiene consecuencias\npotencialmente graves.",
+       "caja": [
+        614,
+        1060,
+        872,
+        1243
+       ],
+       "tam_px": 21.5,
+       "interlineado": 1.38,
+       "alineacion": "izquierda",
+       "color": "#1A1A1A"
+      }
+     ]
+    }
+   ],
+   "funcion": "Figura ejemplar y moraleja (Ed Thorp) + definición de «cisne negro»",
+   "notas_revisar": [
+    "Verificar: «sobrevivió 1998 sin un rasguño». En 1998 Thorp ya no dirigía Princeton Newport Partners (cerrado en 1988-1989); gestionaba Ridgeline Partners. No hay una fuente citada sobre su resultado en 1998.",
+    "Precisión: Thorp «les ganó a los casinos» con el conteo de cartas en el blackjack; el criterio de Kelly lo usó para dimensionar las apuestas."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.94,
+    "alto_total": 778.2,
+    "y": 32,
+    "limite": 833
+   },
+   "avisos_render": [
+    "texto reducido al 94 % para entrar en la zona"
+   ],
+   "control_calidad": []
+  }
+ ],
+ "orden": [
+  2,
+  7,
+  6,
+  1,
+  8,
+  4,
+  3
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "Fat Tails: How Quants Profit From the Impossible",
+ "titulo_es": "Colas gruesas: cómo los quants ganan con lo imposible",
+ "glosario_nuevo": [
+  {
+   "en": "disclaimers",
+   "es": "advertencias legales"
+  },
+  {
+   "en": "risk model",
+   "es": "modelo de riesgo"
+  },
+  {
+   "en": "reassurances",
+   "es": "frases tranquilizadoras"
+  },
+  {
+   "en": "zoom out (largo plazo)",
+   "es": "mirar el largo plazo"
+  },
+  {
+   "en": "Standard Deviations from the Mean",
+   "es": "desvíos estándar respecto de la media"
+  },
+  {
+   "en": "Index level",
+   "es": "nivel del índice"
+  },
+  {
+   "en": "probability",
+   "es": "probabilidad"
+  },
+  {
+   "en": "\"once in a lifetime\"",
+   "es": "“de una vez en la vida”"
+  },
+  {
+   "en": "lie detector",
+   "es": "detector de mentiras"
+  },
+  {
+   "en": "positions",
+   "es": "posiciones"
+  },
+  {
+   "en": "Nobel Prize winners",
+   "es": "premios Nobel"
+  },
+  {
+   "en": "Federal Reserve",
+   "es": "Reserva Federal"
+  },
+  {
+   "en": "smartest math",
+   "es": "la matemática más sofisticada"
+  },
+  {
+   "en": "equity capital",
+   "es": "capital propio"
+  },
+  {
+   "en": "leverage ratio",
+   "es": "apalancamiento (relación de)"
+  },
+  {
+   "en": "bailout funds",
+   "es": "fondos de rescate"
+  },
+  {
+   "en": "winds down its positions",
+   "es": "liquida sus posiciones"
+  },
+  {
+   "en": "consortium",
+   "es": "consorcio"
+  },
+  {
+   "en": "free fall",
+   "es": "caída libre"
+  },
+  {
+   "en": "timeline",
+   "es": "cronología"
+  }
+ ]
+}
