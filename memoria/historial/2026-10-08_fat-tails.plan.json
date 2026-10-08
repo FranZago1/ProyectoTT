@@ -93,7 +93,8 @@
     "limite": 448
    },
    "avisos_render": [
-    "texto reducido al 96 % para entrar en la zona"
+    "texto reducido al 96 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -215,7 +216,8 @@
     "limite": 676
    },
    "avisos_render": [
-    "texto reducido al 90 % para entrar en la zona"
+    "texto reducido al 90 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -405,7 +407,8 @@
     "limite": 642
    },
    "avisos_render": [
-    "texto reducido al 90 % para entrar en la zona"
+    "texto reducido al 90 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -545,7 +548,8 @@
    },
    "avisos_render": [
     "texto reducido al 90 % para entrar en la zona",
-    "zona de texto extendida hasta 24 px del gráfico"
+    "zona de texto extendida hasta 24 px del gráfico",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -644,7 +648,8 @@
     "limite": 692
    },
    "avisos_render": [
-    "texto reducido al 96 % para entrar en la zona"
+    "texto reducido al 96 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -723,7 +728,8 @@
     "limite": 694
    },
    "avisos_render": [
-    "texto reducido al 96 % para entrar en la zona"
+    "texto reducido al 96 % para entrar en la zona",
+    "NO SE AGREGÓ EL LOGO: no hay espacio libre abajo; agregarlo en Canva"
    ],
    "control_calidad": []
   },
@@ -845,7 +851,8 @@
     "limite": 833
    },
    "avisos_render": [
-    "texto reducido al 94 % para entrar en la zona"
+    "texto reducido al 94 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   }

@@ -1,0 +1,1167 @@
+{
+ "slug": "regresion-media",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 1,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    150,
+    402,
+    928,
+    965
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Regression to the Mean",
+     "texto_es": "Regresión a la media",
+     "peso": "bold",
+     "tam_px": 82,
+     "interlineado": 1.46,
+     "color": "#1C1C1C",
+     "caja": [
+      192,
+      402,
+      890,
+      583
+     ],
+     "ancho_px": 719
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "The Law That Pulls Every Extreme Back to Normal",
+     "texto_es": "La ley que devuelve cada extremo a la normalidad",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": 1.43,
+     "color": "#1C1C1C",
+     "caja": [
+      157,
+      673,
+      923,
+      759
+     ],
+     "ancho_px": 789,
+     "espacio_antes": 65
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The best fund this year will probably be average next year. The worst will probably bounce back. This one law explains both.",
+     "texto_es": "El mejor fondo de este año probablemente sea uno promedio el año que viene. El peor probablemente se recupere. Esta sola ley explica las dos cosas.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      150,
+      834,
+      928,
+      965
+     ],
+     "ancho_px": 801,
+     "espacio_antes": 58
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      190,
+      1095,
+      890,
+      1520
+     ],
+     "estrategia": "C",
+     "justificacion": "Ilustración (dos campanas: media y extremo); se traducen sus tres rótulos.",
+     "tipo": "ilustración: distribución centrada en la media y distribución desplazada al extremo",
+     "etiquetas": [
+      {
+       "texto_en": "Mean",
+       "texto_es": "Media",
+       "caja": [
+        434,
+        1114,
+        496,
+        1136
+       ],
+       "tam_px": 17,
+       "peso": "bold",
+       "color": "#1A1A1A"
+      },
+      {
+       "texto_en": "Extreme",
+       "texto_es": "Extremo",
+       "caja": [
+        602,
+        1114,
+        688,
+        1136
+       ],
+       "tam_px": 17,
+       "peso": "bold",
+       "color": "#9A9A9A"
+      },
+      {
+       "texto_en": "Extremes\nregress",
+       "texto_es": "Los extremos\nregresan",
+       "caja": [
+        262,
+        1410,
+        357,
+        1447
+       ],
+       "tam_px": 14.5,
+       "peso": "bold",
+       "color": "#1A1A1A",
+       "interlineado": 1.15,
+       "alineacion": "derecha",
+       "borrado": "local",
+       "caja_borrar": [
+        272,
+        1410,
+        358,
+        1447
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Portada: concepto + promesa + gancho",
+   "notas_revisar": [
+    "El logo del autor (abajo) se conserva tal cual."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.98,
+    "alto_total": 611.2,
+    "y": 373,
+    "limite": 1018
+   },
+   "avisos_render": [
+    "texto reducido al 98 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 2,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    128,
+    507,
+    954,
+    1069
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Regression to the mean in everyday life",
+     "texto_es": "La regresión a la media en la vida cotidiana",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      160,
+      507,
+      921,
+      547
+     ],
+     "ancho_px": 784
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Your commute averages 35 minutes. One morning, every light is green, every lane is clear. You make it in 18 minutes.",
+     "texto_es": "Tu trayecto al trabajo dura 35 minutos en promedio. Una mañana, todos los semáforos están en verde y todos los carriles, libres. Llegás en 18 minutos.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      128,
+      608,
+      954,
+      732
+     ],
+     "ancho_px": 851,
+     "espacio_antes": 47
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Tomorrow, 33 minutes. The route didn't change. The 18 minute run just included conditions that are unlikely to all align again soon.",
+     "texto_es": "Al día siguiente, 33 minutos. La ruta no cambió. El viaje de 18 minutos simplemente reunió condiciones que difícilmente vuelvan a alinearse todas pronto.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      131,
+      795,
+      947,
+      926
+     ],
+     "ancho_px": 840,
+     "espacio_antes": 47
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "The extreme result corrected itself. This is regression to the mean.",
+     "texto_es": "El resultado extremo se corrigió solo. Esto es la regresión a la media.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#1C1C1C",
+     "caja": [
+      191,
+      987,
+      888,
+      1069
+     ],
+     "ancho_px": 718,
+     "espacio_antes": 45
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      270,
+      1150,
+      810,
+      1470
+     ],
+     "estrategia": "A",
+     "justificacion": "Serie ilustrativa de 30 días sin datos exactos en el texto: no se reconstruye; se reescriben los rótulos.",
+     "tipo": "línea: minutos de viaje por día (30 días), promedio 35 min, mínimo de 18 min",
+     "etiquetas": [
+      {
+       "texto_en": "Commute (min)",
+       "texto_es": "Trayecto (min)",
+       "caja": [
+        271,
+        1214,
+        296,
+        1348
+       ],
+       "tam_px": 16,
+       "rotacion": 90,
+       "color": "#8C8C8C",
+       "borrado": "local"
+      },
+      {
+       "texto_en": "Day",
+       "texto_es": "Día",
+       "caja": [
+        544,
+        1442,
+        592,
+        1469
+       ],
+       "tam_px": 16,
+       "color": "#8C8C8C",
+       "borrado": "local"
+      },
+      {
+       "texto_en": "Average: 35 min",
+       "texto_es": "Promedio: 35 min",
+       "caja": [
+        664,
+        1236,
+        806,
+        1254
+       ],
+       "tam_px": 13.5,
+       "peso": "bold",
+       "color": "#2E6B3C",
+       "alineacion": "derecha",
+       "borrado": "inpaint",
+       "halo": 3
+      }
+     ]
+    }
+   ],
+   "funcion": "Ejemplo cotidiano: el trayecto de 18 minutos",
+   "notas_revisar": [
+    "El logo del autor (abajo) se conserva tal cual.",
+    "Gráfico: el rótulo «Promedio: 35 min» pisa la serie, igual que en el original (se reescribió con halo blanco); revisar en Canva."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 579.8,
+    "y": 496,
+    "limite": 1097
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 3,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    129,
+    509,
+    950,
+    1167
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Why it happens",
+     "texto_es": "Por qué ocurre",
+     "peso": "bold",
+     "tam_px": 46,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      366,
+      509,
+      713,
+      553
+     ],
+     "ancho_px": 357
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Every measured outcome contains a persistent component and a variable component. The persistent part repeats. The variable part does not.",
+     "texto_es": "Todo resultado que se mide tiene un componente persistente y un componente variable. La parte persistente se repite. La variable, no.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      129,
+      617,
+      950,
+      748
+     ],
+     "ancho_px": 846,
+     "espacio_antes": 50
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "When a result is far from the average, the variable component was likely large. On the next measurement, that component resets. The result moves closer to the long-term average.",
+     "texto_es": "Cuando un resultado está lejos del promedio, probablemente el componente variable fue grande. En la siguiente medición, ese componente se reinicia. El resultado se acerca al promedio de largo plazo.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      136,
+      804,
+      944,
+      984
+     ],
+     "ancho_px": 832,
+     "espacio_antes": 40
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "The more extreme the result, the larger the variable component, and the stronger the correction.",
+     "texto_es": "Cuanto más extremo el resultado, más grande el componente variable y más fuerte la corrección.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.4,
+     "color": "#1C1C1C",
+     "caja": [
+      187,
+      1046,
+      892,
+      1167
+     ],
+     "ancho_px": 726,
+     "espacio_antes": 47
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      270,
+      1250,
+      810,
+      1575
+     ],
+     "estrategia": "A",
+     "justificacion": "Barras apiladas ilustrativas: los totales (60 y 40) están en el gráfico, pero la partición persistente/variable no está en el texto; se reescriben los rótulos.",
+     "tipo": "barras apiladas: medición 1 (extrema, total 60) y medición 2 (corregida, total 40)",
+     "etiquetas": [
+      {
+       "texto_en": "Result",
+       "texto_es": "Resultado",
+       "caja": [
+        274,
+        1362,
+        295,
+        1424
+       ],
+       "tam_px": 16,
+       "rotacion": 90,
+       "color": "#8C8C8C",
+       "borrado": "local"
+      },
+      {
+       "texto_en": "Persistent",
+       "texto_es": "Persistente",
+       "caja": [
+        656,
+        1271,
+        732,
+        1289
+       ],
+       "tam_px": 14,
+       "alineacion": "izquierda",
+       "color": "#333333"
+      },
+      {
+       "texto_en": "Long-term\naverage",
+       "texto_es": "Promedio de\nlargo plazo",
+       "caja": [
+        740,
+        1352,
+        812,
+        1381
+       ],
+       "tam_px": 12,
+       "interlineado": 1.1,
+       "alineacion": "izquierda",
+       "color": "#9A9A9A"
+      },
+      {
+       "texto_en": "Measurement 1\n(Extreme)",
+       "texto_es": "Medición 1\n(extrema)",
+       "caja": [
+        340,
+        1531,
+        476,
+        1572
+       ],
+       "tam_px": 16,
+       "interlineado": 1.15,
+       "color": "#8C8C8C",
+       "borrado": "local"
+      },
+      {
+       "texto_en": "Measurement 2\n(Corrected)",
+       "texto_es": "Medición 2\n(corregida)",
+       "caja": [
+        596,
+        1531,
+        732,
+        1572
+       ],
+       "tam_px": 16,
+       "interlineado": 1.15,
+       "color": "#8C8C8C",
+       "borrado": "local"
+      }
+     ]
+    }
+   ],
+   "funcion": "Mecanismo: componente persistente + componente variable",
+   "notas_revisar": [
+    "El logo del autor (abajo) se conserva tal cual."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 682.8,
+    "y": 497,
+    "limite": 1196
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 4,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    127,
+    507,
+    952,
+    1216
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The data is consistent across different fields",
+     "texto_es": "Los datos son consistentes en distintos ámbitos",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": 1.43,
+     "color": "#1C1C1C",
+     "caja": [
+      167,
+      507,
+      914,
+      595
+     ],
+     "ancho_px": 769
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "In the NBA, the highest-scoring rookie almost never leads their team in scoring by year three. Their first season included a streak that was unlikely to hold.",
+     "texto_es": "En la NBA, el novato que más anota casi nunca es el máximo anotador de su equipo en su tercer año. Su primera temporada incluyó una racha que difícilmente se iba a sostener.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      160,
+      665,
+      920,
+      845
+     ],
+     "ancho_px": 783,
+     "espacio_antes": 53
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The same pattern appears in finance. S&P Dow Jones tracks funds that finish in the top 25%. Five years later, 9 out of 10 of those funds are no longer in the top group.",
+     "texto_es": "El mismo patrón aparece en finanzas. S&P Dow Jones sigue a los fondos que terminan en el 25 % superior. Cinco años después, 9 de cada 10 de esos fondos ya no están en el grupo de arriba.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      127,
+      901,
+      952,
+      1081
+     ],
+     "ancho_px": 850,
+     "espacio_antes": 40
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "It is one of the most replicated findings in statistics.",
+     "texto_es": "Es uno de los hallazgos más replicados de la estadística.",
+     "peso": "bold",
+     "tam_px": 33,
+     "interlineado": 1.45,
+     "color": "#1C1C1C",
+     "caja": [
+      200,
+      1142,
+      879,
+      1216
+     ],
+     "ancho_px": 699,
+     "espacio_antes": 45
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      340,
+      1305,
+      740,
+      1570
+     ],
+     "estrategia": "A",
+     "justificacion": "Diagrama de flujo con pocos rótulos (texto blanco sobre cajas de color): se borra la tinta con el color de cada caja y se reescribe.",
+     "tipo": "flujo: fondos del cuartil superior → posición 5 años después (10 / 25 / 30 / 35 %)",
+     "etiquetas": [
+      {
+       "texto_en": "YEAR 1-5",
+       "texto_es": "AÑOS 1-5",
+       "caja": [
+        356,
+        1320,
+        420,
+        1334
+       ],
+       "tam_px": 11,
+       "peso": "bold",
+       "color": "#8A8A8A"
+      },
+      {
+       "texto_en": "5 YEARS LATER",
+       "texto_es": "5 AÑOS DESPUÉS",
+       "caja": [
+        620,
+        1314,
+        720,
+        1329
+       ],
+       "tam_px": 11,
+       "peso": "bold",
+       "color": "#8A8A8A"
+      },
+      {
+       "texto_en": "Top 25%\nFunds",
+       "texto_es": "Fondos del\ncuartil\nsuperior",
+       "caja": [
+        350,
+        1360,
+        426,
+        1402
+       ],
+       "tam_px": 12.5,
+       "peso": "bold",
+       "color": "#FFFFFF",
+       "interlineado": 1.05,
+       "borrado": "local",
+       "caja_borrar": [
+        352,
+        1362,
+        424,
+        1398
+       ]
+      },
+      {
+       "texto_en": "Top 25%\n10%",
+       "texto_es": "Cuartil superior\n10 %",
+       "caja": [
+        612,
+        1350,
+        730,
+        1380
+       ],
+       "tam_px": 12.5,
+       "peso": "bold",
+       "color": "#FFFFFF",
+       "interlineado": 1.05,
+       "borrado": "local"
+      },
+      {
+       "texto_en": "25-50%\n25%",
+       "texto_es": "25-50 %\n25 %",
+       "caja": [
+        612,
+        1409,
+        730,
+        1438
+       ],
+       "tam_px": 12.5,
+       "peso": "bold",
+       "color": "#FFFFFF",
+       "interlineado": 1.05,
+       "borrado": "local"
+      },
+      {
+       "texto_en": "50-75%\n30%",
+       "texto_es": "50-75 %\n30 %",
+       "caja": [
+        612,
+        1468,
+        730,
+        1497
+       ],
+       "tam_px": 12.5,
+       "peso": "bold",
+       "color": "#FFFFFF",
+       "interlineado": 1.05,
+       "borrado": "local"
+      },
+      {
+       "texto_en": "Bottom 25%\n35%",
+       "texto_es": "Cuartil inferior\n35 %",
+       "caja": [
+        612,
+        1526,
+        730,
+        1555
+       ],
+       "tam_px": 12.5,
+       "peso": "bold",
+       "color": "#FFFFFF",
+       "interlineado": 1.05,
+       "borrado": "local"
+      }
+     ]
+    }
+   ],
+   "funcion": "Evidencia en distintos ámbitos (NBA, fondos)",
+   "notas_revisar": [
+    "El logo del autor (abajo) se conserva tal cual.",
+    "Afirmación dudosa y sin fuente: «el novato que más anota casi nunca es el máximo anotador de su equipo en su tercer año». Hay contraejemplos conocidos; verificar con datos o quitar.",
+    "Verificar con el S&P Persistence Scorecard (S&P Dow Jones Indices): qué fondos, qué período y si «9 de cada 10» y la distribución 10 / 25 / 30 / 35 % del gráfico corresponden al mismo informe. Citar la edición y la fecha.",
+    "Precisión: si los fondos se repartieran al azar, el 25 % seguiría arriba; que solo quede el 10 % indica algo más que regresión a la media (cierres de fondos, sesgo de supervivencia). «Uno de los hallazgos más replicados» no tiene fuente."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 739.8,
+    "y": 493,
+    "limite": 1248
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 5,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    126,
+    507,
+    955,
+    1302
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Regression to the mean is not Mean reversion",
+     "texto_es": "La regresión a la media no es reversión a la media",
+     "peso": "bold",
+     "tam_px": 39,
+     "interlineado": 1.46,
+     "color": "#1C1C1C",
+     "caja": [
+      196,
+      507,
+      884,
+      595
+     ],
+     "ancho_px": 709
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "known as a tradeable strategy",
+     "texto_es": "conocida como estrategia de trading",
+     "peso": "regular",
+     "tam_px": 20,
+     "interlineado": null,
+     "color": "#8B8B8B",
+     "caja": [
+      398,
+      626,
+      682,
+      645
+     ],
+     "ancho_px": 293,
+     "espacio_antes": 20,
+     "ancho_max_px": 700
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Mean reversion assumes a force pulling prices back to fair value. Regression to the mean requires no force at all.",
+     "texto_es": "La reversión a la media supone una fuerza que lleva los precios de vuelta a su valor justo. La regresión a la media no requiere ninguna fuerza.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.5,
+     "color": "#1D1D1D",
+     "caja": [
+      130,
+      692,
+      950,
+      820
+     ],
+     "ancho_px": 845,
+     "espacio_antes": 33
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "A stock drops 50%. Traders call it \"due for a bounce.\" But regression to the mean doesn't say it will go back up. It says the next move will probably be less extreme. That could mean falling 10% instead of another 50%.",
+     "texto_es": "Una acción cae un 50 %. Los traders dicen que “le toca rebotar”. Pero la regresión a la media no dice que vaya a volver a subir. Dice que el próximo movimiento probablemente sea menos extremo. Eso podría significar caer un 10 % en lugar de otro 50 %.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      129,
+      883,
+      950,
+      1105
+     ],
+     "ancho_px": 846,
+     "espacio_antes": 46
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "One is a tradeable strategy. The other is a statistical property of variance. Confusing them is one of the most expensive mistakes in finance.",
+     "texto_es": "Una es una estrategia de trading. La otra es una propiedad estadística de la varianza. Confundirlas es uno de los errores más caros en finanzas.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#1C1C1C",
+     "caja": [
+      126,
+      1173,
+      955,
+      1302
+     ],
+     "ancho_px": 854,
+     "espacio_antes": 52
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Distinción: regresión a la media vs. reversión a la media",
+   "notas_revisar": [
+    "El logo del autor (abajo) se conserva tal cual.",
+    "En el original, el subtítulo gris («known as a tradeable strategy») describe a la reversión a la media, pero queda debajo del título completo; en Canva podría quedar más claro como «Reversión a la media: conocida como estrategia de trading»."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 832.1,
+    "y": 493,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 6,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    130,
+    507,
+    950,
+    1165
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Where it was first discovered",
+     "texto_es": "Dónde se descubrió",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      256,
+      507,
+      823,
+      538
+     ],
+     "ancho_px": 584
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Francis Galton first documented this in 1886. He measured the heights of parents and their adult children.",
+     "texto_es": "Francis Galton lo documentó por primera vez en 1886. Midió la altura de padres y de sus hijos adultos.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      154,
+      608,
+      926,
+      732
+     ],
+     "ancho_px": 795,
+     "espacio_antes": 56
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Tall parents produced tall children, but slightly shorter on average. Short parents produced short children, but slightly taller. Both groups drifted toward the population mean.",
+     "texto_es": "Los padres altos tenían hijos altos, pero en promedio un poco más bajos. Los padres bajos tenían hijos bajos, pero un poco más altos. Ambos grupos se desplazaron hacia la media de la población.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      139,
+      795,
+      942,
+      975
+     ],
+     "ancho_px": 827,
+     "espacio_antes": 47
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "Extreme observations require multiple factors to align. On the next measurement, that alignment is unlikely to repeat.",
+     "texto_es": "Las observaciones extremas requieren que se alineen varios factores. En la siguiente medición, es poco probable que esa alineación se repita.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#1C1C1C",
+     "caja": [
+      130,
+      1036,
+      950,
+      1165
+     ],
+     "ancho_px": 845,
+     "espacio_antes": 45
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      270,
+      1240,
+      800,
+      1575
+     ],
+     "estrategia": "C",
+     "justificacion": "Dispersión de datos (Galton): no se reconstruye; se traducen leyenda y rótulos de ejes; los ticks (en pulgadas) quedan sin tocar.",
+     "tipo": "dispersión: altura de padres vs. hijos (pulgadas), recta de regresión con pendiente 0,58",
+     "etiquetas": [
+      {
+       "texto_en": "Regression (slope=0.58)",
+       "texto_es": "Regresión (pendiente = 0,58)",
+       "caja": [
+        395,
+        1251,
+        545,
+        1269
+       ],
+       "tam_px": 12.5,
+       "alineacion": "izquierda",
+       "color": "#1A1A1A"
+      },
+      {
+       "texto_en": "If no regression",
+       "texto_es": "Sin regresión",
+       "caja": [
+        395,
+        1268,
+        492,
+        1286
+       ],
+       "tam_px": 12.5,
+       "alineacion": "izquierda",
+       "color": "#1A1A1A"
+      },
+      {
+       "texto_en": "Population mean",
+       "texto_es": "Media poblacional",
+       "caja": [
+        373,
+        1367,
+        476,
+        1384
+       ],
+       "tam_px": 12.5,
+       "alineacion": "izquierda",
+       "color": "#9A9A9A",
+       "borrado": "inpaint",
+       "halo": 2
+      },
+      {
+       "texto_en": "Child Height (inches)",
+       "texto_es": "Altura de los hijos (pulgadas)",
+       "caja": [
+        282,
+        1300,
+        304,
+        1468
+       ],
+       "tam_px": 16,
+       "rotacion": 90,
+       "color": "#8C8C8C"
+      },
+      {
+       "texto_en": "Parent Height (inches)",
+       "texto_es": "Altura de los padres (pulgadas)",
+       "caja": [
+        480,
+        1553,
+        660,
+        1574
+       ],
+       "tam_px": 16,
+       "color": "#8C8C8C"
+      }
+     ]
+    }
+   ],
+   "funcion": "Origen histórico: Galton (1886)",
+   "notas_revisar": [
+    "El logo del autor (abajo) se conserva tal cual.",
+    "Verificar la pendiente 0,58 y el origen de los puntos: el gráfico no cita fuente (¿datos de Galton o simulados?). Con los datos de Galton (altura media de los padres) la pendiente usual es ≈ 0,65.",
+    "Ticks en pulgadas con punto decimal (62.5): se conservaron (estrategia C). En Canva, si se rehace, usar 62,5 o convertir a centímetros."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.98,
+    "alto_total": 624.0,
+    "y": 522,
+    "limite": 1190
+   },
+   "avisos_render": [
+    "texto reducido al 98 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 7,
+   "pagina_origen": 7,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    132,
+    640,
+    947,
+    1146
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "Regression to the mean does not imply that everything becomes average. Skill differences are real and persistent.",
+     "texto_es": "La regresión a la media no implica que todo se vuelva promedio. Las diferencias de habilidad son reales y persistentes.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      136,
+      640,
+      944,
+      771
+     ],
+     "ancho_px": 832
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "What it does mean is that any single measurement overstates the role of skill. The more extreme the result, the larger the overstatement.",
+     "texto_es": "Lo que sí implica es que cualquier medición aislada exagera el papel de la habilidad. Cuanto más extremo el resultado, mayor la exageración.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.46,
+     "color": "#1D1D1D",
+     "caja": [
+      132,
+      832,
+      947,
+      963
+     ],
+     "ancho_px": 839,
+     "espacio_antes": 45
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "The correct response to an outlier is not to chase it or to dismiss it. It is to expect the next result to be less extreme.",
+     "texto_es": "La respuesta correcta ante un valor atípico no es perseguirlo ni descartarlo. Es esperar que el próximo resultado sea menos extremo.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.43,
+     "color": "#1C1C1C",
+     "caja": [
+      136,
+      1024,
+      943,
+      1146
+     ],
+     "ancho_px": 831,
+     "espacio_antes": 45
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Cierre aforístico sin gráfico",
+   "notas_revisar": [
+    "El logo del autor (abajo) se conserva tal cual.",
+    "Imprecisión: «cualquier medición aislada exagera el papel de la habilidad» vale para las mediciones extremas (por arriba); una medición muy mala lo subestima. La traducción es fiel."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 531.7,
+    "y": 628,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  }
+ ],
+ "fuente": {
+  "plataforma": "tiktok",
+  "url": "https://vt.tiktok.com/ZSbbnnEWA/",
+  "url_canonica": "https://www.tiktok.com/@quantgent/photo/7616778102257110294?_r=1&_t=ZS-9AMxW9DiMT6",
+  "usuario": "quantgent",
+  "id": "7616778102257110294",
+  "descripcion": "One statistical law explains why top performers fade, why extreme results don't last, and why your best day is almost never followed by another. #regressiontothemean #statistics #probability #datascience",
+  "autor": "QuantGent",
+  "creada": "1773419356",
+  "metodo": "JSON embebido de la página (/video/)",
+  "imagenes": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg",
+   "05.jpg",
+   "06.jpg",
+   "07.jpg"
+  ]
+ },
+ "orden": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "Regression to the Mean: The Law That Pulls Every Extreme Back to Normal",
+ "titulo_es": "Regresión a la media: la ley que devuelve cada extremo a la normalidad",
+ "glosario_nuevo": [
+  {
+   "en": "regression to the mean",
+   "es": "regresión a la media"
+  },
+  {
+   "en": "mean reversion",
+   "es": "reversión a la media"
+  },
+  {
+   "en": "tradeable strategy",
+   "es": "estrategia de trading"
+  },
+  {
+   "en": "due for a bounce",
+   "es": "le toca rebotar"
+  },
+  {
+   "en": "commute",
+   "es": "trayecto (al trabajo)"
+  },
+  {
+   "en": "rookie",
+   "es": "novato"
+  },
+  {
+   "en": "outlier",
+   "es": "valor atípico"
+  },
+  {
+   "en": "skill",
+   "es": "habilidad"
+  },
+  {
+   "en": "persistent / variable component",
+   "es": "componente persistente / variable"
+  },
+  {
+   "en": "long-term average",
+   "es": "promedio de largo plazo"
+  },
+  {
+   "en": "population mean",
+   "es": "media poblacional"
+  },
+  {
+   "en": "Top 25% / Bottom 25%",
+   "es": "cuartil superior / cuartil inferior"
+  },
+  {
+   "en": "fair value",
+   "es": "valor justo"
+  }
+ ]
+}

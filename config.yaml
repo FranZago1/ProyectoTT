@@ -104,3 +104,15 @@ carruseles:
   ergodicity:
     entrada: referencia
     paginas: [5, 9, 10, 11, 12, 13, 14]
+
+# Marca de la cuenta: reemplaza la marca de agua original o agrega el logo abajo si hay espacio.
+marca:
+  activa: true
+  nombre: "Pulso Económico"
+  carpeta: marca
+  archivo_base: pulso_economico_logo
+  color: "#111111"
+  franja_inferior: 0.12          # dónde buscar la marca de agua original (fracción del alto)
+  alto_relativo: 0.07            # alto del logo agregado (fracción del ancho)
+  margen_inferior_relativo: 0.04 # distancia al borde inferior (fracción del alto)
+  perfil_alto_relativo: 0.36     # alto del logo en la foto de perfil (cabe en el recorte circular)

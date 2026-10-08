@@ -10,3 +10,4 @@ fonttools>=4.50
 pytesseract>=0.3.10
 # easyocr>=1.7   # opcional: pip install easyocr (descarga torch, ~1 GB)
 # ocrmac         # opcional en macOS: pip install ocrmac
+# yt-dlp         # opcional: plan B de `descargar`

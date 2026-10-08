@@ -125,7 +125,8 @@
     "limite": 640
    },
    "avisos_render": [
-    "texto reducido al 96 % para entrar en la zona"
+    "texto reducido al 96 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -246,7 +247,8 @@
     "limite": 752
    },
    "avisos_render": [
-    "texto reducido al 94 % para entrar en la zona"
+    "texto reducido al 94 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -374,7 +376,8 @@
     "limite": 757
    },
    "avisos_render": [
-    "texto reducido al 98 % para entrar en la zona"
+    "texto reducido al 98 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -514,7 +517,8 @@
     "limite": 851
    },
    "avisos_render": [
-    "texto reducido al 92 % para entrar en la zona"
+    "texto reducido al 92 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -643,7 +647,8 @@
     "limite": 765
    },
    "avisos_render": [
-    "texto reducido al 98 % para entrar en la zona"
+    "texto reducido al 98 % para entrar en la zona",
+    "logo de Pulso Económico agregado (no había marca de agua)"
    ],
    "control_calidad": []
   },
@@ -766,7 +771,9 @@
     "y": 110,
     "limite": 843
    },
-   "avisos_render": [],
+   "avisos_render": [
+    "logo de Pulso Económico agregado (no había marca de agua)"
+   ],
    "control_calidad": []
   },
   {
@@ -862,7 +869,9 @@
     "y": 390,
     "limite": 1230
    },
-   "avisos_render": [],
+   "avisos_render": [
+    "logo de Pulso Económico agregado (no había marca de agua)"
+   ],
    "control_calidad": []
   }
  ],

@@ -118,5 +118,69 @@
         "proporcion": 0.09
       }
     ]
+  },
+  "regresion-media": {
+    "fondo": "#FFFFFF",
+    "texto": "#1D1D1D",
+    "contenido": [
+      {
+        "hex": "#1D1D1D",
+        "proporcion": 0.54
+      },
+      {
+        "hex": "#797B7D",
+        "proporcion": 0.093
+      },
+      {
+        "hex": "#E2CDC2",
+        "proporcion": 0.084
+      },
+      {
+        "hex": "#484848",
+        "proporcion": 0.076
+      },
+      {
+        "hex": "#A2ABA8",
+        "proporcion": 0.075
+      },
+      {
+        "hex": "#3C8B5F",
+        "proporcion": 0.053
+      },
+      {
+        "hex": "#E49152",
+        "proporcion": 0.049
+      },
+      {
+        "hex": "#AE1A19",
+        "proporcion": 0.031
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#42906C",
+        "proporcion": 0.428
+      },
+      {
+        "hex": "#AB1818",
+        "proporcion": 0.202
+      },
+      {
+        "hex": "#EBA366",
+        "proporcion": 0.155
+      },
+      {
+        "hex": "#EE871A",
+        "proporcion": 0.083
+      },
+      {
+        "hex": "#B75C5A",
+        "proporcion": 0.077
+      },
+      {
+        "hex": "#E2AF87",
+        "proporcion": 0.056
+      }
+    ]
   }
 }

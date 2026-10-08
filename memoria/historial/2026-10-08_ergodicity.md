@@ -1,4 +1,4 @@
-# 2026-10-07 — ergodicity
+# 2026-10-08 — ergodicity
 
 **Título original:** Ergodicity: The Reason Expected Value Destroys Portfolios  
 **Título en español:** Ergodicidad: por qué el valor esperado destruye carteras  

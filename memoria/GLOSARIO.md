@@ -88,4 +88,17 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | ground state wavefunctions | funciones de onda del estado fundamental |
 | Diffusion Monte Carlo | Monte Carlo por difusión |
 | average wealth / actual wealth | patrimonio promedio / patrimonio real |
+| regression to the mean | regresión a la media |
+| mean reversion | reversión a la media |
+| tradeable strategy | estrategia de trading |
+| due for a bounce | le toca rebotar |
+| commute | trayecto (al trabajo) |
+| rookie | novato |
+| outlier | valor atípico |
+| skill | habilidad |
+| persistent / variable component | componente persistente / variable |
+| long-term average | promedio de largo plazo |
+| population mean | media poblacional |
+| Top 25% / Bottom 25% | cuartil superior / cuartil inferior |
+| fair value | valor justo |
 <!-- GLOSARIO:FIN -->
