@@ -97,6 +97,7 @@ def descargar(url: str, slug: str | None = None) -> str:
         archivos = _plan_b_ytdlp(final, destino)
         meta["metodo"] = "yt-dlp"
         if not archivos:
+            shutil.rmtree(destino, ignore_errors=True)
             raise SystemExit(f"No se pudieron obtener las imágenes de {url}: {e}")
     meta["imagenes"] = [p.name for p in archivos]
     (destino / "fuente.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
