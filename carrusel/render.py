@@ -201,6 +201,13 @@ def renderizar_slide(img: np.ndarray, s: dict, config: dict, graficos_b: dict) -
                         x0, y0, x1, y1 = e.get("caja_borrar") or e["caja"]
                         local = np.median(base[y0:y1, x0:x1].reshape(-1, 3), axis=0)
                         base = borrar_tinta(base, [x0, y0, x1, y1], local)
+                    elif e.get("borrado") == "plano":
+                        # caja de color liso: se rellena entera con el color del borde (sin inpaint, que
+                        # arrastra el halo claro del JPEG alrededor de las letras)
+                        x0, y0, x1, y1 = e.get("caja_borrar") or e["caja"]
+                        borde = np.concatenate([base[y0 - 2, x0:x1], base[y1 + 1, x0:x1],
+                                                base[y0:y1, x0 - 2], base[y0:y1, x1 + 1]])
+                        base[y0:y1, x0:x1] = np.median(borde, axis=0).astype(base.dtype)
                 base = dibujar_etiquetas(base, et, config)
         recortes[k] = (x0, y0, x1, y1)
 

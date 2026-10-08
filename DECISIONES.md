@@ -163,3 +163,24 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
   «gut» → «intuición»; «override it» → «imponerse a él».
 - **Control de calidad**: la caja de borrado de «People in room» tocaba el tick «40» (inpaint lo
   borroneaba); se ajustó la caja para excluirlo. Script de curación: `scripts/curar_cumpleanos.py`.
+
+## tiktok-quantgent-138326 — «Black-Scholes» (2026-10-08)
+
+- **8 slides** en el orden de la publicación (portada → supuesto y fórmula → cuándo funciona → dónde
+  falla → volatilidad implícita → Heston → difusión con saltos → cierre).
+- **Estrategias**: 01 C (superficie 3D, solo notación); 02 A (fórmula conservada; columna de siete
+  aclaraciones reescrita); 03 A (serie real del S&P 500: nunca se reconstruye; dos rótulos en serif);
+  04 C (superficie de volatilidad implícita; título y ejes traducidos en serif, «Moneyness» sin
+  traducir); 05 C (rótulo «Tim to Maturity» traducido); 06 A (ficha de Heston: título, rótulo y viñetas
+  sobre fondo gris liso); 07 A (título de la simulación de Merton); 08 sin gráfico.
+- **Nuevo modo de borrado `plano`** (`carrusel/render.py`): para texto sobre cajas de color liso, se
+  rellena la caja con el color del borde. El inpainting arrastraba el halo claro del JPEG y dejaba
+  manchas blancas en la ficha de Heston.
+- **Utilidades compartidas** de curación en `scripts/curar_tiktok.py` (`et`, `tam_para`, `pad`,
+  `con_caja`, `ejecutar`): el tamaño de cada rótulo se calcula para reproducir el ancho medido del
+  original y se reduce si el español no entra.
+- **Términos**: «random walk» → «paseo aleatorio» (uso consagrado por la traducción de Malkiel);
+  «gold standard» → «estándar de referencia»; «Greeks» → «griegas»; «strike» → «precio de ejercicio»;
+  «smile» → «sonrisa de volatilidad»; «flash crashes» → «derrumbes relámpago (flash crashes)»;
+  «Bottom line» → «En síntesis»; «moneyness» se deja en inglés (sin equivalente asentado).
+- Se agregó el punto final que falta en la slide 6 del original.

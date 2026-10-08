@@ -1,0 +1,1030 @@
+{
+ "slug": "tiktok-quantgent-138326",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 1,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    122,
+    293,
+    963,
+    750
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Black-Scholes",
+     "texto_es": "Black-Scholes",
+     "peso": "bold",
+     "tam_px": 69,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      297,
+      293,
+      780,
+      346
+     ],
+     "ancho_px": 497
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "The one equation that changed Wall Street forever. Every option you've ever traded? Priced off this.",
+     "texto_es": "La ecuación que cambió Wall Street para siempre. ¿Cada opción que operaste alguna vez? Se valuó con esto.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.4,
+     "color": "#000000",
+     "caja": [
+      122,
+      458,
+      963,
+      609
+     ],
+     "ancho_px": 866,
+     "espacio_antes": 95
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Here's how it actually works.",
+     "texto_es": "Veamos cómo funciona en realidad.",
+     "peso": "regular",
+     "tam_px": 37,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      289,
+      713,
+      796,
+      750
+     ],
+     "ancho_px": 522,
+     "espacio_antes": 90
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      110,
+      900,
+      940,
+      1610
+     ],
+     "estrategia": "C",
+     "justificacion": "Superficie 3D del precio de la opción C(S, t): solo notación (C, S, t) y ticks; no hay texto en lenguaje natural.",
+     "tipo": "superficie 3D: precio de una opción de compra C según el precio S y el tiempo t",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Portada: concepto + promesa + gancho",
+   "notas_revisar": [
+    "Exageración: «¿Cada opción que operaste alguna vez? Se valuó con esto.» Los precios de las opciones los fija el mercado; Black-Scholes se usa sobre todo para expresarlos como volatilidad implícita, y las opciones americanas suelen valuarse con otros modelos (binomial, diferencias finitas).",
+    "Gráfico de portada sin parámetros ni fuente (strike, tasa, volatilidad); se conserva tal cual."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 497.1,
+    "y": 275,
+    "limite": 813
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 2,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    116,
+    385,
+    969,
+    987
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "It starts with one big assumption... Stock prices follow a random walk called geometric Brownian motion.",
+     "texto_es": "Todo parte de un gran supuesto… Los precios de las acciones siguen un paseo aleatorio llamado movimiento browniano geométrico.",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": 1.44,
+     "color": "#000000",
+     "caja": [
+      163,
+      385,
+      911,
+      560
+     ],
+     "ancho_px": 766
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "From that, you solve a differential equation and get a clean formula that spits out an exact option price. No simulations needed. That's why it became the gold standard.",
+     "texto_es": "A partir de ahí, resolvés una ecuación diferencial y obtenés una fórmula cerrada que da el precio exacto de una opción. Sin simulaciones. Por eso se convirtió en el estándar de referencia.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      116,
+      700,
+      969,
+      987
+     ],
+     "ancho_px": 879,
+     "espacio_antes": 120
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      0,
+      1130,
+      1080,
+      1510
+     ],
+     "estrategia": "A",
+     "justificacion": "Fórmula (imagen, se conserva) con una columna de siete aclaraciones en texto plano sobre fondo blanco: se reescriben en el lugar.",
+     "tipo": "fórmula de Black-Scholes para una opción de compra europea, con d1, d2 y glosario de variables",
+     "etiquetas": [
+      {
+       "texto_en": "(call option price)",
+       "texto_es": "(precio de la opción de compra)",
+       "caja": [
+        676,
+        1184,
+        886,
+        1210
+       ],
+       "tam_px": 21.4,
+       "alineacion": "izquierda",
+       "color": "#333333"
+      },
+      {
+       "texto_en": "(cumulative distribution function)",
+       "texto_es": "(función de distribución acumulada)",
+       "caja": [
+        676,
+        1225,
+        1074,
+        1251
+       ],
+       "tam_px": 21.4,
+       "alineacion": "izquierda",
+       "color": "#333333"
+      },
+      {
+       "texto_en": "(time left til maturity (in years))",
+       "texto_es": "(tiempo hasta el vencimiento, en años)",
+       "caja": [
+        676,
+        1266,
+        1050,
+        1292
+       ],
+       "tam_px": 21.4,
+       "alineacion": "izquierda",
+       "color": "#333333"
+      },
+      {
+       "texto_en": "(stock price)",
+       "texto_es": "(precio de la acción)",
+       "caja": [
+        676,
+        1309,
+        826,
+        1335
+       ],
+       "tam_px": 21.4,
+       "alineacion": "izquierda",
+       "color": "#333333"
+      },
+      {
+       "texto_en": "(strike price)",
+       "texto_es": "(precio de ejercicio)",
+       "caja": [
+        676,
+        1350,
+        828,
+        1376
+       ],
+       "tam_px": 21.4,
+       "alineacion": "izquierda",
+       "color": "#333333"
+      },
+      {
+       "texto_en": "(risk free rate)",
+       "texto_es": "(tasa libre de riesgo)",
+       "caja": [
+        676,
+        1391,
+        848,
+        1417
+       ],
+       "tam_px": 21.4,
+       "alineacion": "izquierda",
+       "color": "#333333"
+      },
+      {
+       "texto_en": "(volatility)",
+       "texto_es": "(volatilidad)",
+       "caja": [
+        676,
+        1431,
+        792,
+        1457
+       ],
+       "tam_px": 21.4,
+       "alineacion": "izquierda",
+       "color": "#333333"
+      }
+     ]
+    }
+   ],
+   "funcion": "Mecanismo: el supuesto (movimiento browniano geométrico) y la fórmula",
+   "notas_revisar": [
+    "Fórmula: el original escribe «In(S/K)» en lugar de ln(S/K) (logaritmo natural); se conserva la imagen. Corregir en Canva si se rehace.",
+    "Precisión: el precio es «exacto» solo bajo los supuestos del modelo (opción europea, sin dividendos, volatilidad y tasa constantes, retornos lognormales, sin costos de transacción).",
+    "Columna de aclaraciones reescrita a 21.4 px (el español es más largo); revisar alineación en Canva."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 657.1,
+    "y": 370,
+    "limite": 1046
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 3,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    123,
+    442,
+    961,
+    790
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "When markets are calm and volatility stays steady, Black-Scholes is basically unbeatable. Smooth pricing surfaces, reliable Greeks, and it runs instantly. For vanilla options in normal conditions, nothing else even comes close on speed.",
+     "texto_es": "Cuando los mercados están tranquilos y la volatilidad se mantiene estable, Black-Scholes es prácticamente imbatible. Superficies de precios suaves, griegas confiables y cálculo instantáneo. Para opciones vainilla en condiciones normales, nada se le acerca en velocidad.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#040404",
+     "caja": [
+      123,
+      442,
+      961,
+      790
+     ],
+     "ancho_px": 863
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      30,
+      985,
+      970,
+      1550
+     ],
+     "estrategia": "A",
+     "justificacion": "Serie real (S&P 500): nunca se reconstruye; se reescriben los dos rótulos en serif. «S&P 500» y los ticks quedan.",
+     "tipo": "línea: S&P 500 real vs. tendencia de crecimiento constante del 6,3 % anual",
+     "etiquetas": [
+      {
+       "texto_en": "actual",
+       "texto_es": "real",
+       "caja": [
+        818,
+        1033,
+        905,
+        1060
+       ],
+       "tam_px": 36.4,
+       "fuente": "LiberationSerif-Regular.ttf",
+       "alineacion": "derecha",
+       "color": "#2A2A2A",
+       "borrado": "inpaint",
+       "caja_borrar": [
+        815,
+        1030,
+        908,
+        1063
+       ]
+      },
+      {
+       "texto_en": "steady 6.3%\nannual growth",
+       "texto_es": "crecimiento anual\nconstante del 6,3 %",
+       "caja": [
+        675,
+        1316,
+        889,
+        1400
+       ],
+       "tam_px": 37.2,
+       "fuente": "LiberationSerif-Regular.ttf",
+       "alineacion": "izquierda",
+       "interlineado": 1.4,
+       "color": "#2A2A2A"
+      }
+     ]
+    }
+   ],
+   "funcion": "Cuándo funciona: mercados tranquilos",
+   "notas_revisar": [
+    "Gráfico sin período ni fuente: parece el S&P 500 de 2015 a 2020 (incluye el derrumbe de marzo de 2020). El «6,3 % anual constante» no se puede verificar. Indicar período y fuente o quitar.",
+    "Exageración: «prácticamente imbatible» y «nada se le acerca en velocidad» (hay aproximaciones y modelos igual de rápidos para opciones vainilla).",
+    "El gráfico muestra justamente un derrumbe, en una slide que habla de mercados tranquilos."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 427.4,
+    "y": 427,
+    "limite": 875
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 4,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    129,
+    361,
+    957,
+    761
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "But here's where it falls apart. Real markets have fat tails, skew, and vol clustering... things a simple random walk can't capture. Force Black-Scholes into that reality and you get warped surfaces and hedges that blow up when you need them most.",
+     "texto_es": "Pero acá es donde se desarma. Los mercados reales tienen colas gruesas, asimetría y agrupamiento de volatilidad… cosas que un paseo aleatorio simple no puede capturar. Forzá Black-Scholes a esa realidad y obtenés superficies deformadas y coberturas que fallan justo cuando más las necesitás.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      129,
+      361,
+      957,
+      761
+     ],
+     "ancho_px": 853
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      105,
+      975,
+      985,
+      1560
+     ],
+     "estrategia": "C",
+     "justificacion": "Figura académica (superficie de volatilidad implícita): se conserva; se traducen el título y los rótulos de ejes en lenguaje natural (serif, como el original).",
+     "tipo": "superficie 3D: volatilidad implícita σ(T, M) según vencimiento T y moneyness M = S/K",
+     "etiquetas": [
+      {
+       "texto_en": "Implied Volatility Surface",
+       "texto_es": "Superficie de volatilidad implícita",
+       "caja": [
+        429,
+        984,
+        731,
+        1008
+       ],
+       "tam_px": 29.2,
+       "fuente": "LiberationSerif-Regular.ttf",
+       "color": "#3A3A3A"
+      },
+      {
+       "texto_en": "Time to Matutity T",
+       "texto_es": "Tiempo al vencimiento T",
+       "caja": [
+        118,
+        1521,
+        319,
+        1542
+       ],
+       "tam_px": 26.3,
+       "fuente": "LiberationSerif-Regular.ttf",
+       "alineacion": "izquierda",
+       "color": "#3A3A3A"
+      },
+      {
+       "texto_en": "Implied Volatility σ(T, M)",
+       "texto_es": "Volatilidad implícita σ(T, M)",
+       "caja": [
+        113,
+        1068,
+        136,
+        1337
+       ],
+       "tam_px": 23.2,
+       "fuente": "LiberationSerif-Regular.ttf",
+       "rotacion": 90,
+       "color": "#3A3A3A",
+       "borrado": "inpaint"
+      }
+     ]
+    }
+   ],
+   "funcion": "Dónde falla: colas gruesas, asimetría y agrupamiento de volatilidad",
+   "notas_revisar": [
+    "Figura sin fuente. El original tiene erratas en los ejes («Matutity», «Monevness»); se tradujo «Tiempo al vencimiento T» y se conservó «Moneyness M = S/K» (término usual sin traducir)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 488.5,
+    "y": 346,
+    "limite": 856
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 5,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    116,
+    445,
+    967,
+    793
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "So traders hacked a workaround: implied volatility. Keep the Black-Scholes formula, but swap in a different vol for every strike and expiry. The math stays simple, but now the surface reflects what the market is actually doing.",
+     "texto_es": "Entonces los traders idearon un atajo: la volatilidad implícita. Mantenés la fórmula de Black-Scholes, pero usás una volatilidad distinta para cada precio de ejercicio y cada vencimiento. La matemática sigue siendo simple, pero ahora la superficie refleja lo que el mercado realmente está haciendo.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      116,
+      445,
+      967,
+      793
+     ],
+     "ancho_px": 877
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      50,
+      980,
+      1030,
+      1495
+     ],
+     "estrategia": "C",
+     "justificacion": "Figura importada (superficie ajustada a datos de mercado): se conserva; se traduce el rótulo «Tim to Maturity».",
+     "tipo": "superficie 3D ajustada sobre puntos de volatilidad implícita observados",
+     "etiquetas": [
+      {
+       "texto_en": "Tim to Maturity: τ",
+       "texto_es": "Tiempo al vencimiento: τ",
+       "caja": [
+        141,
+        1455,
+        237,
+        1468
+       ],
+       "tam_px": 12.5,
+       "alineacion": "izquierda",
+       "color": "#8A8A8A",
+       "caja_borrar": [
+        139,
+        1453,
+        239,
+        1470
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "El parche: volatilidad implícita por strike y vencimiento",
+   "notas_revisar": [
+    "Figura sin fuente ni fecha; los ticks y «Moneyness: m» se conservan. Rótulos muy chicos: revisar nitidez en Canva."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 410.3,
+    "y": 431,
+    "limite": 874
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 6,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    116,
+    347,
+    961,
+    855
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Want the model itself to adapt?",
+     "texto_es": "¿Querés que el propio modelo se adapte?",
+     "peso": "bold",
+     "tam_px": 49,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      164,
+      347,
+      899,
+      395
+     ],
+     "ancho_px": 757
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "That's where Heston comes in. Instead of assuming vol is fixed, it lets volatility move on its own — with mean reversion and vol-of-vol baked in. It explains the smile naturally instead of just patching over it",
+     "texto_es": "Ahí entra Heston. En lugar de suponer que la volatilidad es fija, la deja moverse por su cuenta —con reversión a la media y volatilidad de la volatilidad incorporadas—. Explica la sonrisa de volatilidad de forma natural, en lugar de solo emparcharla.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      116,
+      516,
+      961,
+      855
+     ],
+     "ancho_px": 870,
+     "espacio_antes": 104
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      286,
+      976,
+      790,
+      1648
+     ],
+     "estrategia": "A",
+     "justificacion": "Ficha con título, rótulo y cuatro viñetas sobre fondo gris liso: se borra la tinta con el color de la ficha y se reescribe; ecuaciones y trayectoria se conservan.",
+     "tipo": "ficha: ecuaciones del modelo de Heston, trayectoria simulada y supuestos",
+     "etiquetas": [
+      {
+       "texto_en": "Heston Model",
+       "texto_es": "Modelo de Heston",
+       "caja": [
+        385,
+        1026,
+        687,
+        1061
+       ],
+       "tam_px": 44.6,
+       "peso": "bold",
+       "color": "#111317",
+       "borrado": "plano",
+       "caja_borrar": [
+        382,
+        1023,
+        690,
+        1064
+       ]
+      },
+      {
+       "texto_en": "Stock Price",
+       "texto_es": "Precio de la acción",
+       "caja": [
+        308,
+        1222,
+        323,
+        1362
+       ],
+       "tam_px": 15,
+       "rotacion": 90,
+       "color": "#55585C",
+       "borrado": "plano",
+       "caja_borrar": [
+        305,
+        1219,
+        326,
+        1365
+       ]
+      },
+      {
+       "texto_en": "Assumptions",
+       "texto_es": "Supuestos",
+       "caja": [
+        439,
+        1399,
+        639,
+        1430
+       ],
+       "tam_px": 31.5,
+       "peso": "semibold",
+       "color": "#17191D",
+       "borrado": "plano",
+       "caja_borrar": [
+        436,
+        1396,
+        642,
+        1433
+       ]
+      },
+      {
+       "texto_en": "Stochastic volatility model",
+       "texto_es": "Modelo de volatilidad estocástica",
+       "caja": [
+        351,
+        1447,
+        784,
+        1471
+       ],
+       "tam_px": 16.4,
+       "alineacion": "izquierda",
+       "color": "#2E3034",
+       "borrado": "plano",
+       "caja_borrar": [
+        346,
+        1443,
+        786,
+        1475
+       ]
+      },
+      {
+       "texto_en": "Volatility mean reverts to long-run level",
+       "texto_es": "La volatilidad revierte a su nivel de largo plazo",
+       "caja": [
+        351,
+        1488,
+        784,
+        1512
+       ],
+       "tam_px": 16.4,
+       "alineacion": "izquierda",
+       "color": "#2E3034",
+       "borrado": "plano",
+       "caja_borrar": [
+        346,
+        1484,
+        786,
+        1516
+       ]
+      },
+      {
+       "texto_en": "Volatility and asset price are correlated",
+       "texto_es": "Volatilidad y precio del activo están correlacionados",
+       "caja": [
+        351,
+        1529,
+        784,
+        1553
+       ],
+       "tam_px": 16.4,
+       "alineacion": "izquierda",
+       "color": "#2E3034",
+       "borrado": "plano",
+       "caja_borrar": [
+        346,
+        1525,
+        786,
+        1557
+       ]
+      },
+      {
+       "texto_en": "Volatility cannot become negative",
+       "texto_es": "La volatilidad no puede ser negativa",
+       "caja": [
+        351,
+        1569,
+        784,
+        1593
+       ],
+       "tam_px": 16.4,
+       "alineacion": "izquierda",
+       "color": "#2E3034",
+       "borrado": "plano",
+       "caja_borrar": [
+        346,
+        1565,
+        786,
+        1597
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Solución 1: modelo de Heston (volatilidad estocástica)",
+   "notas_revisar": [
+    "Ecuación de la ficha con errores: «κap(θ − v_t)» debería ser κ(θ − v_t) y «σ√v/W_v» debería ser σ√v_t dW_v. Se conserva la imagen; corregir en Canva si se rehace.",
+    "Precisión: Heston reproduce bien la asimetría de largo plazo, pero le cuesta la sonrisa de vencimientos muy cortos; «la explica de forma natural» es una simplificación.",
+    "Viñetas de la ficha reescritas a 16.4 px para que entren en el ancho; revisar en Canva.",
+    "El original no cierra la última oración con punto; en español se agregó."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.92,
+    "alto_total": 548.1,
+    "y": 335,
+    "limite": 903
+   },
+   "avisos_render": [
+    "texto reducido al 92 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 7,
+   "pagina_origen": 7,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    113,
+    487,
+    964,
+    773
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "For even wilder markets, jump-diffusion models add sudden price spikes on top of the random walk. Think flash crashes and earnings gaps — the stuff Brownian motion pretends doesn't exist.",
+     "texto_es": "Para mercados todavía más turbulentos, los modelos de difusión con saltos agregan saltos bruscos de precio sobre el paseo aleatorio. Pensá en los derrumbes relámpago (flash crashes) y en los saltos tras los balances —lo que el movimiento browniano finge que no existe—.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      113,
+      487,
+      964,
+      773
+     ],
+     "ancho_px": 877
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      0,
+      955,
+      1080,
+      1500
+     ],
+     "estrategia": "A",
+     "justificacion": "Simulación sin semilla ni parámetros: no se regenera; se traduce el título del gráfico.",
+     "tipo": "líneas: 5 trayectorias simuladas de 1000 pasos con el modelo de difusión con saltos de Merton",
+     "etiquetas": [
+      {
+       "texto_en": "Simulated stock prices with 1000 steps and 5 price paths, Merton Jump Diffusion Model",
+       "texto_es": "Precios simulados de acciones con 1000 pasos y 5 trayectorias, modelo de difusión con saltos de Merton",
+       "caja": [
+        297,
+        966,
+        789,
+        979
+       ],
+       "tam_px": 11.8,
+       "color": "#333333"
+      }
+     ]
+    }
+   ],
+   "funcion": "Solución 2: modelos de difusión con saltos (Merton)",
+   "notas_revisar": [
+    "Gráfico simulado sin parámetros ni ejes legibles (los ticks salen cortados en el original)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.9,
+    "alto_total": 384.7,
+    "y": 467,
+    "limite": 852
+   },
+   "avisos_render": [
+    "texto reducido al 90 % para entrar en la zona",
+    "zona de texto extendida hacia arriba 6 px",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 8,
+   "pagina_origen": 8,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    124,
+    571,
+    964,
+    1162
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Bottom line",
+     "texto_es": "En síntesis",
+     "peso": "bold",
+     "tam_px": 56,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      390,
+      571,
+      697,
+      616
+     ],
+     "ancho_px": 316
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Black-Scholes is still the starting point for everything in options. But smart traders know when to trust it and when to upgrade. Learn the baseline, then know when the market is telling you it's not enough.",
+     "texto_es": "Black-Scholes sigue siendo el punto de partida de todo en opciones. Pero los traders inteligentes saben cuándo confiar en él y cuándo pasar a algo mejor. Aprendé la base y después reconocé cuándo el mercado te está diciendo que no alcanza.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      124,
+      814,
+      964,
+      1162
+     ],
+     "ancho_px": 865,
+     "espacio_antes": 181
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Cierre: conclusión práctica sin gráfico",
+   "notas_revisar": [],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 680.1,
+    "y": 556,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  }
+ ],
+ "fuente": {
+  "plataforma": "tiktok",
+  "url": "https://vt.tiktok.com/ZSbg1bBQR/",
+  "url_canonica": "https://www.tiktok.com/@quantgent/photo/7613105464171138326?_r=1&_t=ZS-9AN4WKl9H2U",
+  "usuario": "quantgent",
+  "id": "7613105464171138326",
+  "descripcion": "The equation behind every option trade on Wall Street #blackscholes #optionstrading #quant #quantfinance #fyp",
+  "autor": "QuantGent",
+  "creada": "1772564251",
+  "metodo": "JSON embebido de la página (/video/)",
+  "imagenes": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg",
+   "05.jpg",
+   "06.jpg",
+   "07.jpg",
+   "08.jpg"
+  ]
+ },
+ "orden": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "Black-Scholes: The one equation that changed Wall Street forever",
+ "titulo_es": "Black-Scholes: la ecuación que cambió Wall Street para siempre",
+ "glosario_nuevo": [
+  {
+   "en": "random walk",
+   "es": "paseo aleatorio"
+  },
+  {
+   "en": "geometric Brownian motion",
+   "es": "movimiento browniano geométrico"
+  },
+  {
+   "en": "gold standard",
+   "es": "estándar de referencia"
+  },
+  {
+   "en": "Greeks",
+   "es": "griegas"
+  },
+  {
+   "en": "vanilla options",
+   "es": "opciones vainilla"
+  },
+  {
+   "en": "skew",
+   "es": "asimetría"
+  },
+  {
+   "en": "vol clustering",
+   "es": "agrupamiento de volatilidad"
+  },
+  {
+   "en": "hedges",
+   "es": "coberturas"
+  },
+  {
+   "en": "implied volatility",
+   "es": "volatilidad implícita"
+  },
+  {
+   "en": "strike (price)",
+   "es": "precio de ejercicio"
+  },
+  {
+   "en": "expiry / maturity",
+   "es": "vencimiento"
+  },
+  {
+   "en": "call option",
+   "es": "opción de compra"
+  },
+  {
+   "en": "cumulative distribution function",
+   "es": "función de distribución acumulada"
+  },
+  {
+   "en": "risk free rate",
+   "es": "tasa libre de riesgo"
+  },
+  {
+   "en": "stochastic volatility",
+   "es": "volatilidad estocástica"
+  },
+  {
+   "en": "vol-of-vol",
+   "es": "volatilidad de la volatilidad"
+  },
+  {
+   "en": "(volatility) smile",
+   "es": "sonrisa de volatilidad"
+  },
+  {
+   "en": "jump-diffusion model",
+   "es": "modelo de difusión con saltos"
+  },
+  {
+   "en": "flash crash",
+   "es": "derrumbe relámpago (flash crash)"
+  },
+  {
+   "en": "earnings gaps",
+   "es": "saltos tras los balances"
+  },
+  {
+   "en": "moneyness",
+   "es": "moneyness (sin traducir)"
+  },
+  {
+   "en": "Bottom line",
+   "es": "En síntesis"
+  }
+ ]
+}

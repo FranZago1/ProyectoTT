@@ -113,4 +113,26 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | People in room | Personas en la sala |
 | Days in year | Días del año |
 | Expected 50% | Esperado: 50 % |
+| random walk | paseo aleatorio |
+| geometric Brownian motion | movimiento browniano geométrico |
+| gold standard | estándar de referencia |
+| Greeks | griegas |
+| vanilla options | opciones vainilla |
+| skew | asimetría |
+| vol clustering | agrupamiento de volatilidad |
+| hedges | coberturas |
+| implied volatility | volatilidad implícita |
+| strike (price) | precio de ejercicio |
+| expiry / maturity | vencimiento |
+| call option | opción de compra |
+| cumulative distribution function | función de distribución acumulada |
+| risk free rate | tasa libre de riesgo |
+| stochastic volatility | volatilidad estocástica |
+| vol-of-vol | volatilidad de la volatilidad |
+| (volatility) smile | sonrisa de volatilidad |
+| jump-diffusion model | modelo de difusión con saltos |
+| flash crash | derrumbe relámpago (flash crash) |
+| earnings gaps | saltos tras los balances |
+| moneyness | moneyness (sin traducir) |
+| Bottom line | En síntesis |
 <!-- GLOSARIO:FIN -->
