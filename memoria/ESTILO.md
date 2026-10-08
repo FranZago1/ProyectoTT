@@ -117,6 +117,7 @@ vecino (1/4: regresión vs. reversión a la media).
 | tiktok-quantgent-241750 | #FFFFFF | #080606 | #D1D037 (22%), #F0AC73 (21%), #4C3318 (18%), #B77F57 (14%), #7F5231 (13%), #499E62 (12%) |
 | tiktok-quantgent-735830 | #FFFFFF | #0A0A0A | #DB3232 (27%), #F1A130 (24%), #568695 (22%), #5CA8E0 (16%), #6B1E68 (7%), #EFC17D (5%) |
 | tiktok-quantgent-437398 | #FFFFFF | #080807 | #BA9F0C (33%), #36754C (28%), #89A00B (18%), #A25D35 (10%), #3BA40E (6%), #0C9D67 (5%) |
+| tiktok-quantgent-262422 | #FFFFFF | #070605 | #61A78A (28%), #5093C0 (23%), #82C7ED (23%), #2A7660 (17%), #6A3E2B (6%), #DD936A (4%) |
 
 <!-- PALETA:FIN -->
 

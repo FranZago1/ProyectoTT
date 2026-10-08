@@ -229,3 +229,15 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
   Posterior» → «A priori / Verosimilitud / A posteriori» (terminología estadística en español);
   «Bayesian thinkers» → «quienes piensan de forma bayesiana»; «2012 US election» → «la elección
   presidencial de 2012 en EE. UU.».
+
+## tiktok-quantgent-262422 — «Benford's Law» (2026-10-08)
+
+- **8 slides** en el orden de la publicación. Estrategias: 01 C (superficie 3D decorativa); 02, 06, 07 C
+  (fotos); 04 **B** (barras con P(d) = log₁₀(1 + 1/d), exactas; rótulo del 11,1 % a la derecha, como en el
+  original); 05 C (retrato de Simon Newcomb); 03 y 08 sin gráfico. Slide 7: bloques escritos a mano.
+- `barras_umbral` admite ahora el lado del rótulo de la línea, el tamaño y la negrita de los ticks, y
+  pone un fondo detrás de cada valor para que la línea punteada no lo tache (se re-renderizó también la
+  paradoja del cumpleaños).
+- **Términos**: «IRS» → «IRS (el fisco de EE. UU.)» en la primera mención; «tax returns» → «declaraciones
+  juradas»; «forensic accountants» → «contadores forenses»; «red flag» → «señal de alerta»; «decay» →
+  «deterioro»; «They're wrong» → «Se equivocan.» (se agregó el punto que falta en el original).

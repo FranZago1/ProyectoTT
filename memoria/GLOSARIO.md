@@ -158,4 +158,14 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | self-driving cars | autos autónomos |
 | spam filters | filtros de spam |
 | base rate | tasa base (prevalencia) |
+| Benford's Law | ley de Benford |
+| first digit | primer dígito |
+| IRS | IRS (el fisco de EE. UU.) |
+| forensic accountants | contadores forenses |
+| tax returns | declaraciones juradas |
+| tax fraud | fraude fiscal |
+| red flag | señal de alerta |
+| naturally occurring dataset | conjunto de datos natural |
+| decay | deterioro |
+| Expected 11.1% | Esperado: 11,1 % |
 <!-- GLOSARIO:FIN -->

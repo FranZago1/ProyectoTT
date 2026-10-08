@@ -285,16 +285,22 @@ def barras_umbral(d: dict, c: dict, fondo: str, tam):
     for i, v in enumerate(vals):
         col = d["color_bajo"] if v < u else d["color_alto"]
         ax.text(i, v + max(vals) * 0.025, num_ar(v, d.get("decimales", 1)) + NBSP + "%", ha="center",
-                va="bottom", fontsize=_px(d.get("tam_valor", 15.5)), fontweight="bold", color=col, zorder=3)
+                va="bottom", fontsize=_px(d.get("tam_valor", 15.5)), fontweight="bold", color=col, zorder=3,
+                bbox=dict(boxstyle="square,pad=0.08", fc=fondo, ec="none"))  # tapa la línea punteada
     if d.get("rotulo_umbral"):
-        # arriba de la línea, a la izquierda: ahí las barras quedan por debajo del umbral
-        ax.text(-0.7, u + max(vals) * 0.015, d["rotulo_umbral"], ha="left", va="bottom",
-                fontsize=_px(13), fontweight="bold", color=d["color_umbral"], zorder=4)
+        # arriba de la línea, del lado donde las barras quedan por debajo del umbral
+        der = d.get("rotulo_umbral_lado") == "derecha"
+        ax.text(len(vals) - 0.3 if der else -0.7, u + max(vals) * 0.015, d["rotulo_umbral"],
+                ha="right" if der else "left", va="bottom", fontsize=_px(d.get("tam_rotulo_umbral", 13)),
+                fontweight="bold", color=d["color_umbral"], zorder=4)
     _estilo(ax, c, fondo, ejes_y=False)
     ax.spines["bottom"].set_color("#DADADA")
     ax.set_xticks(x)
     ax.set_xticklabels(cats)
-    ax.tick_params(axis="x", length=0, labelsize=_px(14), colors="#555555", pad=6)
+    ax.tick_params(axis="x", length=0, labelsize=_px(d.get("tam_ticks", 14)), colors="#555555", pad=6)
+    if d.get("ticks_negrita"):
+        for t in ax.get_xticklabels():
+            t.set_fontweight("bold")
     ax.set_xlabel(d["rotulo_x"], fontsize=_px(15.5), color="#1A1A1A", fontweight="medium", labelpad=8)
     ax.set_xlim(-0.75, len(vals) - 0.25)
     ax.set_ylim(0, max(vals) * 1.08)
