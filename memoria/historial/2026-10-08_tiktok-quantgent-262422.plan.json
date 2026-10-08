@@ -1,0 +1,834 @@
+{
+ "slug": "tiktok-quantgent-262422",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 1,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    122,
+    387,
+    963,
+    996
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Benford's Law",
+     "texto_es": "La ley de Benford",
+     "peso": "bold",
+     "tam_px": 88,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      230,
+      387,
+      850,
+      457
+     ],
+     "ancho_px": 639
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "The Equation That Catches Tax Fraud Using Just the First Digit",
+     "texto_es": "La ecuación que detecta fraudes fiscales con solo el primer dígito",
+     "peso": "regular",
+     "tam_px": 46,
+     "interlineado": 1.41,
+     "color": "#000000",
+     "caja": [
+      135,
+      608,
+      944,
+      718
+     ],
+     "ancho_px": 833,
+     "espacio_antes": 131
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The IRS, forensic accountants, and even the FBI use this to spot fake numbers instantly. Here's how it works.",
+     "texto_es": "El IRS (el fisco de EE. UU.), los contadores forenses y hasta el FBI la usan para detectar números falsos al instante. Veamos cómo funciona.",
+     "peso": "regular",
+     "tam_px": 40,
+     "interlineado": 1.43,
+     "color": "#000000",
+     "caja": [
+      122,
+      850,
+      963,
+      996
+     ],
+     "ancho_px": 866,
+     "espacio_antes": 113
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      290,
+      1140,
+      880,
+      1690
+     ],
+     "estrategia": "C",
+     "justificacion": "Superficie 3D decorativa (solo ticks numéricos): se conserva.",
+     "tipo": "superficie 3D con curvas de nivel, sin relación directa con la ley de Benford",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Portada: concepto + promesa + gancho",
+   "notas_revisar": [
+    "Sin fuente: que el IRS y el FBI usen la ley de Benford «para detectar números falsos al instante». Es una herramienta de auditoría conocida (Nigrini), pero sirve para señalar casos a revisar, no para detectar fraudes «al instante».",
+    "Gráfico de portada decorativo: no representa la ley de Benford."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.92,
+    "alto_total": 657.9,
+    "y": 365,
+    "limite": 1056
+   },
+   "avisos_render": [
+    "texto reducido al 92 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 2,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    142,
+    471,
+    941,
+    934
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "Every number starts with a first digit.",
+     "texto_es": "Todo número empieza con un primer dígito.",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      149,
+      471,
+      936,
+      525
+     ],
+     "ancho_px": 811
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "$142 starts with 1. $873 starts with 8. $45 starts with 4.",
+     "texto_es": "$142 empieza con 1. $873 empieza con 8. $45 empieza con 4.",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      142,
+      616,
+      941,
+      725
+     ],
+     "ancho_px": 823,
+     "espacio_antes": 74
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "There are only 9 possible first digits. 1 through 9.",
+     "texto_es": "Hay solo 9 primeros dígitos posibles. Del 1 al 9.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.48,
+     "color": "#000000",
+     "caja": [
+      167,
+      829,
+      904,
+      934
+     ],
+     "ancho_px": 759,
+     "espacio_antes": 83
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      160,
+      1080,
+      925,
+      1590
+     ],
+     "estrategia": "C",
+     "justificacion": "Foto de números (desenfocada): no tiene texto en lenguaje natural; se conserva.",
+     "tipo": "foto: columnas de números",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Planteo: el primer dígito de cada número",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.98,
+    "alto_total": 513.8,
+    "y": 459,
+    "limite": 995
+   },
+   "avisos_render": [
+    "texto reducido al 98 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 3,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    140,
+    544,
+    946,
+    1299
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "So if you grabbed thousands of real numbers... Stock prices, tax returns, populations... You'd expect each digit to show up about equally, right?",
+     "texto_es": "Entonces, si tomaras miles de números reales… Precios de acciones, declaraciones juradas, poblaciones… Esperarías que cada dígito apareciera más o menos la misma cantidad de veces, ¿no?",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": 1.44,
+     "color": "#000000",
+     "caja": [
+      140,
+      544,
+      946,
+      784
+     ],
+     "ancho_px": 830
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "Each one roughly 11% of the time?",
+     "texto_es": "¿Cada uno, alrededor del 11 % de las veces?",
+     "peso": "bold",
+     "tam_px": 46,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      163,
+      909,
+      922,
+      955
+     ],
+     "ancho_px": 782,
+     "espacio_antes": 107
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "That's what most people think.",
+     "texto_es": "Es lo que piensa la mayoría.",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      207,
+      1082,
+      867,
+      1127
+     ],
+     "ancho_px": 680,
+     "espacio_antes": 113
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "They're wrong",
+     "texto_es": "Se equivocan.",
+     "peso": "bold",
+     "tam_px": 45,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      375,
+      1255,
+      699,
+      1299
+     ],
+     "ancho_px": 334,
+     "espacio_antes": 114
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "La intuición equivocada: cada dígito, 11 %",
+   "notas_revisar": [
+    "El original no cierra «They're wrong» con punto; en español se agregó."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 955.8,
+    "y": 528,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 4,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    99,
+    434,
+    1006,
+    1037
+   ],
+   "bloques": [
+    {
+     "rol": "destacado",
+     "texto_en": "The digit 1 appears first 30% of the time. Not 11%.",
+     "texto_es": "El 1 es el primer dígito el 30 % de las veces. No el 11 %.",
+     "peso": "bold",
+     "tam_px": 45,
+     "interlineado": 1.47,
+     "color": "#000000",
+     "caja": [
+      99,
+      434,
+      1006,
+      536
+     ],
+     "ancho_px": 934
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "And it gets weirder... each digit after that drops off in a perfect curve. The digit 9 shows up less than 5% of the time.",
+     "texto_es": "Y se pone más raro… cada dígito siguiente cae en una curva perfecta. El 9 aparece menos del 5 % de las veces.",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": 1.44,
+     "color": "#000000",
+     "caja": [
+      116,
+      650,
+      990,
+      825
+     ],
+     "ancho_px": 900,
+     "espacio_antes": 92
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "This pattern appears in almost every naturally occurring dataset on Earth.",
+     "texto_es": "Este patrón aparece en casi todos los conjuntos de datos naturales del planeta.",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": 1.44,
+     "color": "#000000",
+     "caja": [
+      151,
+      927,
+      937,
+      1037
+     ],
+     "ancho_px": 810,
+     "espacio_antes": 81
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      205,
+      1225,
+      905,
+      1625
+     ],
+     "estrategia": "B",
+     "justificacion": "Barras que salen exactamente de la fórmula de la slide 5, P(d) = log10(1 + 1/d); coinciden con los valores del original.",
+     "tipo": "barras: frecuencia del primer dígito según la ley de Benford (1-9) y línea del 11,1 %",
+     "datos": {
+      "tipo": "barras_umbral",
+      "categorias": [
+       "1",
+       "2",
+       "3",
+       "4",
+       "5",
+       "6",
+       "7",
+       "8",
+       "9"
+      ],
+      "valores": [
+       30.1,
+       17.6,
+       12.5,
+       9.7,
+       7.9,
+       6.7,
+       5.8,
+       5.1,
+       4.6
+      ],
+      "formula": "P(d) = log10(1 + 1/d)",
+      "umbral": 11.1,
+      "decimales": 1,
+      "color_ini": "#2A8C5A",
+      "color_fin": "#76B597",
+      "color_bajo": "#4E9C77",
+      "color_alto": "#2E8B57",
+      "color_umbral": "#C0393B",
+      "rotulo_umbral": "Esperado: 11,1 %",
+      "rotulo_umbral_lado": "derecha",
+      "tam_rotulo_umbral": 13.5,
+      "tam_valor": 14.5,
+      "rotulo_x": "Primer dígito",
+      "margen_inferior": 0.17,
+      "tam_ticks": 17,
+      "ticks_negrita": true
+     },
+     "etiquetas": []
+    }
+   ],
+   "funcion": "La revelación: el 1 aparece primero el 30 % de las veces (gráfico)",
+   "notas_revisar": [
+    "Exageración: «casi todos los conjuntos de datos naturales». La ley se cumple en datos que abarcan varios órdenes de magnitud y sin topes (precios, poblaciones, montos); no en alturas, edades, números de teléfono o precios fijados (p. ej., $9,99).",
+    "Gráfico regenerado (B) con la fórmula: 30,1 / 17,6 / 12,5 / 9,7 / 7,9 / 6,7 / 5,8 / 5,1 / 4,6 %, igual que el original."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.98,
+    "alto_total": 616.7,
+    "y": 423,
+    "limite": 1119
+   },
+   "avisos_render": [
+    "texto reducido al 98 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 5,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    116,
+    501,
+    969,
+    1126
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The formula",
+     "texto_es": "La fórmula",
+     "peso": "regular",
+     "tam_px": 46,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      403,
+      501,
+      667,
+      538
+     ],
+     "ancho_px": 272
+    },
+    {
+     "rol": "otro",
+     "texto_en": "P(d) = log₁₀(1 + 1/d)",
+     "texto_es": "P(d) = log₁₀(1 + 1/d)",
+     "peso": "bold",
+     "tam_px": 47,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      325,
+      645,
+      759,
+      693
+     ],
+     "ancho_px": 447,
+     "espacio_antes": 92
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Here's the intuition: to go from 1 to 2 requires doubling... A 100% increase. To go from 8 to 9 is only a 12% increase. Numbers \"spend more time\" starting with lower digits because it takes longer to roll past them. That's why 1 dominates.",
+     "texto_es": "La intuición es esta: pasar de 1 a 2 requiere duplicarse… Un aumento del 100 %. Pasar de 8 a 9 es solo un aumento del 12 %. Los números “pasan más tiempo” empezando con dígitos bajos porque cuesta más superarlos. Por eso domina el 1.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.4,
+     "color": "#000000",
+     "caja": [
+      116,
+      790,
+      969,
+      1126
+     ],
+     "ancho_px": 879,
+     "espacio_antes": 81
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      365,
+      1245,
+      720,
+      1705
+     ],
+     "estrategia": "C",
+     "justificacion": "Retrato con pie que es un nombre propio (Simon Newcomb): se conserva.",
+     "tipo": "foto: retrato de Simon Newcomb",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "La fórmula y la intuición + Simon Newcomb",
+   "notas_revisar": [
+    "Precisión: de 8 a 9 el aumento es del 12,5 % (el original redondea a 12 %).",
+    "Contexto que falta: Simon Newcomb (el del retrato) describió el fenómeno en 1881; Frank Benford lo redescubrió y lo documentó con datos en 1938. El carrusel no lo explica.",
+    "La intuición de «pasar más tiempo» vale para cantidades que crecen de forma multiplicativa (exponencial)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 644.8,
+    "y": 489,
+    "limite": 1173
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 6,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    119,
+    467,
+    966,
+    1108
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "So how do you catch a liar?",
+     "texto_es": "¿Y cómo se atrapa a un mentiroso?",
+     "peso": "bold",
+     "tam_px": 50,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      213,
+      467,
+      872,
+      525
+     ],
+     "ancho_px": 679
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "When people fake numbers, they spread digits evenly... Roughly 11% each. Their gut says that looks \"random.\" But real data follows Benford's curve. So a flat distribution is a giant red flag. Forensic accountants overlay real data against Benford's curve... And the fakes light up instantly.",
+     "texto_es": "Cuando la gente inventa números, reparte los dígitos de forma pareja… Alrededor del 11 % cada uno. Su intuición le dice que eso parece “aleatorio”. Pero los datos reales siguen la curva de Benford. Así que una distribución plana es una enorme señal de alerta. Los contadores forenses comparan los datos con la curva de Benford… Y los falsos saltan a la vista al instante.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.4,
+     "color": "#000000",
+     "caja": [
+      119,
+      654,
+      966,
+      1108
+     ],
+     "ancho_px": 872,
+     "espacio_antes": 113
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      225,
+      1225,
+      860,
+      1640
+     ],
+     "estrategia": "C",
+     "justificacion": "Foto de una planilla con lupa (texto ilegible, de ambientación): se conserva.",
+     "tipo": "foto: planilla contable bajo una lupa",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Aplicación: cómo se detecta a quien inventa números",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "Simplificación: quien inventa números no siempre los reparte de forma pareja; la prueba de Benford señala desvíos a investigar, no prueba un fraude."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 678.0,
+    "y": 454,
+    "limite": 1154
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 7,
+   "pagina_origen": 7,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    114,
+    472,
+    963,
+    1050
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "It's already been used in court",
+     "texto_es": "Ya se usó en los tribunales",
+     "peso": "bold",
+     "tam_px": 50,
+     "interlineado": 1.44,
+     "color": "#0A0A0A",
+     "caja": [
+      148,
+      472,
+      939,
+      525
+     ],
+     "ancho_px": 791
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Benford's Law was used as evidence in the Enron scandal. It flagged irregularities in the 2009 Iranian election results. It's been admitted as evidence in US federal courts. And it works on everything... From earthquake magnitudes to Twitter follower counts to your electricity bill.",
+     "texto_es": "La ley de Benford se usó como prueba en el escándalo de Enron. Detectó irregularidades en los resultados de la elección de 2009 en Irán. Fue admitida como prueba en tribunales federales de EE. UU. Y funciona con todo… Desde la magnitud de los terremotos hasta la cantidad de seguidores en Twitter o tu factura de luz.",
+     "peso": "regular",
+     "tam_px": 41,
+     "interlineado": 1.43,
+     "color": "#1C1C1C",
+     "caja": [
+      114,
+      655,
+      963,
+      1050
+     ],
+     "ancho_px": 849,
+     "espacio_antes": 130
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      110,
+      1225,
+      975,
+      1655
+     ],
+     "estrategia": "C",
+     "justificacion": "Foto (audiencia) sin texto: se conserva.",
+     "tipo": "foto: audiencia en una sala",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Casos: Enron, elecciones de Irán 2009, tribunales de EE. UU.",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "Verificar: «se usó como prueba en el escándalo de Enron». Lo documentado son análisis posteriores de los estados contables de Enron con la ley de Benford, no su uso como prueba en el juicio.",
+    "Matizar: sobre Irán 2009 hubo análisis con Benford (p. ej., Mebane), pero su validez para detectar fraude electoral es discutida.",
+    "Imprecisión: «funciona con todo». No funciona con datos acotados o asignados (ver slide 4). La factura de luz y los seguidores de Twitter son ejemplos citados en estudios puntuales."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 644.2,
+    "y": 455,
+    "limite": 1125
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 8,
+   "pagina_origen": 8,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    121,
+    586,
+    962,
+    1266
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The lesson from Benford isn't the math...",
+     "texto_es": "La lección de Benford no es la matemática…",
+     "peso": "regular",
+     "tam_px": 49,
+     "interlineado": 1.45,
+     "color": "#000000",
+     "caja": [
+      154,
+      586,
+      931,
+      695
+     ],
+     "ancho_px": 800
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "It's what it reveals about nature.",
+     "texto_es": "Es lo que revela sobre la naturaleza.",
+     "peso": "bold",
+     "tam_px": 46,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      185,
+      828,
+      900,
+      864
+     ],
+     "ancho_px": 736,
+     "espacio_antes": 114
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The universe doesn't distribute things evenly. Growth, decay, and randomness all leave fingerprints in the numbers. Benford's Law just taught us how to read them.",
+     "texto_es": "El universo no distribuye las cosas de forma pareja. El crecimiento, el deterioro y el azar dejan huellas en los números. La ley de Benford simplemente nos enseñó a leerlas.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      121,
+      997,
+      962,
+      1266
+     ],
+     "ancho_px": 866,
+     "espacio_antes": 117
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Cierre: lo que revela sobre la naturaleza, sin gráfico",
+   "notas_revisar": [],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 730.2,
+    "y": 569,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  }
+ ],
+ "fuente": {
+  "plataforma": "tiktok",
+  "url": "https://vt.tiktok.com/ZSbg1wJ5B/",
+  "url_canonica": "https://www.tiktok.com/@quantgent/photo/7614275191216262422?_r=1&_t=ZS-9AN4aQ5ZwPO",
+  "usuario": "quantgent",
+  "id": "7614275191216262422",
+  "descripcion": "The digit 1 appears first 30% of the time… Not 11%. Benford's Law explains why, and the IRS uses it to catch fraud instantly. #benfordslaw #mathematics #frauddetection #quantfinance #fyp",
+  "autor": "QuantGent",
+  "creada": "1772836599",
+  "metodo": "JSON embebido de la página (/video/)",
+  "imagenes": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg",
+   "05.jpg",
+   "06.jpg",
+   "07.jpg",
+   "08.jpg"
+  ]
+ },
+ "orden": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "Benford's Law: The Equation That Catches Tax Fraud Using Just the First Digit",
+ "titulo_es": "La ley de Benford: la ecuación que detecta fraudes fiscales con solo el primer dígito",
+ "glosario_nuevo": [
+  {
+   "en": "Benford's Law",
+   "es": "ley de Benford"
+  },
+  {
+   "en": "first digit",
+   "es": "primer dígito"
+  },
+  {
+   "en": "IRS",
+   "es": "IRS (el fisco de EE. UU.)"
+  },
+  {
+   "en": "forensic accountants",
+   "es": "contadores forenses"
+  },
+  {
+   "en": "tax returns",
+   "es": "declaraciones juradas"
+  },
+  {
+   "en": "tax fraud",
+   "es": "fraude fiscal"
+  },
+  {
+   "en": "red flag",
+   "es": "señal de alerta"
+  },
+  {
+   "en": "naturally occurring dataset",
+   "es": "conjunto de datos natural"
+  },
+  {
+   "en": "decay",
+   "es": "deterioro"
+  },
+  {
+   "en": "Expected 11.1%",
+   "es": "Esperado: 11,1 %"
+  }
+ ]
+}

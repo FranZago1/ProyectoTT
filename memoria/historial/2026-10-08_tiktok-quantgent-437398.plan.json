@@ -1,0 +1,834 @@
+{
+ "slug": "tiktok-quantgent-437398",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 1,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    134,
+    390,
+    951,
+    1004
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Bayes' Theorem",
+     "texto_es": "El teorema de Bayes",
+     "peso": "bold",
+     "tam_px": 88,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      189,
+      390,
+      887,
+      475
+     ],
+     "ancho_px": 719
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "The Equation Your Brain Refuses to Believe.",
+     "texto_es": "La ecuación que tu cerebro se niega a creer.",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": 1.47,
+     "color": "#000000",
+     "caja": [
+      160,
+      607,
+      920,
+      709
+     ],
+     "ancho_px": 783,
+     "espacio_antes": 111
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Doctors, hedge funds, and even the FBI depend on it... And almost everyone gets it wrong.",
+     "texto_es": "Médicos, fondos de cobertura y hasta el FBI dependen de ella… Y casi todos se equivocan con ella.",
+     "peso": "regular",
+     "tam_px": 40,
+     "interlineado": 1.45,
+     "color": "#000000",
+     "caja": [
+      134,
+      849,
+      951,
+      1004
+     ],
+     "ancho_px": 842,
+     "espacio_antes": 119
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      85,
+      1250,
+      1000,
+      1605
+     ],
+     "estrategia": "C",
+     "justificacion": "Imagen decorativa (superficie 3D tipo relieve) sin texto: se conserva.",
+     "tipo": "ilustración: superficie 3D coloreada, sin ejes",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Portada: concepto + promesa + gancho",
+   "notas_revisar": [
+    "Generalización sin fuente: «médicos, fondos de cobertura y hasta el FBI dependen de ella».",
+    "La imagen de portada es decorativa: no representa nada del teorema de Bayes."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 623.0,
+    "y": 382,
+    "limite": 1115
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 2,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    137,
+    498,
+    947,
+    948
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "A medical test is 99% accurate.",
+     "texto_es": "Una prueba médica tiene un 99 % de precisión.",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      201,
+      498,
+      881,
+      534
+     ],
+     "ancho_px": 700
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "You test positive.",
+     "texto_es": "Te da positivo.",
+     "peso": "bold",
+     "tam_px": 47,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      344,
+      672,
+      738,
+      719
+     ],
+     "ancho_px": 406,
+     "espacio_antes": 123
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "What are the chances you actually have the disease?",
+     "texto_es": "¿Qué probabilidad hay de que realmente tengas la enfermedad?",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.4,
+     "color": "#000000",
+     "caja": [
+      137,
+      854,
+      947,
+      948
+     ],
+     "ancho_px": 834,
+     "espacio_antes": 119
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      255,
+      1125,
+      945,
+      1540
+     ],
+     "estrategia": "C",
+     "justificacion": "Foto recortada sin texto: se conserva.",
+     "tipo": "foto: hisopado a un paciente",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Planteo: la prueba médica del 99 %",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "CLAVE — falta la tasa base: «menos del 10 %» solo vale si la enfermedad afecta a ≈ 1 de cada 1.000 personas y la prueba tiene 99 % de sensibilidad y 99 % de especificidad (0,99 × 0,001 / (0,99 × 0,001 + 0,01 × 0,999) ≈ 9 %). Con una prevalencia del 1 %, la respuesta sería 50 %. El original no da la prevalencia; conviene agregarla en Canva (p. ej., «la enfermedad afecta a 1 de cada 1.000 personas»)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 516.2,
+    "y": 486,
+    "limite": 1024
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 3,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    113,
+    500,
+    970,
+    1126
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "The real answer?",
+     "texto_es": "¿La respuesta real?",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      352,
+      500,
+      719,
+      536
+     ],
+     "ancho_px": 378
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "Less than 10%.",
+     "texto_es": "Menos del 10 %.",
+     "peso": "bold",
+     "tam_px": 46,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      370,
+      666,
+      714,
+      703
+     ],
+     "ancho_px": 354,
+     "espacio_antes": 116
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Your brain just failed a basic probability test. So does almost everyone's. This isn't a flaw — it's biology. Our brains weren't built for conditional probability. Bayes' Theorem was built to fix that.",
+     "texto_es": "Tu cerebro acaba de reprobar un examen básico de probabilidad. Igual que el de casi todo el mundo. No es una falla: es biología. Nuestro cerebro no está hecho para la probabilidad condicional. El teorema de Bayes se creó para corregir eso.",
+     "peso": "regular",
+     "tam_px": 43,
+     "interlineado": 1.42,
+     "color": "#000000",
+     "caja": [
+      113,
+      848,
+      970,
+      1126
+     ],
+     "ancho_px": 883,
+     "espacio_antes": 128
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      400,
+      1295,
+      690,
+      1645
+     ],
+     "estrategia": "A",
+     "justificacion": "Dos barras con valores rotulados y pies sobre fondo liso: se reescriben los cuatro rótulos (la base de prevalencia no está en el texto, así que no se regenera).",
+     "tipo": "barras: lo que pensabas (99 %) vs. la respuesta real (~9 %)",
+     "etiquetas": [
+      {
+       "texto_en": "99%",
+       "texto_es": "99 %",
+       "caja": [
+        419,
+        1307,
+        512,
+        1337
+       ],
+       "tam_px": 40.2,
+       "peso": "bold",
+       "color": "#2E8B57",
+       "caja_borrar": [
+        417,
+        1305,
+        514,
+        1339
+       ]
+      },
+      {
+       "texto_en": "~9%",
+       "texto_es": "~9 %",
+       "caja": [
+        573,
+        1506,
+        669,
+        1536
+       ],
+       "tam_px": 41.0,
+       "peso": "bold",
+       "color": "#C0393B",
+       "caja_borrar": [
+        571,
+        1504,
+        671,
+        1538
+       ]
+      },
+      {
+       "texto_en": "What you\nthought",
+       "texto_es": "Lo que\npensabas",
+       "caja": [
+        418,
+        1594,
+        511,
+        1637
+       ],
+       "tam_px": 17,
+       "interlineado": 1.3,
+       "color": "#8E8E8E",
+       "caja_borrar": [
+        421,
+        1594,
+        508,
+        1637
+       ]
+      },
+      {
+       "texto_en": "The real\nanswer",
+       "texto_es": "La respuesta\nreal",
+       "caja": [
+        570,
+        1594,
+        668,
+        1637
+       ],
+       "tam_px": 17,
+       "interlineado": 1.3,
+       "color": "#8E8E8E",
+       "caja_borrar": [
+        582,
+        1594,
+        656,
+        1633
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Respuesta contraintuitiva: menos del 10 %",
+   "notas_revisar": [
+    "CLAVE — falta la tasa base: «menos del 10 %» solo vale si la enfermedad afecta a ≈ 1 de cada 1.000 personas y la prueba tiene 99 % de sensibilidad y 99 % de especificidad (0,99 × 0,001 / (0,99 × 0,001 + 0,01 × 0,999) ≈ 9 %). Con una prevalencia del 1 %, la respuesta sería 50 %. El original no da la prevalencia; conviene agregarla en Canva (p. ej., «la enfermedad afecta a 1 de cada 1.000 personas»).",
+    "Afirmación sin sustento: «no es una falla: es biología». El sesgo de ignorar la tasa base está documentado (Kahneman y Tversky), pero atribuirlo a la biología es especulativo."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 697.8,
+    "y": 488,
+    "limite": 1198
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 4,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    129,
+    499,
+    954,
+    1183
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The formula is elegant",
+     "texto_es": "La fórmula es elegante",
+     "peso": "bold",
+     "tam_px": 46,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      293,
+      499,
+      792,
+      545
+     ],
+     "ancho_px": 514
+    },
+    {
+     "rol": "otro",
+     "texto_en": "P(A|B) = P(B|A) · P(A) / P(B)",
+     "texto_es": "P(A|B) = P(B|A) · P(A) / P(B)",
+     "peso": "regular",
+     "tam_px": 45,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      237,
+      656,
+      847,
+      713
+     ],
+     "ancho_px": 628,
+     "espacio_antes": 97
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Where P(A|B) is what you want to know, P(B|A) is what the test tells you, P(A) is how rare the disease is, and P(B) is the total chance of testing positive. It updates what you believe using the evidence you actually have.",
+     "texto_es": "Donde P(A|B) es lo que querés saber, P(B|A) es lo que te dice la prueba, P(A) es qué tan rara es la enfermedad y P(B) es la probabilidad total de dar positivo. Actualiza lo que creés con la evidencia que realmente tenés.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.4,
+     "color": "#000000",
+     "caja": [
+      129,
+      838,
+      954,
+      1183
+     ],
+     "ancho_px": 850,
+     "espacio_antes": 109
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      355,
+      1270,
+      730,
+      1705
+     ],
+     "estrategia": "C",
+     "justificacion": "Grabado de Thomas Bayes con su nombre como pie (nombre propio): se conserva.",
+     "tipo": "ilustración: retrato de Thomas Bayes",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "La fórmula y sus términos + Thomas Bayes",
+   "notas_revisar": [
+    "Fórmula correcta. El retrato «de Thomas Bayes» que circula es de autenticidad dudosa (no hay retratos verificados de Bayes); conviene aclararlo o reemplazarlo."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 675.3,
+    "y": 501,
+    "limite": 1214
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 5,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    116,
+    473,
+    970,
+    1112
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Here's why Wall Street cares",
+     "texto_es": "Por qué le importa a Wall Street",
+     "peso": "bold",
+     "tam_px": 50,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      196,
+      473,
+      890,
+      521
+     ],
+     "ancho_px": 715
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Every time the market moves, traders face the same question: should I update my position? Bayes gives them the exact framework. New data comes in, beliefs get updated, positions get adjusted. It's not prediction — it's adaptation. That's why the best quant strategies aren't rigid. They learn.",
+     "texto_es": "Cada vez que el mercado se mueve, los traders enfrentan la misma pregunta: ¿tengo que actualizar mi posición? Bayes les da el marco exacto. Llegan datos nuevos, se actualizan las creencias, se ajustan las posiciones. No es predicción: es adaptación. Por eso las mejores estrategias cuantitativas no son rígidas. Aprenden.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.4,
+     "color": "#000000",
+     "caja": [
+      116,
+      666,
+      970,
+      1112
+     ],
+     "ancho_px": 880,
+     "espacio_antes": 129
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      135,
+      1255,
+      945,
+      1680
+     ],
+     "estrategia": "A",
+     "justificacion": "Curvas ilustrativas a priori, verosimilitud y a posteriori, sin parámetros: se reescriben los tres rótulos.",
+     "tipo": "curvas: distribución a priori, verosimilitud y a posteriori",
+     "etiquetas": [
+      {
+       "texto_en": "Posterior",
+       "texto_es": "A posteriori",
+       "caja": [
+        495,
+        1290,
+        587,
+        1316
+       ],
+       "tam_px": 21.6,
+       "color": "#4A4A4A",
+       "alineacion": "derecha",
+       "borrado": "inpaint",
+       "caja_borrar": [
+        493,
+        1288,
+        589,
+        1318
+       ]
+      },
+      {
+       "texto_en": "Likelihood",
+       "texto_es": "Verosimilitud",
+       "caja": [
+        652,
+        1371,
+        743,
+        1393
+       ],
+       "tam_px": 18.9,
+       "color": "#4A4A4A",
+       "alineacion": "izquierda",
+       "borrado": "inpaint",
+       "caja_borrar": [
+        651,
+        1369,
+        746,
+        1395
+       ]
+      },
+      {
+       "texto_en": "Prior",
+       "texto_es": "A priori",
+       "caja": [
+        442,
+        1485,
+        490,
+        1505
+       ],
+       "tam_px": 21.4,
+       "color": "#4A4A4A",
+       "alineacion": "derecha",
+       "borrado": "inpaint",
+       "caja_borrar": [
+        440,
+        1483,
+        492,
+        1507
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Por qué importa en los mercados: actualizar posiciones",
+   "notas_revisar": [
+    "Generalización: «las mejores estrategias cuantitativas aprenden» y que Bayes da «el marco exacto» no tienen fuente; es una descripción idealizada."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.98,
+    "alto_total": 650.1,
+    "y": 465,
+    "limite": 1171
+   },
+   "avisos_render": [
+    "texto reducido al 98 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 6,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    119,
+    472,
+    958,
+    1109
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "This isn't just theory",
+     "texto_es": "No es solo teoría",
+     "peso": "bold",
+     "tam_px": 52,
+     "interlineado": 1.44,
+     "color": "#0A0A0A",
+     "caja": [
+      274,
+      472,
+      811,
+      526
+     ],
+     "ancho_px": 537
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Nate Silver used Bayes to correctly predict all 50 states in the 2012 US election. Spam filters in your inbox run on Bayes. Self-driving cars use it to decide if that shadow is a pedestrian. And Renaissance Technologies — the most profitable hedge fund in history — builds strategies rooted in Bayesian inference.",
+     "texto_es": "Nate Silver usó Bayes para predecir correctamente los 50 estados en la elección presidencial de 2012 en EE. UU. Los filtros de spam de tu correo funcionan con Bayes. Los autos autónomos lo usan para decidir si esa sombra es un peatón. Y Renaissance Technologies —el fondo de cobertura más rentable de la historia— construye estrategias basadas en la inferencia bayesiana.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.4,
+     "color": "#1C1C1C",
+     "caja": [
+      119,
+      655,
+      958,
+      1109
+     ],
+     "ancho_px": 839,
+     "espacio_antes": 129
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      120,
+      1250,
+      965,
+      1675
+     ],
+     "estrategia": "C",
+     "justificacion": "Foto sin texto: se conserva.",
+     "tipo": "foto: sensores en el techo de un auto autónomo",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Casos: Nate Silver, filtros de spam, autos autónomos, Renaissance",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "Nate Silver acertó los 50 estados en 2012 (dato verificable); su modelo agrega encuestas con métodos en parte bayesianos, no es una aplicación directa del teorema.",
+    "Sin fuente: que Renaissance «construye estrategias basadas en inferencia bayesiana». «El fondo más rentable de la historia» suele referirse a Medallion, su fondo interno.",
+    "Precisión: los filtros de spam clásicos usan Bayes ingenuo; los actuales combinan otros modelos."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.9,
+    "alto_total": 659.8,
+    "y": 457,
+    "limite": 1167
+   },
+   "avisos_render": [
+    "texto reducido al 90 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 7,
+   "pagina_origen": 7,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    118,
+    561,
+    966,
+    1363
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The biggest lesson from Bayes isn't the math...",
+     "texto_es": "La mayor lección de Bayes no es la matemática…",
+     "peso": "bold",
+     "tam_px": 51,
+     "interlineado": 1.41,
+     "color": "#000000",
+     "caja": [
+      159,
+      561,
+      926,
+      674
+     ],
+     "ancho_px": 790
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "It's the mindset.",
+     "texto_es": "Es la mentalidad.",
+     "peso": "bold",
+     "tam_px": 45,
+     "interlineado": null,
+     "color": "#000000",
+     "caja": [
+      364,
+      807,
+      721,
+      844
+     ],
+     "ancho_px": 368,
+     "espacio_antes": 115
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Most people form an opinion and defend it. Bayesian thinkers form an opinion and update it. In markets and in life, the ones who win long-term aren't the ones who are right the most — they're the ones who change their minds the fastest when the evidence says they should.",
+     "texto_es": "La mayoría de la gente se forma una opinión y la defiende. Quienes piensan de forma bayesiana se forman una opinión y la actualizan. En los mercados y en la vida, los que ganan a largo plazo no son los que más aciertan: son los que cambian de opinión más rápido cuando la evidencia lo indica.",
+     "peso": "regular",
+     "tam_px": 42,
+     "interlineado": 1.4,
+     "color": "#000000",
+     "caja": [
+      118,
+      968,
+      966,
+      1363
+     ],
+     "ancho_px": 873,
+     "espacio_antes": 108
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Cierre: la mentalidad bayesiana (actualizar), sin gráfico",
+   "notas_revisar": [],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 894.8,
+    "y": 544,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  }
+ ],
+ "fuente": {
+  "plataforma": "tiktok",
+  "url": "https://vt.tiktok.com/ZSbg1oxUe/",
+  "url_canonica": "https://www.tiktok.com/@quantgent/photo/7614111243506437398?_r=1&_t=ZS-9AN4bId4YUO",
+  "usuario": "quantgent",
+  "id": "7614111243506437398",
+  "descripcion": "A 99% accurate test. You test positive. You probably don't have it. Bayes' Theorem explains why — and it's the same math behind every quant trading algorithm on Wall Street. #bayestheorem #quantfinance #tradingmath #probability #fyp",
+  "autor": "QuantGent",
+  "creada": "1772798428",
+  "metodo": "JSON embebido de la página (/video/)",
+  "imagenes": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg",
+   "05.jpg",
+   "06.jpg",
+   "07.jpg"
+  ]
+ },
+ "orden": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "Bayes' Theorem: The Equation Your Brain Refuses to Believe",
+ "titulo_es": "El teorema de Bayes: la ecuación que tu cerebro se niega a creer",
+ "glosario_nuevo": [
+  {
+   "en": "Bayes' Theorem",
+   "es": "teorema de Bayes"
+  },
+  {
+   "en": "(medical) test",
+   "es": "prueba (médica)"
+  },
+  {
+   "en": "you test positive",
+   "es": "te da positivo"
+  },
+  {
+   "en": "accurate (99%)",
+   "es": "precisión (del 99 %)"
+  },
+  {
+   "en": "conditional probability",
+   "es": "probabilidad condicional"
+  },
+  {
+   "en": "prior / likelihood / posterior",
+   "es": "a priori / verosimilitud / a posteriori"
+  },
+  {
+   "en": "Bayesian inference",
+   "es": "inferencia bayesiana"
+  },
+  {
+   "en": "Bayesian thinkers",
+   "es": "quienes piensan de forma bayesiana"
+  },
+  {
+   "en": "self-driving cars",
+   "es": "autos autónomos"
+  },
+  {
+   "en": "spam filters",
+   "es": "filtros de spam"
+  },
+  {
+   "en": "base rate",
+   "es": "tasa base (prevalencia)"
+  }
+ ]
+}

@@ -1,0 +1,1218 @@
+{
+ "slug": "tiktok-quantgent-158294",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 1,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    129,
+    393,
+    950,
+    1073
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Spoofing",
+     "texto_es": "Spoofing",
+     "peso": "bold",
+     "tam_px": 91,
+     "interlineado": null,
+     "color": "#1E1E1E",
+     "caja": [
+      337,
+      393,
+      740,
+      485
+     ],
+     "ancho_px": 415
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "The Illegal Algorithm That Made $300 Million From Fake Orders",
+     "texto_es": "El algoritmo ilegal que ganó US$ 300 millones con órdenes falsas",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": 1.48,
+     "color": "#1C1C1C",
+     "caja": [
+      172,
+      572,
+      907,
+      662
+     ],
+     "ancho_px": 757,
+     "espacio_antes": 68
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "JP Morgan ran this strategy for 8 years across gold, silver, and US Treasuries. 15 traders. Hundreds of thousands of orders that were never meant to be filled.",
+     "texto_es": "JP Morgan aplicó esta estrategia durante 8 años en oro, plata y bonos del Tesoro de EE. UU. 15 traders. Cientos de miles de órdenes que nunca tuvieron intención de ejecutarse.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      143,
+      752,
+      939,
+      925
+     ],
+     "ancho_px": 820,
+     "espacio_antes": 72
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The fine: $920 million. The largest in CFTC history. Here's how it worked.",
+     "texto_es": "La multa: US$ 920 millones. La mayor en la historia de la CFTC (el regulador de futuros de EE. UU.). Veamos cómo funcionaba.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.5,
+     "color": "#1D1D1D",
+     "caja": [
+      129,
+      996,
+      950,
+      1073
+     ],
+     "ancho_px": 846,
+     "espacio_antes": 54
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      230,
+      1190,
+      850,
+      1570
+     ],
+     "estrategia": "C",
+     "justificacion": "Ilustración de un libro de órdenes con rótulos técnicos de uso corriente en el mercado local (BID, ASK, SPREAD) y textos ilegibles en las celdas: se conserva.",
+     "tipo": "ilustración: libro de órdenes con puntas compradora (verde) y vendedora (roja)",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Portada: concepto + promesa + gancho (caso JP Morgan)",
+   "notas_revisar": [
+    "Contradicción con la slide 5: la portada dice que el algoritmo «ganó US$ 300 millones», pero según la slide 5 esos US$ 300 millones son las pérdidas que causó a otros participantes. Unificar en Canva (p. ej., «que causó pérdidas por US$ 300 millones»).",
+    "Precisión: los US$ 920,2 millones (2020) suman las sanciones del Departamento de Justicia, la CFTC y la SEC; lo que la CFTC calificó de récord fue el monto en un caso de spoofing. «15 traders» no figura así en los comunicados oficiales: verificar.",
+    "Rótulos BID / ASK / SPREAD conservados en inglés (uso habitual en el mercado argentino: «punta compradora / vendedora» y «spread»)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.92,
+    "alto_total": 715.5,
+    "y": 372,
+    "limite": 1119
+   },
+   "avisos_render": [
+    "texto reducido al 92 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 2,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    135,
+    509,
+    943,
+    1175
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "How It Works",
+     "texto_es": "Cómo funciona",
+     "peso": "bold",
+     "tam_px": 39,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      413,
+      509,
+      668,
+      538
+     ],
+     "ancho_px": 263
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Place a massive buy order. Thousands of contracts. The market sees sudden demand and the price starts rising.",
+     "texto_es": "Colocás una orden de compra enorme. Miles de contratos. El mercado ve una demanda repentina y el precio empieza a subir.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      150,
+      618,
+      930,
+      749
+     ],
+     "ancho_px": 803,
+     "espacio_antes": 66
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Other algorithms detect the pressure and start buying too.",
+     "texto_es": "Otros algoritmos detectan la presión y también empiezan a comprar.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      166,
+      810,
+      915,
+      892
+     ],
+     "ancho_px": 771,
+     "espacio_antes": 45
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Then cancel your order before it fills. The demand was never real.",
+     "texto_es": "Después cancelás tu orden antes de que se ejecute. La demanda nunca fue real.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.47,
+     "color": "#1D1D1D",
+     "caja": [
+      135,
+      953,
+      943,
+      1028
+     ],
+     "ancho_px": 832,
+     "espacio_antes": 44
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "You just moved the price without spending a dollar.",
+     "texto_es": "Acabás de mover el precio sin gastar un dólar.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      174,
+      1101,
+      906,
+      1175
+     ],
+     "ancho_px": 754,
+     "espacio_antes": 56
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      240,
+      1240,
+      840,
+      1560
+     ],
+     "estrategia": "A",
+     "justificacion": "Tres paneles ilustrativos con títulos y pies chicos: se reescriben (los pies, sobre el relleno de color, con borrado plano).",
+     "tipo": "tres paneles: 1) órdenes falsas, 2) el precio sube, 3) cancelar y ganar",
+     "etiquetas": [
+      {
+       "texto_en": "1. Place fake orders",
+       "texto_es": "1. Órdenes falsas",
+       "caja": [
+        282,
+        1255,
+        381,
+        1269
+       ],
+       "tam_px": 9.5,
+       "peso": "bold",
+       "color": "#3DAA62",
+       "caja_borrar": [
+        284,
+        1256,
+        379,
+        1268
+       ]
+      },
+      {
+       "texto_en": "2. Price moves up",
+       "texto_es": "2. El precio sube",
+       "caja": [
+        494,
+        1255,
+        586,
+        1270
+       ],
+       "tam_px": 9.5,
+       "peso": "bold",
+       "color": "#E0962B",
+       "caja_borrar": [
+        496,
+        1255,
+        584,
+        1270
+       ]
+      },
+      {
+       "texto_en": "3. Cancel and profit",
+       "texto_es": "3. Cancelar y ganar",
+       "caja": [
+        698,
+        1255,
+        798,
+        1270
+       ],
+       "tam_px": 9.5,
+       "peso": "bold",
+       "color": "#D24A42",
+       "caja_borrar": [
+        700,
+        1256,
+        796,
+        1270
+       ]
+      },
+      {
+       "texto_en": "Huge buy orders appear",
+       "texto_es": "Aparecen órdenes de compra enormes",
+       "caja": [
+        272,
+        1517,
+        396,
+        1528
+       ],
+       "tam_px": 7.5,
+       "fuente": "Inter-Italic.otf",
+       "color": "#A8B5AD",
+       "borrado": "plano",
+       "caja_borrar": [
+        281,
+        1514,
+        389,
+        1531
+       ]
+      },
+      {
+       "texto_en": "Algos react and buy",
+       "texto_es": "Los algoritmos reaccionan y compran",
+       "caja": [
+        480,
+        1524,
+        600,
+        1535
+       ],
+       "tam_px": 7.5,
+       "fuente": "Inter-Italic.otf",
+       "color": "#B9AE9A",
+       "borrado": "plano",
+       "caja_borrar": [
+        497,
+        1521,
+        582,
+        1538
+       ]
+      },
+      {
+       "texto_en": "Fake orders vanish",
+       "texto_es": "Las órdenes falsas desaparecen",
+       "caja": [
+        690,
+        1521,
+        805,
+        1532
+       ],
+       "tam_px": 7.5,
+       "fuente": "Inter-Italic.otf",
+       "color": "#BFA9A7",
+       "borrado": "plano",
+       "caja_borrar": [
+        705,
+        1518,
+        790,
+        1535
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Mecanismo paso a paso (gráfico de tres paneles)",
+   "notas_revisar": [
+    "Rótulos del gráfico muy chicos (7,5-9,5 px, como el original): si en Canva no se leen, ampliarlos."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 654.6,
+    "y": 513,
+    "limite": 1195
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 3,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    125,
+    507,
+    956,
+    1132
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "So why does anyone fall for it?",
+     "texto_es": "¿Y por qué alguien cae en la trampa?",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      245,
+      507,
+      834,
+      547
+     ],
+     "ancho_px": 607
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Most retail traders never see the order book. They see price moving and volume spiking. Both look completely real.",
+     "texto_es": "La mayoría de los inversores minoristas nunca ve el libro de órdenes. Ve que el precio se mueve y que el volumen se dispara. Las dos cosas parecen completamente reales.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.46,
+     "color": "#1C1C1C",
+     "caja": [
+      136,
+      613,
+      945,
+      744
+     ],
+     "ancho_px": 833,
+     "espacio_antes": 52
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Even traders with Level 2 data can see the orders sitting there, but they can't see intent. A 5,000 contract buy order from a spoofer looks identical to a real one.",
+     "texto_es": "Incluso los traders con datos de nivel 2 (el libro de órdenes completo) pueden ver las órdenes ahí, pero no pueden ver la intención. Una orden de compra de 5.000 contratos de un spoofer se ve idéntica a una real.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      125,
+      805,
+      956,
+      978
+     ],
+     "ancho_px": 856,
+     "espacio_antes": 45
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "By the time the fake orders vanish, the price has already moved.",
+     "texto_es": "Para cuando las órdenes falsas desaparecen, el precio ya se movió.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      144,
+      1051,
+      937,
+      1132
+     ],
+     "ancho_px": 817,
+     "espacio_antes": 57
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      300,
+      1185,
+      760,
+      1540
+     ],
+     "estrategia": "A",
+     "justificacion": "Serie ilustrativa de precio y volumen con cuatro rótulos chicos: se reescriben.",
+     "tipo": "líneas y barras: precio con un pico (spoofing) y volumen con un salto",
+     "etiquetas": [
+      {
+       "texto_en": "Spoof here",
+       "texto_es": "Spoofing acá",
+       "caja": [
+        622,
+        1200,
+        676,
+        1216
+       ],
+       "tam_px": 9.5,
+       "peso": "bold",
+       "color": "#D0605A",
+       "caja_borrar": [
+        626,
+        1200,
+        672,
+        1217
+       ]
+      },
+      {
+       "texto_en": "Volume spike looks real",
+       "texto_es": "El salto de volumen parece real",
+       "caja": [
+        490,
+        1447,
+        606,
+        1460
+       ],
+       "tam_px": 8,
+       "peso": "bold",
+       "color": "#D46A64",
+       "caja_borrar": [
+        504,
+        1447,
+        592,
+        1463
+       ]
+      },
+      {
+       "texto_en": "Price",
+       "texto_es": "Precio",
+       "caja": [
+        312,
+        1322,
+        324,
+        1355
+       ],
+       "tam_px": 8.5,
+       "rotacion": 90,
+       "color": "#BEBEBE",
+       "caja_borrar": [
+        312,
+        1327,
+        324,
+        1350
+       ]
+      },
+      {
+       "texto_en": "Volume",
+       "texto_es": "Volumen",
+       "caja": [
+        312,
+        1474,
+        324,
+        1510
+       ],
+       "tam_px": 8.5,
+       "rotacion": 90,
+       "color": "#BEBEBE",
+       "caja_borrar": [
+        311,
+        1476,
+        324,
+        1508
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Por qué funciona: el inversor minorista no ve la intención",
+   "notas_revisar": [],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.92,
+    "alto_total": 596.0,
+    "y": 520,
+    "limite": 1146
+   },
+   "avisos_render": [
+    "texto reducido al 92 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 4,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    124,
+    507,
+    956,
+    1128
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "This is how it looks in the order book.",
+     "texto_es": "Así se ve en el libro de órdenes.",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      179,
+      507,
+      898,
+      538
+     ],
+     "ancho_px": 741
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "A spoofer floods one side with fake orders, creating an illusion of supply or demand. Other traders and algorithms react to what they think is real pressure.",
+     "texto_es": "Un spoofer inunda una de las puntas con órdenes falsas y crea la ilusión de oferta o de demanda. Otros traders y algoritmos reaccionan a lo que creen que es presión real.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      143,
+      613,
+      936,
+      793
+     ],
+     "ancho_px": 817,
+     "espacio_antes": 61
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The spoofer trades on the opposite side, profits from the move, and cancels the fake orders in milliseconds.",
+     "texto_es": "El spoofer opera en la punta contraria, gana con el movimiento y cancela las órdenes falsas en milisegundos.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      155,
+      854,
+      925,
+      978
+     ],
+     "ancho_px": 793,
+     "espacio_antes": 45
+    },
+    {
+     "rol": "cita",
+     "texto_en": "One JP Morgan trader described it as \"a little razzle dazzle to juke the algos.\"",
+     "texto_es": "Un trader de JP Morgan lo describió como “un poco de razzle dazzle para engañar a los algoritmos”.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      124,
+      1046,
+      956,
+      1128
+     ],
+     "ancho_px": 857,
+     "espacio_antes": 52
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      290,
+      1210,
+      815,
+      1530
+     ],
+     "estrategia": "C",
+     "justificacion": "Captura de una plataforma (mapa de calor del libro de órdenes) con una anotación en letra minúscula sobre fondo oscuro: se conserva y se traduce en las notas.",
+     "tipo": "captura: mapa de calor de un libro de órdenes con una anotación",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Cómo se ve en el libro de órdenes (captura)",
+   "notas_revisar": [
+    "Captura de terceros (sin fuente): verificar derechos de uso. La anotación en inglés (≈ 8 px, casi ilegible) dice aproximadamente: «Un algoritmo de seguimiento apiló órdenes exactamente a 8 centavos unas de otras en 5 niveles. ¿Tal vez spoofing, intentando llenar en 78,74 y tomar ganancia en 78,47? Una acción curiosa…». Si se quiere, rehacerla en Canva.",
+    "«razzle dazzle» (truco vistoso) se dejó en inglés porque es la cita textual; verificar la atribución en los documentos del caso (Departamento de Justicia, 2020)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 649.8,
+    "y": 496,
+    "limite": 1157
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 5,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    129,
+    506,
+    948,
+    1203
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "JP Morgan did this for 8 years.",
+     "texto_es": "JP Morgan lo hizo durante 8 años.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      288,
+      506,
+      790,
+      540
+     ],
+     "ancho_px": 517
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "From 2008 to 2016, 15 traders placed hundreds of thousands of spoof orders in gold, silver, platinum, and US Treasury futures. They caused over $300 million in losses to other market participants.",
+     "texto_es": "Entre 2008 y 2016, 15 traders colocaron cientos de miles de órdenes falsas en futuros de oro, plata, platino y bonos del Tesoro de EE. UU. Causaron pérdidas por más de US$ 300 millones a otros participantes del mercado.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      129,
+      599,
+      948,
+      779
+     ],
+     "ancho_px": 844,
+     "espacio_antes": 46
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "The fine: $920.2 million. The largest penalty in CFTC history.",
+     "texto_es": "La multa: US$ 920,2 millones. La mayor sanción en la historia de la CFTC.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.47,
+     "color": "#1C1C1C",
+     "caja": [
+      154,
+      838,
+      923,
+      921
+     ],
+     "ancho_px": 792,
+     "espacio_antes": 42
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "In 2015, Navinder Sarao, a solo trader from his parents' house in London, was arrested by the FBI. His spoofing algorithm helped trigger the 2010 Flash Crash, which erased $1 trillion in market value in 5 minutes.",
+     "texto_es": "En 2015, Navinder Sarao, un trader que operaba solo desde la casa de sus padres en Londres, fue detenido a pedido del FBI. Su algoritmo de spoofing contribuyó a desatar el Flash Crash de 2010, que borró US$ 1 billón de valor de mercado en 5 minutos.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      130,
+      981,
+      948,
+      1203
+     ],
+     "ancho_px": 843,
+     "espacio_antes": 43
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      300,
+      1285,
+      790,
+      1610
+     ],
+     "estrategia": "C",
+     "justificacion": "Foto (operadores en el recinto, con el cartel «JPMorgan»): se conserva.",
+     "tipo": "foto: operadores en un recinto de bolsa",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Casos: JP Morgan (2008-2016) y Navinder Sarao (Flash Crash de 2010)",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "Precisión: Sarao fue detenido en abril de 2015 por la policía británica a pedido de EE. UU. (no «por el FBI»); se tradujo «detenido a pedido del FBI». Su papel en el Flash Crash es discutido.",
+    "Precisión: en el Flash Crash (6 de mayo de 2010) se evaporó cerca de US$ 1 billón en minutos, pero el episodio duró unos 36 minutos, no 5.",
+    "Ver la contradicción de la portada (US$ 300 millones: ganancia vs. pérdidas causadas)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.94,
+    "alto_total": 718.2,
+    "y": 497,
+    "limite": 1232
+   },
+   "avisos_render": [
+    "texto reducido al 94 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 6,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    128,
+    507,
+    953,
+    1077
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Why it's almost impossible to catch.",
+     "texto_es": "Por qué es casi imposible atraparlo.",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      188,
+      507,
+      889,
+      547
+     ],
+     "ancho_px": 722
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Placing and cancelling orders isn't illegal. Every trader does it.",
+     "texto_es": "Colocar y cancelar órdenes no es ilegal. Todos los traders lo hacen.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      156,
+      613,
+      926,
+      688
+     ],
+     "ancho_px": 793,
+     "espacio_antes": 52
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "The crime is intent. Regulators have to prove the orders were never meant to be filled.",
+     "texto_es": "El delito es la intención. Los reguladores tienen que probar que las órdenes nunca tuvieron intención de ejecutarse.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#1B1B1B",
+     "caja": [
+      141,
+      756,
+      938,
+      830
+     ],
+     "ancho_px": 821,
+     "espacio_antes": 52
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Spoofing was only explicitly banned in 2010 under the Dodd-Frank Act. In 2018, Jitesh Thakkar became the first software engineer charged simply for writing the code.",
+     "texto_es": "El spoofing recién se prohibió de forma explícita en 2010, con la ley Dodd-Frank. En 2018, Jitesh Thakkar se convirtió en el primer ingeniero de software acusado solo por escribir el código.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      128,
+      897,
+      953,
+      1077
+     ],
+     "ancho_px": 850,
+     "espacio_antes": 51
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      255,
+      1130,
+      830,
+      1470
+     ],
+     "estrategia": "A",
+     "justificacion": "Dos paneles ilustrativos con títulos, leyendas y porcentajes chicos: se reescriben.",
+     "tipo": "barras: órdenes ejecutadas vs. canceladas, operatoria normal (~25 %) vs. spoofing (~96 %)",
+     "etiquetas": [
+      {
+       "texto_en": "Normal trading",
+       "texto_es": "Operatoria normal",
+       "caja": [
+        340,
+        1142,
+        441,
+        1158
+       ],
+       "tam_px": 10,
+       "peso": "bold",
+       "color": "#3DAA62",
+       "caja_borrar": [
+        348,
+        1142,
+        433,
+        1158
+       ]
+      },
+      {
+       "texto_en": "Spoofing",
+       "texto_es": "Spoofing",
+       "caja": [
+        667,
+        1144,
+        718,
+        1156
+       ],
+       "tam_px": 10,
+       "peso": "bold",
+       "color": "#D24A42",
+       "conservar": true
+      },
+      {
+       "texto_en": "~96% cancel rate",
+       "texto_es": "~96 % de cancelación",
+       "caja": [
+        645,
+        1179,
+        755,
+        1191
+       ],
+       "tam_px": 8,
+       "peso": "bold",
+       "fuente": "Inter-Italic.otf",
+       "color": "#D9706A",
+       "caja_borrar": [
+        657,
+        1179,
+        741,
+        1191
+       ]
+      },
+      {
+       "texto_en": "Filled",
+       "texto_es": "Ejecutadas",
+       "caja": [
+        275,
+        1169,
+        298,
+        1177
+       ],
+       "tam_px": 6,
+       "alineacion": "izquierda",
+       "color": "#555555",
+       "borrado": "plano",
+       "caja_borrar": [
+        273,
+        1166,
+        312,
+        1178
+       ]
+      },
+      {
+       "texto_en": "Cancelled",
+       "texto_es": "Canceladas",
+       "caja": [
+        275,
+        1178,
+        310,
+        1187
+       ],
+       "tam_px": 6,
+       "alineacion": "izquierda",
+       "color": "#555555",
+       "borrado": "plano",
+       "caja_borrar": [
+        273,
+        1178,
+        312,
+        1187
+       ]
+      },
+      {
+       "texto_en": "Filled",
+       "texto_es": "Ejecutadas",
+       "caja": [
+        580,
+        1169,
+        603,
+        1177
+       ],
+       "tam_px": 6,
+       "alineacion": "izquierda",
+       "color": "#555555",
+       "borrado": "plano",
+       "caja_borrar": [
+        578,
+        1166,
+        617,
+        1178
+       ]
+      },
+      {
+       "texto_en": "Cancelled",
+       "texto_es": "Canceladas",
+       "caja": [
+        580,
+        1178,
+        615,
+        1187
+       ],
+       "tam_px": 6,
+       "alineacion": "izquierda",
+       "color": "#555555",
+       "borrado": "plano",
+       "caja_borrar": [
+        578,
+        1178,
+        617,
+        1187
+       ]
+      },
+      {
+       "texto_en": "~25% cancel rate",
+       "texto_es": "~25 % de cancelación",
+       "caja": [
+        350,
+        1395,
+        440,
+        1409
+       ],
+       "tam_px": 8,
+       "fuente": "Inter-Italic.otf",
+       "color": "#A7A7A7",
+       "caja_borrar": [
+        352,
+        1395,
+        437,
+        1409
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Por qué es difícil de probar: la intención (gráfico de cancelaciones)",
+   "notas_revisar": [
+    "Precisión: Jitesh Thakkar fue acusado en 2018, pero el juicio terminó sin condena (jurado sin acuerdo en 2019 y cargos retirados). Conviene aclararlo.",
+    "Porcentajes de cancelación del gráfico ilustrativos, sin fuente. Leyendas «Ejecutadas / Canceladas» muy chicas (6 px, como el original): ampliarlas en Canva si hace falta."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.9,
+    "alto_total": 579.4,
+    "y": 501,
+    "limite": 1091
+   },
+   "avisos_render": [
+    "texto reducido al 90 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 7,
+   "pagina_origen": 7,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    127,
+    640,
+    953,
+    1162
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "The strangest part of spoofing isn't that it's illegal.",
+     "texto_es": "Lo más extraño del spoofing no es que sea ilegal.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#1D1D1D",
+     "caja": [
+      132,
+      640,
+      946,
+      673
+     ],
+     "ancho_px": 838
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "It's that the entire strategy is built on an order that was never real.",
+     "texto_es": "Es que toda la estrategia se basa en una orden que nunca fue real.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      127,
+      744,
+      953,
+      818
+     ],
+     "ancho_px": 851,
+     "espacio_antes": 58
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "No capital at risk. No position taken. Just a signal designed to trick other machines into moving first. In a market dominated by algorithms, the most dangerous weapon isn't speed or data.",
+     "texto_es": "Sin capital en riesgo. Sin tomar posición. Solo una señal diseñada para engañar a otras máquinas y que se muevan primero. En un mercado dominado por algoritmos, el arma más peligrosa no es la velocidad ni los datos.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      134,
+      895,
+      946,
+      1075
+     ],
+     "ancho_px": 836,
+     "espacio_antes": 61
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "It's a lie that lasts 50 milliseconds.",
+     "texto_es": "Es una mentira que dura 50 milisegundos.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#1D1D1D",
+     "caja": [
+      265,
+      1136,
+      815,
+      1162
+     ],
+     "ancho_px": 566,
+     "espacio_antes": 48
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Cierre: una orden que nunca fue real, sin gráfico",
+   "notas_revisar": [
+    "Imprecisión: «sin capital en riesgo». Las órdenes falsas pueden ejecutarse antes de cancelarse, y el spoofer sí toma posición en la punta contraria (slide 4). «50 milisegundos» no tiene fuente."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 596.8,
+    "y": 631,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  }
+ ],
+ "fuente": {
+  "plataforma": "tiktok",
+  "url": "https://vt.tiktok.com/ZSbg1T8Wb/",
+  "url_canonica": "https://www.tiktok.com/@quantgent/photo/7615656202483158294?_r=1&_t=ZS-9AN4dbk3pYM",
+  "usuario": "quantgent",
+  "id": "7615656202483158294",
+  "descripcion": "Fake orders. Real profits. This is how spoofing works. #spoofing #algotrading #quant #fyp",
+  "autor": "QuantGent",
+  "creada": "1773158141",
+  "metodo": "JSON embebido de la página (/video/)",
+  "imagenes": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg",
+   "05.jpg",
+   "06.jpg",
+   "07.jpg"
+  ]
+ },
+ "orden": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "Spoofing: The Illegal Algorithm That Made $300 Million From Fake Orders",
+ "titulo_es": "Spoofing: el algoritmo ilegal que ganó US$ 300 millones con órdenes falsas",
+ "glosario_nuevo": [
+  {
+   "en": "spoofing / spoofer",
+   "es": "spoofing / spoofer (sin traducir; «órdenes falsas» para spoof orders)"
+  },
+  {
+   "en": "order book",
+   "es": "libro de órdenes"
+  },
+  {
+   "en": "bid / ask",
+   "es": "punta compradora / vendedora (BID / ASK en gráficos)"
+  },
+  {
+   "en": "filled / to fill (an order)",
+   "es": "ejecutada / ejecutarse"
+  },
+  {
+   "en": "cancel rate",
+   "es": "tasa de cancelación"
+  },
+  {
+   "en": "retail traders",
+   "es": "inversores minoristas"
+  },
+  {
+   "en": "Level 2 data",
+   "es": "datos de nivel 2 (libro de órdenes completo)"
+  },
+  {
+   "en": "US Treasuries / Treasury futures",
+   "es": "bonos del Tesoro de EE. UU. / futuros sobre bonos del Tesoro"
+  },
+  {
+   "en": "CFTC",
+   "es": "CFTC (regulador de futuros de EE. UU.)"
+  },
+  {
+   "en": "fine / penalty",
+   "es": "multa / sanción"
+  },
+  {
+   "en": "Flash Crash",
+   "es": "Flash Crash (derrumbe relámpago de 2010)"
+  },
+  {
+   "en": "Dodd-Frank Act",
+   "es": "ley Dodd-Frank"
+  }
+ ]
+}

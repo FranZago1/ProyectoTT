@@ -101,4 +101,105 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | population mean | media poblacional |
 | Top 25% / Bottom 25% | cuartil superior / cuartil inferior |
 | fair value | valor justo |
+| Birthday Paradox | paradoja del cumpleaños |
+| trading desk | mesa de trading |
+| quant candidates | aspirantes a analistas cuantitativos (quants) |
+| share a birthday | cumplir años el mismo día |
+| (birthday) match | coincidencia (de cumpleaños) |
+| unique pairs | pares distintos |
+| better than even chance | probabilidad mayor al 50 % |
+| combinatorial problems | problemas combinatorios |
+| gut (instinct) | intuición / instinto |
+| People in room | Personas en la sala |
+| Days in year | Días del año |
+| Expected 50% | Esperado: 50 % |
+| random walk | paseo aleatorio |
+| geometric Brownian motion | movimiento browniano geométrico |
+| gold standard | estándar de referencia |
+| Greeks | griegas |
+| vanilla options | opciones vainilla |
+| skew | asimetría |
+| vol clustering | agrupamiento de volatilidad |
+| hedges | coberturas |
+| implied volatility | volatilidad implícita |
+| strike (price) | precio de ejercicio |
+| expiry / maturity | vencimiento |
+| call option | opción de compra |
+| cumulative distribution function | función de distribución acumulada |
+| risk free rate | tasa libre de riesgo |
+| stochastic volatility | volatilidad estocástica |
+| vol-of-vol | volatilidad de la volatilidad |
+| (volatility) smile | sonrisa de volatilidad |
+| jump-diffusion model | modelo de difusión con saltos |
+| flash crash | derrumbe relámpago (flash crash) |
+| earnings gaps | saltos tras los balances |
+| moneyness | moneyness (sin traducir) |
+| Bottom line | En síntesis |
+| bankroll | capital (de apuesta) |
+| odds you're getting (b) | cuota que te pagan |
+| edge | ventaja |
+| fractional Kelly | Kelly fraccional |
+| sizing / size correctly | dimensionar / dimensionar bien las posiciones |
+| compounding | interés compuesto |
+| wipes you out | te deja fuera de juego |
+| leave money on the table | dejar dinero sobre la mesa |
+| calculated risk / irrational / ruin | riesgo calculado / irracional / ruina |
+| Conservative / Aggressive / Insane / Suicidal | Conservador / Agresivo / Insensato / Suicida |
+| Return / Risk | Rendimiento / Riesgo |
+| trade-off | equilibrio |
+| Bayes' Theorem | teorema de Bayes |
+| (medical) test | prueba (médica) |
+| you test positive | te da positivo |
+| accurate (99%) | precisión (del 99 %) |
+| conditional probability | probabilidad condicional |
+| prior / likelihood / posterior | a priori / verosimilitud / a posteriori |
+| Bayesian inference | inferencia bayesiana |
+| Bayesian thinkers | quienes piensan de forma bayesiana |
+| self-driving cars | autos autónomos |
+| spam filters | filtros de spam |
+| base rate | tasa base (prevalencia) |
+| Benford's Law | ley de Benford |
+| first digit | primer dígito |
+| IRS | IRS (el fisco de EE. UU.) |
+| forensic accountants | contadores forenses |
+| tax returns | declaraciones juradas |
+| tax fraud | fraude fiscal |
+| red flag | señal de alerta |
+| naturally occurring dataset | conjunto de datos natural |
+| decay | deterioro |
+| Expected 11.1% | Esperado: 11,1 % |
+| Law of Large Numbers | ley de los grandes números |
+| (casino / house) edge | ventaja (del casino / de la casa) |
+| trials | intentos |
+| win rate | tasa de acierto (gana el X % de las veces) |
+| trades | operaciones |
+| insurance companies | aseguradoras |
+| claims | siniestros |
+| policy | póliza |
+| originals (Netflix) | producciones propias |
+| +EV | con valor esperado positivo |
+| Gut-feel trader | trader intuitivo |
+| Number of trades | cantidad de operaciones |
+| PROFIT / TIME (ejes) | GANANCIA / TIEMPO |
+| overfitting / overfit | sobreajuste (overfitting) / sobreajustado |
+| backtest | backtest (prueba con datos históricos) |
+| equity curve | curva de capital |
+| drawdown / Max DD | caída / caída máx. |
+| Sharpe ratio | ratio de Sharpe |
+| go live / live markets | operar en real / mercado real |
+| moving average | media móvil |
+| noise / signal | ruido / señal |
+| hold back (data) | reservar (datos) |
+| Robust model | modelo robusto |
+| spoofing / spoofer | spoofing / spoofer (sin traducir; «órdenes falsas» para spoof orders) |
+| order book | libro de órdenes |
+| bid / ask | punta compradora / vendedora (BID / ASK en gráficos) |
+| filled / to fill (an order) | ejecutada / ejecutarse |
+| cancel rate | tasa de cancelación |
+| retail traders | inversores minoristas |
+| Level 2 data | datos de nivel 2 (libro de órdenes completo) |
+| US Treasuries / Treasury futures | bonos del Tesoro de EE. UU. / futuros sobre bonos del Tesoro |
+| CFTC | CFTC (regulador de futuros de EE. UU.) |
+| fine / penalty | multa / sanción |
+| Dodd-Frank Act | ley Dodd-Frank |
 <!-- GLOSARIO:FIN -->

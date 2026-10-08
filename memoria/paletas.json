@@ -182,5 +182,641 @@
         "proporcion": 0.056
       }
     ]
+  },
+  "tiktok-quantgent-308355": {
+    "fondo": "#FFFFFF",
+    "texto": "#090506",
+    "contenido": [
+      {
+        "hex": "#22201F",
+        "proporcion": 0.399
+      },
+      {
+        "hex": "#C2C5C0",
+        "proporcion": 0.134
+      },
+      {
+        "hex": "#22953B",
+        "proporcion": 0.11
+      },
+      {
+        "hex": "#9A8F7A",
+        "proporcion": 0.102
+      },
+      {
+        "hex": "#525352",
+        "proporcion": 0.089
+      },
+      {
+        "hex": "#7D361F",
+        "proporcion": 0.079
+      },
+      {
+        "hex": "#090506",
+        "proporcion": 0.071
+      },
+      {
+        "hex": "#1D89EE",
+        "proporcion": 0.015
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#70331F",
+        "proporcion": 0.345
+      },
+      {
+        "hex": "#209A39",
+        "proporcion": 0.331
+      },
+      {
+        "hex": "#C4984C",
+        "proporcion": 0.134
+      },
+      {
+        "hex": "#2F764A",
+        "proporcion": 0.113
+      },
+      {
+        "hex": "#48E3C8",
+        "proporcion": 0.039
+      },
+      {
+        "hex": "#1752EB",
+        "proporcion": 0.037
+      }
+    ]
+  },
+  "tiktok-quantgent-138326": {
+    "fondo": "#FFFFFF",
+    "texto": "#08080B",
+    "contenido": [
+      {
+        "hex": "#08080B",
+        "proporcion": 0.287
+      },
+      {
+        "hex": "#C3C8C9",
+        "proporcion": 0.148
+      },
+      {
+        "hex": "#979D9A",
+        "proporcion": 0.132
+      },
+      {
+        "hex": "#2E3238",
+        "proporcion": 0.132
+      },
+      {
+        "hex": "#65696B",
+        "proporcion": 0.115
+      },
+      {
+        "hex": "#111C85",
+        "proporcion": 0.071
+      },
+      {
+        "hex": "#2669A6",
+        "proporcion": 0.06
+      },
+      {
+        "hex": "#48A1C8",
+        "proporcion": 0.055
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#318DB7",
+        "proporcion": 0.244
+      },
+      {
+        "hex": "#2B568F",
+        "proporcion": 0.216
+      },
+      {
+        "hex": "#0E1C5C",
+        "proporcion": 0.202
+      },
+      {
+        "hex": "#0F1BA1",
+        "proporcion": 0.157
+      },
+      {
+        "hex": "#65AAD2",
+        "proporcion": 0.127
+      },
+      {
+        "hex": "#A1BE63",
+        "proporcion": 0.055
+      }
+    ]
+  },
+  "tiktok-quantgent-241750": {
+    "fondo": "#FFFFFF",
+    "texto": "#080606",
+    "contenido": [
+      {
+        "hex": "#080606",
+        "proporcion": 0.309
+      },
+      {
+        "hex": "#302720",
+        "proporcion": 0.152
+      },
+      {
+        "hex": "#D4D6C4",
+        "proporcion": 0.128
+      },
+      {
+        "hex": "#867E76",
+        "proporcion": 0.121
+      },
+      {
+        "hex": "#5D544C",
+        "proporcion": 0.111
+      },
+      {
+        "hex": "#ACAAA6",
+        "proporcion": 0.104
+      },
+      {
+        "hex": "#DEB951",
+        "proporcion": 0.062
+      },
+      {
+        "hex": "#42AB48",
+        "proporcion": 0.012
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#D1D037",
+        "proporcion": 0.221
+      },
+      {
+        "hex": "#F0AC73",
+        "proporcion": 0.211
+      },
+      {
+        "hex": "#4C3318",
+        "proporcion": 0.18
+      },
+      {
+        "hex": "#B77F57",
+        "proporcion": 0.135
+      },
+      {
+        "hex": "#7F5231",
+        "proporcion": 0.131
+      },
+      {
+        "hex": "#499E62",
+        "proporcion": 0.122
+      }
+    ]
+  },
+  "tiktok-quantgent-735830": {
+    "fondo": "#FFFFFF",
+    "texto": "#0A0A0A",
+    "contenido": [
+      {
+        "hex": "#0A0A0A",
+        "proporcion": 0.303
+      },
+      {
+        "hex": "#8B797B",
+        "proporcion": 0.156
+      },
+      {
+        "hex": "#CBCDCB",
+        "proporcion": 0.142
+      },
+      {
+        "hex": "#A7A4A7",
+        "proporcion": 0.134
+      },
+      {
+        "hex": "#474348",
+        "proporcion": 0.126
+      },
+      {
+        "hex": "#6194B4",
+        "proporcion": 0.067
+      },
+      {
+        "hex": "#DB3232",
+        "proporcion": 0.036
+      },
+      {
+        "hex": "#F1A435",
+        "proporcion": 0.036
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#DB3232",
+        "proporcion": 0.266
+      },
+      {
+        "hex": "#F1A130",
+        "proporcion": 0.237
+      },
+      {
+        "hex": "#568695",
+        "proporcion": 0.22
+      },
+      {
+        "hex": "#5CA8E0",
+        "proporcion": 0.157
+      },
+      {
+        "hex": "#6B1E68",
+        "proporcion": 0.068
+      },
+      {
+        "hex": "#EFC17D",
+        "proporcion": 0.052
+      }
+    ]
+  },
+  "tiktok-quantgent-437398": {
+    "fondo": "#FFFFFF",
+    "texto": "#080807",
+    "contenido": [
+      {
+        "hex": "#080807",
+        "proporcion": 0.301
+      },
+      {
+        "hex": "#312F2A",
+        "proporcion": 0.16
+      },
+      {
+        "hex": "#C9C9C8",
+        "proporcion": 0.139
+      },
+      {
+        "hex": "#456856",
+        "proporcion": 0.112
+      },
+      {
+        "hex": "#AC980C",
+        "proporcion": 0.094
+      },
+      {
+        "hex": "#7A7775",
+        "proporcion": 0.09
+      },
+      {
+        "hex": "#A2A1A0",
+        "proporcion": 0.086
+      },
+      {
+        "hex": "#3EA517",
+        "proporcion": 0.019
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#BA9F0C",
+        "proporcion": 0.327
+      },
+      {
+        "hex": "#36754C",
+        "proporcion": 0.281
+      },
+      {
+        "hex": "#89A00B",
+        "proporcion": 0.179
+      },
+      {
+        "hex": "#A25D35",
+        "proporcion": 0.103
+      },
+      {
+        "hex": "#3BA40E",
+        "proporcion": 0.061
+      },
+      {
+        "hex": "#0C9D67",
+        "proporcion": 0.049
+      }
+    ]
+  },
+  "tiktok-quantgent-262422": {
+    "fondo": "#FFFFFF",
+    "texto": "#070605",
+    "contenido": [
+      {
+        "hex": "#070605",
+        "proporcion": 0.276
+      },
+      {
+        "hex": "#C3CABF",
+        "proporcion": 0.191
+      },
+      {
+        "hex": "#9D9C98",
+        "proporcion": 0.128
+      },
+      {
+        "hex": "#61776D",
+        "proporcion": 0.1
+      },
+      {
+        "hex": "#242423",
+        "proporcion": 0.094
+      },
+      {
+        "hex": "#464646",
+        "proporcion": 0.075
+      },
+      {
+        "hex": "#5FA3AE",
+        "proporcion": 0.072
+      },
+      {
+        "hex": "#A6D9F5",
+        "proporcion": 0.064
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#61A78A",
+        "proporcion": 0.276
+      },
+      {
+        "hex": "#5093C0",
+        "proporcion": 0.233
+      },
+      {
+        "hex": "#82C7ED",
+        "proporcion": 0.228
+      },
+      {
+        "hex": "#2A7660",
+        "proporcion": 0.167
+      },
+      {
+        "hex": "#6A3E2B",
+        "proporcion": 0.057
+      },
+      {
+        "hex": "#DD936A",
+        "proporcion": 0.039
+      }
+    ]
+  },
+  "tiktok-quantgent-692630": {
+    "fondo": "#FFFFFF",
+    "texto": "#020202",
+    "contenido": [
+      {
+        "hex": "#020202",
+        "proporcion": 0.543
+      },
+      {
+        "hex": "#131A19",
+        "proporcion": 0.139
+      },
+      {
+        "hex": "#423C32",
+        "proporcion": 0.07
+      },
+      {
+        "hex": "#C8D0D7",
+        "proporcion": 0.067
+      },
+      {
+        "hex": "#6C635C",
+        "proporcion": 0.059
+      },
+      {
+        "hex": "#8A8986",
+        "proporcion": 0.05
+      },
+      {
+        "hex": "#A6AEAC",
+        "proporcion": 0.047
+      },
+      {
+        "hex": "#D99C8A",
+        "proporcion": 0.025
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#493921",
+        "proporcion": 0.3
+      },
+      {
+        "hex": "#AE6959",
+        "proporcion": 0.207
+      },
+      {
+        "hex": "#7A542F",
+        "proporcion": 0.205
+      },
+      {
+        "hex": "#D99A7F",
+        "proporcion": 0.174
+      },
+      {
+        "hex": "#377B77",
+        "proporcion": 0.079
+      },
+      {
+        "hex": "#45DBB2",
+        "proporcion": 0.036
+      }
+    ]
+  },
+  "tiktok-quantgent-284502": {
+    "fondo": "#FFFFFF",
+    "texto": "#1D1D1D",
+    "contenido": [
+      {
+        "hex": "#1D1D1D",
+        "proporcion": 0.558
+      },
+      {
+        "hex": "#787F7A",
+        "proporcion": 0.088
+      },
+      {
+        "hex": "#CFCBC7",
+        "proporcion": 0.082
+      },
+      {
+        "hex": "#494949",
+        "proporcion": 0.073
+      },
+      {
+        "hex": "#1D7743",
+        "proporcion": 0.064
+      },
+      {
+        "hex": "#A2AAA5",
+        "proporcion": 0.059
+      },
+      {
+        "hex": "#D28F89",
+        "proporcion": 0.046
+      },
+      {
+        "hex": "#B7463B",
+        "proporcion": 0.03
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#1D7642",
+        "proporcion": 0.52
+      },
+      {
+        "hex": "#B23B30",
+        "proporcion": 0.171
+      },
+      {
+        "hex": "#CC7A72",
+        "proporcion": 0.106
+      },
+      {
+        "hex": "#BF5C53",
+        "proporcion": 0.078
+      },
+      {
+        "hex": "#D38A83",
+        "proporcion": 0.069
+      },
+      {
+        "hex": "#55936F",
+        "proporcion": 0.056
+      }
+    ]
+  },
+  "tiktok-quantgent-158294": {
+    "fondo": "#FFFFFF",
+    "texto": "#060405",
+    "contenido": [
+      {
+        "hex": "#1D1E21",
+        "proporcion": 0.551
+      },
+      {
+        "hex": "#4D4849",
+        "proporcion": 0.096
+      },
+      {
+        "hex": "#867D78",
+        "proporcion": 0.091
+      },
+      {
+        "hex": "#060405",
+        "proporcion": 0.073
+      },
+      {
+        "hex": "#B8BDBB",
+        "proporcion": 0.072
+      },
+      {
+        "hex": "#F0BAAF",
+        "proporcion": 0.064
+      },
+      {
+        "hex": "#195262",
+        "proporcion": 0.037
+      },
+      {
+        "hex": "#65B59E",
+        "proporcion": 0.015
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#174551",
+        "proporcion": 0.357
+      },
+      {
+        "hex": "#2C6D83",
+        "proporcion": 0.16
+      },
+      {
+        "hex": "#603631",
+        "proporcion": 0.146
+      },
+      {
+        "hex": "#6AC1A2",
+        "proporcion": 0.122
+      },
+      {
+        "hex": "#E3A480",
+        "proporcion": 0.11
+      },
+      {
+        "hex": "#BF7344",
+        "proporcion": 0.105
+      }
+    ]
+  },
+  "tiktok-quantgent-456663": {
+    "fondo": "#FFFFFF",
+    "texto": "#030303",
+    "contenido": [
+      {
+        "hex": "#1F1F1F",
+        "proporcion": 0.497
+      },
+      {
+        "hex": "#587765",
+        "proporcion": 0.1
+      },
+      {
+        "hex": "#8B8A8A",
+        "proporcion": 0.094
+      },
+      {
+        "hex": "#3D4B43",
+        "proporcion": 0.083
+      },
+      {
+        "hex": "#AEADA9",
+        "proporcion": 0.078
+      },
+      {
+        "hex": "#D1D0C9",
+        "proporcion": 0.064
+      },
+      {
+        "hex": "#BE5A50",
+        "proporcion": 0.045
+      },
+      {
+        "hex": "#030303",
+        "proporcion": 0.039
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#438F63",
+        "proporcion": 0.368
+      },
+      {
+        "hex": "#C86459",
+        "proporcion": 0.326
+      },
+      {
+        "hex": "#246F44",
+        "proporcion": 0.162
+      },
+      {
+        "hex": "#91433A",
+        "proporcion": 0.059
+      },
+      {
+        "hex": "#B2463D",
+        "proporcion": 0.057
+      }
+    ]
   }
 }

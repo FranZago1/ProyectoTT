@@ -105,7 +105,8 @@ def curar(plan):
         "tipo": "barras apiladas: medición 1 (extrema, total 60) y medición 2 (corregida, total 40)",
         "etiquetas": [
             et("Result", "Resultado", [274, 1362, 295, 1424], 16, rotacion=90, color="#8C8C8C", borrado="local"),
-            et("Persistent", "Persistente", [656, 1271, 732, 1289], 14, alineacion="izquierda", color="#333333"),
+            et("Persistent", "Persistente", [656, 1271, 732, 1289], 14, alineacion="izquierda", color="#333333",
+               borrado="plano", caja_borrar=[652, 1270, 731, 1289]),
             et("Long-term\naverage", "Promedio de\nlargo plazo", [740, 1352, 812, 1381], 12, interlineado=1.1,
                alineacion="izquierda", color="#9A9A9A"),
             et("Measurement 1\n(Extreme)", "Medición 1\n(extrema)", [340, 1531, 476, 1572], 16, interlineado=1.15,
@@ -219,9 +220,9 @@ def curar(plan):
         "tipo": "dispersión: altura de padres vs. hijos (pulgadas), recta de regresión con pendiente 0,58",
         "etiquetas": [
             et("Regression (slope=0.58)", "Regresión (pendiente = 0,58)", [395, 1251, 545, 1269], 12.5,
-               alineacion="izquierda", color="#1A1A1A"),
+               alineacion="izquierda", color="#1A1A1A", borrado="plano", caja_borrar=[393, 1252, 545, 1270]),
             et("If no regression", "Sin regresión", [395, 1268, 492, 1286], 12.5, alineacion="izquierda",
-               color="#1A1A1A"),
+               color="#1A1A1A", borrado="plano", caja_borrar=[393, 1270, 492, 1287]),
             et("Population mean", "Media poblacional", [373, 1367, 476, 1384], 12.5, alineacion="izquierda",
                color="#9A9A9A", borrado="inpaint", halo=2),
             et("Child Height (inches)", "Altura de los hijos (pulgadas)", [282, 1300, 304, 1468], 16, rotacion=90,

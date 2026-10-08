@@ -1,0 +1,783 @@
+{
+ "slug": "tiktok-quantgent-308355",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 1,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    160,
+    393,
+    919,
+    1025
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The Birthday Paradox",
+     "texto_es": "La paradoja del cumpleaños",
+     "peso": "bold",
+     "tam_px": 92,
+     "interlineado": 1.48,
+     "color": "#1E1E1E",
+     "caja": [
+      251,
+      393,
+      829,
+      598
+     ],
+     "ancho_px": 595
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "The Interview Question That Breaks Quant Candidates",
+     "texto_es": "La pregunta de entrevista que desarma a los aspirantes a analistas cuantitativos (quants)",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": 1.43,
+     "color": "#1C1C1C",
+     "caja": [
+      192,
+      711,
+      888,
+      801
+     ],
+     "ancho_px": 717,
+     "espacio_antes": 85
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Wall Street trading desks use this to test probabilistic intuition. Most people get it wrong instantly. Here's why.",
+     "texto_es": "Las mesas de trading de Wall Street la usan para evaluar la intuición probabilística. La mayoría se equivoca al instante. Veamos por qué.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      160,
+      894,
+      919,
+      1025
+     ],
+     "ancho_px": 782,
+     "espacio_antes": 76
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      310,
+      1170,
+      800,
+      1605
+     ],
+     "estrategia": "C",
+     "justificacion": "Superficie 3D (matplotlib) sin datos explícitos en el texto: se conserva; se traducen los dos rótulos de ejes (rotados) y los ticks quedan sin tocar.",
+     "tipo": "superficie 3D: probabilidad de coincidencia según personas en la sala (0-80) y días del año (100-500)",
+     "etiquetas": [
+      {
+       "texto_en": "People in room",
+       "texto_es": "Personas en la sala",
+       "caja": [
+        377,
+        1550,
+        450,
+        1586
+       ],
+       "tam_px": 10.5,
+       "rotacion": -21,
+       "color": "#222222",
+       "borrado": "inpaint"
+      },
+      {
+       "texto_en": "Days in year",
+       "texto_es": "Días del año",
+       "caja": [
+        664,
+        1535,
+        722,
+        1577
+       ],
+       "tam_px": 10.5,
+       "rotacion": 32,
+       "color": "#222222",
+       "borrado": "inpaint"
+      }
+     ]
+    }
+   ],
+   "funcion": "Portada: concepto + promesa + gancho",
+   "notas_revisar": [
+    "Afirmación sin fuente: «Las mesas de trading de Wall Street la usan para evaluar la intuición probabilística» y «la mayoría se equivoca al instante». Es una pregunta conocida de entrevistas, pero no hay evidencia citada.",
+    "Gráfico 3D: los rótulos de ejes son chicos y rotados; si en Canva se ven borrosos, reescribirlos a mano. Los ticks (0.0-1.0 con punto decimal) se conservaron (estrategia C)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.92,
+    "alto_total": 691.7,
+    "y": 362,
+    "limite": 1085
+   },
+   "avisos_render": [
+    "texto reducido al 92 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 2,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    132,
+    429,
+    946,
+    926
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "How many people need to be in a room before two of them share a birthday?",
+     "texto_es": "¿Cuántas personas tiene que haber en una sala para que dos de ellas cumplan años el mismo día?",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1C1C1C",
+     "caja": [
+      134,
+      429,
+      946,
+      511
+     ],
+     "ancho_px": 836
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "There are 365 possible birthdays. So you'd need a big crowd, right?",
+     "texto_es": "Hay 365 cumpleaños posibles. Entonces necesitarías una multitud, ¿no?",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      132,
+      582,
+      945,
+      664
+     ],
+     "ancho_px": 837,
+     "espacio_antes": 55
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Most people guess around 180. Some say 100. A few say 50.",
+     "texto_es": "La mayoría arriesga alrededor de 180. Algunos dicen 100. Unos pocos, 50.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#1D1D1D",
+     "caja": [
+      151,
+      736,
+      931,
+      817
+     ],
+     "ancho_px": 803,
+     "espacio_antes": 56
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "They're all way off.",
+     "texto_es": "Todos están muy lejos.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      383,
+      893,
+      695,
+      926
+     ],
+     "ancho_px": 321,
+     "espacio_antes": 63
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      156,
+      1115,
+      924,
+      1557
+     ],
+     "estrategia": "C",
+     "justificacion": "Fotografía (gente en una fiesta) sin texto: se conserva.",
+     "tipo": "foto: grupo de personas en una fiesta",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Planteo: la pregunta y las respuestas intuitivas",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "Sin fuente: «La mayoría arriesga alrededor de 180. Algunos dicen 100. Unos pocos, 50.» No se cita encuesta ni estudio."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 509.2,
+    "y": 420,
+    "limite": 1008
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 3,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    129,
+    382,
+    950,
+    816
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The answer is 23.",
+     "texto_es": "La respuesta es 23.",
+     "peso": "bold",
+     "tam_px": 39,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      368,
+      382,
+      708,
+      413
+     ],
+     "ancho_px": 350
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Just 23 people gives you a better than even chance that two share a birthday. At 70 people, it's 99.9%.",
+     "texto_es": "Con solo 23 personas, la probabilidad de que dos cumplan años el mismo día ya es mayor al 50 %. Con 70 personas, es del 99,9 %.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      129,
+      493,
+      950,
+      617
+     ],
+     "ancho_px": 821,
+     "espacio_antes": 66
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "This isn't a trick. It's not a riddle. It's pure probability. And almost everyone's intuition gets destroyed by it.",
+     "texto_es": "No es un truco. No es una adivinanza. Es probabilidad pura. Y destruye la intuición de casi todo el mundo.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      150,
+      684,
+      929,
+      816
+     ],
+     "ancho_px": 779,
+     "espacio_antes": 67
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      180,
+      1000,
+      900,
+      1425
+     ],
+     "estrategia": "B",
+     "justificacion": "Barras con valores que salen exactamente de la fórmula de la slide 5 (P(n) = 1 − 365! / ((365 − n)! · 365ⁿ)); coinciden con las del original a un decimal.",
+     "tipo": "barras: probabilidad de al menos una coincidencia para 5-70 personas, línea del 50 %",
+     "datos": {
+      "tipo": "barras_umbral",
+      "categorias": [
+       "5",
+       "10",
+       "15",
+       "23",
+       "30",
+       "40",
+       "50",
+       "60",
+       "70"
+      ],
+      "valores": [
+       2.7,
+       11.7,
+       25.3,
+       50.7,
+       70.6,
+       89.1,
+       97.0,
+       99.4,
+       99.9
+      ],
+      "formula": "P(n) = 1 − 365! / ((365 − n)! · 365^n)",
+      "umbral": 50,
+      "decimales": 1,
+      "color_ini": "#2E6B4A",
+      "color_fin": "#22A03C",
+      "color_bajo": "#2E7D46",
+      "color_alto": "#B83A32",
+      "color_umbral": "#C9433A",
+      "rotulo_umbral": "Esperado: 50 %",
+      "rotulo_x": "Personas en la sala"
+     },
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Respuesta y evidencia: 23 personas (gráfico de probabilidades)",
+   "notas_revisar": [
+    "Cifras verificadas con la fórmula (365 días equiprobables, sin 29 de febrero ni mellizos): 23 → 50,7 %; 70 → 99,9 % (99,916 %). Con la distribución real de nacimientos, la probabilidad es apenas mayor.",
+    "Gráfico regenerado (B): mismos valores que el original. El rótulo «Expected 50%» (que en el original pisaba la barra de 70) se reubicó arriba de la línea, a la izquierda, como «Esperado: 50 %»."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 476.7,
+    "y": 371,
+    "limite": 896
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 4,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    140,
+    382,
+    939,
+    908
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Here's why your brain breaks.",
+     "texto_es": "Por qué tu cerebro falla.",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      251,
+      382,
+      829,
+      422
+     ],
+     "ancho_px": 595
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "You hear \"birthday match\" and think... someone matching MY birthday. That's 1 in 365. Tiny.",
+     "texto_es": "Escuchás “coincidencia de cumpleaños” y pensás… en alguien que cumpla años el mismo día que YO. Eso es 1 en 365. Ínfimo.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.4,
+     "color": "#1C1C1C",
+     "caja": [
+      151,
+      493,
+      928,
+      575
+     ],
+     "ancho_px": 800,
+     "espacio_antes": 58
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "But the question isn't about you. It's about any pair.",
+     "texto_es": "Pero la pregunta no es sobre vos. Es sobre cualquier par.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#1C1C1C",
+     "caja": [
+      157,
+      636,
+      924,
+      717
+     ],
+     "ancho_px": 790,
+     "espacio_antes": 46
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "With 23 people there are 253 unique pairs. Each one is a chance for a match. You're not rolling the dice once. You're rolling it 253 times.",
+     "texto_es": "Con 23 personas hay 253 pares distintos. Cada uno es una oportunidad de coincidencia. No tirás el dado una vez. Lo tirás 253 veces.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      140,
+      777,
+      939,
+      908
+     ],
+     "ancho_px": 823,
+     "espacio_antes": 44
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      385,
+      1030,
+      700,
+      1375
+     ],
+     "estrategia": "A",
+     "justificacion": "Diagrama con dos rótulos sobre fondo casi liso: se borran y se reescriben.",
+     "tipo": "diagrama: 23 personas en círculo; se resaltan los 22 pares que te incluyen y, tenues, los 253",
+     "etiquetas": [
+      {
+       "texto_en": "unique pairs",
+       "texto_es": "pares distintos",
+       "caja": [
+        503,
+        1205,
+        577,
+        1220
+       ],
+       "tam_px": 11.5,
+       "color": "#666666",
+       "borrado": "inpaint"
+      },
+      {
+       "texto_en": "You",
+       "texto_es": "Vos",
+       "caja": [
+        530,
+        1354,
+        551,
+        1367
+       ],
+       "tam_px": 11,
+       "peso": "bold",
+       "color": "#B03A2E"
+      }
+     ]
+    }
+   ],
+   "funcion": "Mecanismo: no es tu cumpleaños, son todos los pares",
+   "notas_revisar": [
+    "Precisión: «1 en 365» es la probabilidad de coincidir con una persona puntual; con 22 personas más, la de que alguien comparta tu cumpleaños es ≈ 5,9 %.",
+    "Precisión: los 253 pares no son tiradas independientes; 1 − (364/365)^253 ≈ 50,0 % es una aproximación (el valor exacto es 50,7 %). La traducción es fiel a la metáfora del dado."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.98,
+    "alto_total": 573.1,
+    "y": 371,
+    "limite": 957
+   },
+   "avisos_render": [
+    "texto reducido al 98 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 5,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    134,
+    391,
+    948,
+    973
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The formula",
+     "texto_es": "La fórmula",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": null,
+     "color": "#1D1D1D",
+     "caja": [
+      443,
+      391,
+      636,
+      417
+     ],
+     "ancho_px": 199
+    },
+    {
+     "rol": "otro",
+     "texto_en": "P(match) = 1 - (365! / ((365-n)! x 365^n))",
+     "texto_es": "P(coincidencia) = 1 − (365! / ((365 − n)! × 365ⁿ))",
+     "peso": "bold",
+     "tam_px": 37,
+     "interlineado": null,
+     "color": "#1C1C1C",
+     "caja": [
+      146,
+      479,
+      934,
+      517
+     ],
+     "ancho_px": 812,
+     "espacio_antes": 50,
+     "ancho_max_px": 920
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Instead of counting matches, count the probability everyone is different. Then subtract from 1. Each new person has to dodge every birthday already taken. By person 23, the dodging fails more than half the time.",
+     "texto_es": "En lugar de contar coincidencias, calculá la probabilidad de que todos cumplan años en días distintos. Después, restala de 1. Cada persona nueva tiene que esquivar todos los cumpleaños ya ocupados. Para la persona 23, el esquive falla más de la mitad de las veces.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      134,
+      592,
+      948,
+      814
+     ],
+     "ancho_px": 838,
+     "espacio_antes": 61
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "Quant interviewers don't want you to memorise the number. They want to see you reach for this.",
+     "texto_es": "Quienes entrevistan a quants no quieren que memorices el número. Quieren ver que recurras a esto.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.41,
+     "color": "#1C1C1C",
+     "caja": [
+      140,
+      892,
+      937,
+      973
+     ],
+     "ancho_px": 821,
+     "espacio_antes": 62
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      107,
+      1124,
+      973,
+      1535
+     ],
+     "estrategia": "C",
+     "justificacion": "Fotografía (sala de trading) sin texto legible: se conserva.",
+     "tipo": "foto: sala de trading",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Fórmula y método (complemento) + qué buscan los entrevistadores",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "Fórmula correcta (supone 365 días equiprobables). Se tradujo «match» (coincidencia) y se usaron × y superíndice ⁿ en lugar de «x» y «^n».",
+    "Imprecisión: «para la persona 23, el esquive falla más de la mitad de las veces» describe la probabilidad acumulada; la persona 23 por sí sola falla solo 22/365 ≈ 6 % de las veces.",
+    "Sin fuente: qué buscan «quienes entrevistan a quants»."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.92,
+    "alto_total": 556.2,
+    "y": 402,
+    "limite": 1036
+   },
+   "avisos_render": [
+    "texto reducido al 92 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 6,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    125,
+    640,
+    954,
+    1117
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "The lesson from the Birthday Paradox isn't the number 23...",
+     "texto_es": "La lección de la paradoja del cumpleaños no es el número 23…",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.47,
+     "color": "#1D1D1D",
+     "caja": [
+      165,
+      640,
+      913,
+      715
+     ],
+     "ancho_px": 770
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "It's that humans think linearly about combinatorial problems.",
+     "texto_es": "Es que los humanos razonan de forma lineal ante problemas combinatorios.",
+     "peso": "bold",
+     "tam_px": 34,
+     "interlineado": 1.48,
+     "color": "#1D1D1D",
+     "caja": [
+      125,
+      793,
+      954,
+      874
+     ],
+     "ancho_px": 854,
+     "espacio_antes": 61
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Pairs grow with the square of the group. Your gut counts heads. The math counts connections. The best quants learn to catch that instinct, and override it.",
+     "texto_es": "Los pares crecen con el cuadrado del grupo. Tu intuición cuenta personas. La matemática cuenta conexiones. Los mejores quants aprenden a detectar ese instinto y a imponerse a él.",
+     "peso": "regular",
+     "tam_px": 34,
+     "interlineado": 1.44,
+     "color": "#1D1D1D",
+     "caja": [
+      141,
+      944,
+      939,
+      1117
+     ],
+     "ancho_px": 822,
+     "espacio_antes": 53
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Cierre aforístico sin gráfico",
+   "notas_revisar": [
+    "Precisión: los pares son n(n − 1)/2, que crece aproximadamente con el cuadrado del grupo (fiel al original)."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 510.4,
+    "y": 627,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  }
+ ],
+ "fuente": {
+  "plataforma": "tiktok",
+  "url": "https://vt.tiktok.com/ZSbbEUoB8/",
+  "url_canonica": "https://www.tiktok.com/@quantgent/photo/7614955738066308355?_r=1&_t=ZS-9AN37ulgXZZ",
+  "usuario": "quantgent",
+  "id": "7614955738066308355",
+  "descripcion": "How many people need to be in a room before two share a birthday? The answer destroys everyone's intuition. Wall Street uses this to filter quant candidates. #quantfinance #birthdayparadox #probability #fyp",
+  "autor": "QuantGent",
+  "creada": "1772995050",
+  "metodo": "JSON embebido de la página (/video/)",
+  "imagenes": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg",
+   "05.jpg",
+   "06.jpg"
+  ]
+ },
+ "orden": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "The Birthday Paradox: The Interview Question That Breaks Quant Candidates",
+ "titulo_es": "La paradoja del cumpleaños: la pregunta de entrevista que desarma a los aspirantes a quants",
+ "glosario_nuevo": [
+  {
+   "en": "Birthday Paradox",
+   "es": "paradoja del cumpleaños"
+  },
+  {
+   "en": "trading desk",
+   "es": "mesa de trading"
+  },
+  {
+   "en": "quant candidates",
+   "es": "aspirantes a analistas cuantitativos (quants)"
+  },
+  {
+   "en": "share a birthday",
+   "es": "cumplir años el mismo día"
+  },
+  {
+   "en": "(birthday) match",
+   "es": "coincidencia (de cumpleaños)"
+  },
+  {
+   "en": "unique pairs",
+   "es": "pares distintos"
+  },
+  {
+   "en": "better than even chance",
+   "es": "probabilidad mayor al 50 %"
+  },
+  {
+   "en": "combinatorial problems",
+   "es": "problemas combinatorios"
+  },
+  {
+   "en": "gut (instinct)",
+   "es": "intuición / instinto"
+  },
+  {
+   "en": "People in room",
+   "es": "Personas en la sala"
+  },
+  {
+   "en": "Days in year",
+   "es": "Días del año"
+  },
+  {
+   "en": "Expected 50%",
+   "es": "Esperado: 50 %"
+  }
+ ]
+}

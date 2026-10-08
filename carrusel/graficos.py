@@ -271,7 +271,45 @@ def kelly(d: dict, c: dict, fondo: str, tam):
     return fig
 
 
+def barras_umbral(d: dict, c: dict, fondo: str, tam):
+    """Barras de porcentajes dados con línea de referencia punteada (p. ej. paradoja del cumpleaños:
+    P(n) = 1 − 365! / ((365 − n)! · 365ⁿ)). Sin eje Y; valor arriba de cada barra, coloreado según
+    quede por debajo o por encima del umbral; barras en degradado de color_ini a color_fin."""
+    fig, ax = _figura(*tam, fondo)
+    vals, cats, u = d["valores"], d["categorias"], d["umbral"]
+    x = np.arange(len(vals))
+    t = np.linspace(0, 1, len(vals))
+    ini, fin = np.array(matplotlib.colors.to_rgb(d["color_ini"])), np.array(matplotlib.colors.to_rgb(d["color_fin"]))
+    ax.bar(x, vals, width=0.72, color=[ini + (fin - ini) * k for k in t], zorder=2)
+    ax.axhline(u, color=d["color_umbral"], lw=1.4, ls=(0, (4, 3)), alpha=0.75, zorder=1)
+    for i, v in enumerate(vals):
+        col = d["color_bajo"] if v < u else d["color_alto"]
+        ax.text(i, v + max(vals) * 0.025, num_ar(v, d.get("decimales", 1)) + NBSP + "%", ha="center",
+                va="bottom", fontsize=_px(d.get("tam_valor", 15.5)), fontweight="bold", color=col, zorder=3,
+                bbox=dict(boxstyle="square,pad=0.08", fc=fondo, ec="none"))  # tapa la línea punteada
+    if d.get("rotulo_umbral"):
+        # arriba de la línea, del lado donde las barras quedan por debajo del umbral
+        der = d.get("rotulo_umbral_lado") == "derecha"
+        ax.text(len(vals) - 0.3 if der else -0.7, u + max(vals) * 0.015, d["rotulo_umbral"],
+                ha="right" if der else "left", va="bottom", fontsize=_px(d.get("tam_rotulo_umbral", 13)),
+                fontweight="bold", color=d["color_umbral"], zorder=4)
+    _estilo(ax, c, fondo, ejes_y=False)
+    ax.spines["bottom"].set_color("#DADADA")
+    ax.set_xticks(x)
+    ax.set_xticklabels(cats)
+    ax.tick_params(axis="x", length=0, labelsize=_px(d.get("tam_ticks", 14)), colors="#555555", pad=6)
+    if d.get("ticks_negrita"):
+        for t in ax.get_xticklabels():
+            t.set_fontweight("bold")
+    ax.set_xlabel(d["rotulo_x"], fontsize=_px(15.5), color="#1A1A1A", fontweight="medium", labelpad=8)
+    ax.set_xlim(-0.75, len(vals) - 0.25)
+    ax.set_ylim(0, max(vals) * 1.08)
+    fig.subplots_adjust(left=0.01, right=0.99, top=0.98, bottom=d.get("margen_inferior", 0.15))
+    return fig
+
+
 TIPOS = {
+    "barras_umbral": barras_umbral,
     "barras_curtosis": barras_curtosis,
     "moneda_valor_esperado": moneda_valor_esperado,
     "caminos_barras": caminos_barras,
