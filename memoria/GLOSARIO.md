@@ -135,4 +135,16 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | earnings gaps | saltos tras los balances |
 | moneyness | moneyness (sin traducir) |
 | Bottom line | En síntesis |
+| bankroll | capital (de apuesta) |
+| odds you're getting (b) | cuota que te pagan |
+| edge | ventaja |
+| fractional Kelly | Kelly fraccional |
+| sizing / size correctly | dimensionar / dimensionar bien las posiciones |
+| compounding | interés compuesto |
+| wipes you out | te deja fuera de juego |
+| leave money on the table | dejar dinero sobre la mesa |
+| calculated risk / irrational / ruin | riesgo calculado / irracional / ruina |
+| Conservative / Aggressive / Insane / Suicidal | Conservador / Agresivo / Insensato / Suicida |
+| Return / Risk | Rendimiento / Riesgo |
+| trade-off | equilibrio |
 <!-- GLOSARIO:FIN -->

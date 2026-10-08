@@ -184,3 +184,22 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
   «smile» → «sonrisa de volatilidad»; «flash crashes» → «derrumbes relámpago (flash crashes)»;
   «Bottom line» → «En síntesis»; «moneyness» se deja en inglés (sin equivalente asentado).
 - Se agregó el punto final que falta en la slide 6 del original.
+
+## tiktok-quantgent-241750 — «The Kelly Criterion» (2026-10-08)
+
+- **7 slides** en el orden de la publicación. Títulos internos en peso regular, como el original (no
+  hay negritas en este carrusel).
+- **Estrategias**: 01 C (superficie 3D, solo notación); 02 A (diagrama «conservador → suicida»); 03 C
+  (retrato de Kelly; el pie es un nombre propio); 04 A (curvas teórica y real según apalancamiento; seis
+  rótulos); 05 A (curva g(f); rótulos en itálica serif); 06 C (foto); 07 sin gráfico. Ninguna curva se
+  regenera: el texto no da los parámetros.
+- **Fuente nueva**: `fuentes/LiberationSerif-Italic.ttf` (OFL, misma familia ya incluida) para los
+  rótulos en itálica serif de la slide 5.
+- **Leyendas sobre fondo liso** (slide 4): borrado `plano`; el borrado por defecto estiraba la línea de
+  la leyenda sobre el texto nuevo.
+- **Términos**: «odds you're getting» → «cuota que te pagan» (b es la cuota neta, no una probabilidad);
+  «bankroll» → «capital»; «edge» → «ventaja»; «fractional Kelly» → «Kelly fraccional»; «wipes you out» →
+  «te deja fuera de juego»; «leave money on the table» → «dejar dinero sobre la mesa» («plata» se evita
+  por registro); «Insane» → «Insensato»; «1960s» → «la década de 1960».
+- Las rayas que en inglés introducen una conclusión («about — HOW MUCH», «isn't the formula — it's the
+  mindset») se pasan a dos puntos, que es la puntuación natural en español; las de inciso se mantienen.
