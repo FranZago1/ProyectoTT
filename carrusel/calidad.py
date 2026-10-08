@@ -93,8 +93,10 @@ def revisar_slide(s: dict, img_es: np.ndarray, config: dict, motor: str) -> list
 
 
 def hoja_control(rutas: Rutas, plan: dict) -> None:
-    W, H = 360, 450
-    hoja = Image.new("RGB", (W * 2 * 4 + 50, (H + 10) * 2), (200, 200, 200))
+    w0, h0 = Image.open(rutas.salida / f"{plan['slides'][0]['n']:02d}_es.png").size
+    W, H = 360, int(round(360 * h0 / w0))
+    filas = (len(plan["slides"]) + 3) // 4
+    hoja = Image.new("RGB", (W * 2 * 4 + 50, (H + 10) * filas), (200, 200, 200))
     for i, s in enumerate(plan["slides"]):
         x = (i % 4) * (2 * W + 12)
         y = (i // 4) * (H + 10)

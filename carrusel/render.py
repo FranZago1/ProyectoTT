@@ -196,6 +196,11 @@ def renderizar_slide(img: np.ndarray, s: dict, config: dict, graficos_b: dict) -
                 for e in et:
                     if e.get("borrado") == "inpaint":
                         base = borrar_tinta(base, e.get("caja_borrar") or e["caja"], fondo_rgb)
+                    elif e.get("borrado") == "local":
+                        # texto sobre una caja de color: la referencia es el color dominante de la caja
+                        x0, y0, x1, y1 = e.get("caja_borrar") or e["caja"]
+                        local = np.median(base[y0:y1, x0:x1].reshape(-1, 3), axis=0)
+                        base = borrar_tinta(base, [x0, y0, x1, y1], local)
                 base = dibujar_etiquetas(base, et, config)
         recortes[k] = (x0, y0, x1, y1)
 
@@ -368,6 +373,12 @@ def renderizar(slug: str, config: dict) -> None:
         graficos_b = {k: rutas.trabajo / "graficos" / f"{s['n']:02d}_{k}.png"
                       for k, z in enumerate(s.get("zonas_grafico", []), start=1) if z.get("estrategia") == "B"}
         es, limpia, avisos, recortes = renderizar_slide(img, s, config, graficos_b)
+        if (config.get("marca") or {}).get("activa"):
+            from .marca import aplicar_marca
+            zonas = [z.get("caja_salida") or z["caja"] for z in s.get("zonas_grafico", [])]
+            (es, limpia), aviso = aplicar_marca([es, limpia], hex_a_rgb(s.get("color_fondo", "#FFFFFF")), config,
+                                                prohibidas=zonas)
+            avisos.append(aviso)
         Image.fromarray(es).save(rutas.salida / f"{s['n']:02d}_es.png")
         # limpia: sin ningún texto de slide (el gráfico queda en su versión en español)
         Image.fromarray(limpia).save(rutas.salida / f"{s['n']:02d}_limpia.png")

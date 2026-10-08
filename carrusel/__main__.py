@@ -41,12 +41,25 @@ def _paso(nombre: str):
 def main(argv=None) -> int:
     p = argparse.ArgumentParser(prog="python -m carrusel",
                                 description="Traductor de carruseles de Instagram EN -> ES-AR")
-    p.add_argument("comando", choices=PASOS + ["traducir"],
+    p.add_argument("comando", choices=["descargar", "marca"] + PASOS + ["traducir"],
                    help="paso a ejecutar; 'traducir' corre todos en orden")
-    p.add_argument("slug", help="nombre del carrusel (entrada/<slug>/ o definido en config.yaml)")
+    p.add_argument("slug", nargs="?", default="-", help="nombre del carrusel (entrada/<slug>/), o un link de TikTok con "
+                                "'descargar' / 'traducir'")
+    p.add_argument("nombre", nargs="?", help="con un link: slug a usar (por defecto tiktok-<usuario>-<id>)")
     p.add_argument("--desde", choices=PASOS, help="con 'traducir': empezar desde este paso")
     a = p.parse_args(argv)
     config = cargar_config()
+    if a.slug.startswith(("http://", "https://")):
+        from .descargar import descargar
+        a.slug = descargar(a.slug, a.nombre)
+        if a.comando == "descargar":
+            return 0
+    if a.comando == "marca":
+        from .marca import marca
+        marca(a.slug, config)
+        return 0
+    if a.comando == "descargar":
+        raise SystemExit("'descargar' necesita un link: python -m carrusel descargar <url> [slug]")
     if a.comando == "traducir":
         pasos = PASOS[PASOS.index(a.desde):] if a.desde else PASOS
     else:

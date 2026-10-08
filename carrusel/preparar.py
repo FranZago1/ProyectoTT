@@ -11,6 +11,7 @@ la slide se reconstruye así:
 
 from __future__ import annotations
 
+import json
 import shutil
 import subprocess
 import tempfile
@@ -234,16 +235,23 @@ def preparar(slug: str, config: dict) -> None:
     log(f"[preparar] {slug}: {len(fuentes)} páginas en {rutas.entrada}; se procesan {elegidas}")
 
     plan = leer_plan(rutas)
+    fuente = rutas.entrada / "fuente.json"
+    descarga_directa = fuente.exists()
+    if descarga_directa:
+        plan["fuente"] = json.loads(fuente.read_text(encoding="utf-8"))
+        log(f"  descarga directa ({plan['fuente'].get('plataforma')}): se conserva el formato original")
     info = []
     for n in elegidas:
         origen, img, metodo = fuentes[n - 1]
         eliminados = []
         h, w = img.shape[:2]
-        original_4x5 = abs(h / w - cfg["relacion_aspecto"]) < 0.01 and not origen.count("#p")
+        # original: imagen 4:5 suelta, o cualquier imagen descargada directamente de la plataforma
+        # (entrada/<slug>/fuente.json): no tiene UI que limpiar y conserva su formato
+        original_4x5 = (abs(h / w - cfg["relacion_aspecto"]) < 0.01 or descarga_directa) and not origen.count("#p")
         if original_4x5:
             # imagen original (p. ej. 1080x1350): no tiene UI de Instagram; no se recorta ni se aplana
             marg = (0, 0, w, h)
-            color = np.median(np.concatenate([img[:8].reshape(-1, 3), img[-8:].reshape(-1, 3)]), axis=0)
+            color = np.median(img.reshape(-1, 3), axis=0)  # el fondo domina la imagen
         else:
             img, marg = recortar_margenes(img, cfg["umbral_blanco"])
             if marg != (0, 0, w, h):
@@ -261,7 +269,8 @@ def preparar(slug: str, config: dict) -> None:
             img, ventana = ventana_slide(img, color, cfg["relacion_aspecto"], cfg["umbral_contenido"])
         else:
             ventana = [0, 0, img.shape[1], img.shape[0]]
-        slide, nota = normalizar(img, ancho, alto)
+        alto_n = int(round(ancho * img.shape[0] / img.shape[1])) if descarga_directa else alto
+        slide, nota = normalizar(img, ancho, alto_n)
         Image.fromarray(slide).save(rutas.paginas / f"p{n:02d}.png")
         info.append({"pagina": n, "origen": origen, "metodo": metodo, "recorte_margenes": list(marg),
                      "ventana": ventana, "color_fondo": [int(c) for c in color],

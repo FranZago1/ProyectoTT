@@ -103,3 +103,27 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
 - **Git**: el repositorio ya existía; se commitea en la rama de trabajo asignada
   (`claude/festive-gauss-40z28x`) en lugar de hacer `git init`. El PDF de entrada no se versiona
   (`entrada/` en `.gitignore`).
+
+## TikTok y marca (2026-10-08)
+
+- **Descarga de TikTok**: yt-dlp (2026.08.19) no soporta las URLs `/photo/` («Unsupported URL») y
+  TikTok no incluye el detalle en el HTML de `/photo/`. Pidiendo la misma publicación como `/video/`,
+  el JSON embebido (`__UNIVERSAL_DATA_FOR_REHYDRATION__` → `imagePost.images[].imageURL.urlList`) trae
+  las imágenes originales (1080 × 1920). Ese es el método principal; yt-dlp queda como plan B.
+- **Formato**: las imágenes descargadas son originales (sin UI de la app), así que no se recortan ni
+  se aplanan, y se **conserva su formato nativo** (9:16) en vez de forzar 1080 × 1350, que obligaría a
+  recortar o deformar. Mismo criterio para PNG 4:5 sueltos.
+- **Borrado de texto local**: el fondo de cada caja borrada sale de las columnas vecinas, no de los
+  bordes de la slide: las imágenes de TikTok tienen degradados de diseño en las esquinas que dejaban un
+  rectángulo gris. Para rótulos sobre cajas de color, borrado con el color dominante de la caja.
+- **regresion-media, estrategias**: portada C (ilustración, 3 rótulos); 02 A (serie ilustrativa de 30
+  días); 03 A (barras apiladas: la partición persistente/variable no está en el texto, no se regenera);
+  04 A (flujo con rótulos blancos sobre cajas de color); 06 C (dispersión de Galton, datos reales);
+  05 y 07 sin gráfico. «Top 25 %» → «cuartil superior»; «tradeable strategy» → «estrategia de trading».
+- **Logo «PE»**: monograma geométrico con el lenguaje de la marca de agua original (trazo grueso,
+  panza en anillo, terminaciones diagonales). Se probaron variantes con asta compartida y se descartaron
+  porque se leían «AE»/«FE». Color #111111. Se define como geometría y se exporta a SVG y PNG.
+- **Aplicación del logo**: si hay marca de agua (componente oscuro, compacto y aislado, centrado en el
+  12 % inferior) se reemplaza al mismo alto y lugar; si no, se agrega abajo al centro (alto 7 % del
+  ancho) o en una esquina, solo sobre fondo libre y fuera de las zonas de gráfico. Si no hay lugar, se
+  avisa en `revisar.md` (pasó en fat-tails 06, la línea de tiempo).
