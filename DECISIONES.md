@@ -203,3 +203,16 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
   por registro); «Insane» → «Insensato»; «1960s» → «la década de 1960».
 - Las rayas que en inglés introducen una conclusión («about — HOW MUCH», «isn't the formula — it's the
   mindset») se pasan a dos puntos, que es la puntuación natural en español; las de inciso se mantienen.
+
+## tiktok-quantgent-735830 — «Fat Tails», versión de TikTok (2026-10-08)
+
+- Es **el mismo carrusel que la referencia `fat-tails`** (Instagram, 4:5), publicado en 9:16. Se
+  reutilizan textos, traducciones, estrategias (C, C, A, C, B, D, C) y alertas de
+  `scripts/curar_referencia.py`; solo se remidieron las cajas (`scripts/curar_fat_tails_tiktok.py`).
+  En la memoria se marca con `version_de: fat-tails` para **no contarlo dos veces** como evidencia en
+  `ESTILO.md`.
+- Slide 7: el borrador no detectó la zona de texto (la tomó como gráfico); los bloques se escribieron a
+  mano con medidas tomadas de la imagen.
+- Corrección de puntuación respecto de la referencia: «…más exitosos de la historia — atravesó 1998…»
+  llevaba una raya entre sujeto y verbo, que en español no corresponde; se quitó.
+- Curtosis (B): el gráfico se ensanchó a 880 px porque a 730 px los subtítulos se pisaban.

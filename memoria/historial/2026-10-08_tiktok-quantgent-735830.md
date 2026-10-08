@@ -1,0 +1,65 @@
+# 2026-10-08 — tiktok-quantgent-735830
+
+**Título original:** Fat Tails: How Quants Profit From the Impossible  
+**Título en español:** Colas gruesas: cómo los quants ganan con lo imposible  
+**Motor OCR:** tesseract · **Orden de páginas:** [1, 2, 3, 4, 5, 6, 7]
+
+## Slide 1 — Portada: concepto + promesa
+
+- *titulo* (bold, 95 px): Colas gruesas
+- *subtitulo* (regular, 43 px): Cómo los analistas cuantitativos (quants) ganan con lo imposible
+- *pie* (regular, 36.4 px): Cola gruesa vs. distribución normal
+- **Gráfico** (densidades de probabilidad (cola gruesa vs. normal), figura importada) — estrategia C: Figura académica con notación matemática (P(x), x); no tiene texto en lenguaje natural.
+- ⚠ Gráfico de portada: las curvas no están rotuladas; no se puede saber cuál es la normal y cuál la de cola gruesa (la verde está centrada en −2). Considerar una figura con leyenda.
+
+## Slide 2 — Mito: «la matemática te miente» (advertencias y modelo equivocado)
+
+- *titulo* (bold, 72 px): La matemática te miente
+- *cita* (regular, 34 px): “Rendimientos pasados no garantizan rendimientos futuros”
+- *cuerpo* (regular, 38 px): Viste las advertencias legales. Escuchaste que los derrumbes son raros. Que los mercados se recuperan. Que, si mirás el largo plazo, todo sube. Lo que nadie te dice es que cada una de esas frases tranquilizadoras se apoya en un modelo matemático que está equivocado de forma demostrable y peligrosa.
+- **Gráfico** (campana de Gauss con bandas de ±1σ, ±2σ y ±3σ (68,3 %, 95,4 %, 99,7 %)) — estrategia C: Campana de Gauss con σ y porcentajes sobre relleno con textura: solo se traduce el rótulo del eje, que está sobre fondo liso.
+- ⚠ Gráfico: los porcentajes 68.3% / 95.4% / 99.7% quedaron con formato original (están sobre el relleno con textura). En Canva: reemplazar por 68,3 % / 95,4 % / 99,7 %.
+- ⚠ Gráfico: el primer rótulo del eje dice «4σ» y debería ser «−4σ» (error del original).
+
+## Slide 3 — El modelo normal y la crisis de 2008
+
+- *cuerpo* (regular, 39 px): La mayoría de los modelos de riesgo supone que los movimientos de precios siguen algo llamado distribución normal —una campana de Gauss—. Los movimientos pequeños ocurren todo el tiempo. Los grandes, casi nunca. ¿Los derrumbes? Prácticamente imposibles. En 2008, este modelo decía que el derrumbe que acababa de arrasar con la economía global debería ocurrir una sola vez en toda la vida del universo. Tus padres lo recuerdan.
+- **Gráfico** (línea: S&P 500, nivel diario, feb-2007 a dic-2009 (captura de terceros)) — estrategia A: Serie real del S&P 500: no se reconstruye a ojo. Pocos rótulos sobre fondo liso: se reescriben título, rótulo del eje y ticks de miles.
+- ⚠ Gráfico: las fechas del eje X están en formato de EE. UU. (mes/día/año, p. ej. 3/23/07). Quedaron sin tocar (texto rotado y chico); en Canva convendría reemplazarlas por día/mes/año o por meses.
+- ⚠ Gráfico: el título dice «todo 2008» pero la serie abarca de febrero de 2007 a diciembre de 2009.
+- ⚠ Afirmación imprecisa: «en 2008 este modelo decía que el derrumbe debería ocurrir una vez en la vida del universo». La frase célebre de ese tipo es de agosto de 2007 (David Viniar, Goldman Sachs: «movimientos de 25 desvíos estándar, varios días seguidos») y es una hipérbole; no hay un modelo único que lo «dijera». Verificar o suavizar.
+
+## Slide 4 — Nombre del concepto (colas gruesas) y su definición
+
+- *subtitulo* (regular, 43 px): Esto es lo que los quants llaman:
+- *titulo* (bold, 58 px): COLAS GRUESAS
+- *cuerpo* (regular, 39 px): Simplemente significa que los eventos extremos ocurren mucho más seguido de lo que la matemática dice que deberían. La campana de Gauss dice que el 99,7 % de los movimientos se mantiene pequeño y predecible. La realidad indica algo más cercano al 95 %. Ese 5 % que falta es donde la gente se hace rica —o lo pierde todo de un día para el otro.
+- **Gráfico** (densidad de pérdidas con E(L), VaR y ES; cola del 5 % sombreada (figura importada)) — estrategia C: Figura académica con notación (E(L), VaR, ES): se traducen solo «Loss» y «5% probability».
+- ⚠ Afirmación sin sustento citado: «la realidad dice más cerca del 95 %». No hay fuente; el valor depende del activo, el período y la frecuencia de los retornos.
+- ⚠ Gráfico: el eje X del original muestra 10, 5, 0, 5, 10 (sin signos negativos). Se conservó.
+- ⚠ Gráfico: «5 % de probabilidad» se reescribió sobre la cola con un halo blanco; revisar en Canva que la línea de ES y la curva se lean bien detrás del rótulo.
+
+## Slide 5 — Cómo medirlo: la curtosis
+
+- *cuerpo* (regular, 43 px): Existe un número que te dice cuánto te está engañando la campana de Gauss. Se llama curtosis. Una campana de Gauss perfecta marca 3. ¿El S&P 500? Alrededor de 10. ¿Cripto? Con frecuencia, por encima de 15. Cuanto más alto es, más eventos “de una vez en la vida” se acercan en silencio hacia vos. Pensá en la curtosis como un detector de mentiras para tu modelo de riesgo.
+- **Gráfico** (barras: curtosis de la campana de Gauss (3), S&P 500 (~10) y cripto (15+)) — estrategia B: Barras con valores dados en el texto (3, ~10, 15+): se regenera exacto.
+  - datos: `{"tipo": "barras_curtosis", "valores": [3, 10, 15], "etiquetas_valor": ["3", "~10", "15+"], "color_valor": ["#CFCFCF", "#FFFFFF", "#FFFFFF"], "colores": ["#CDCDCD", "naranja", "rojo_intenso"], "categorias": ["Campana de Gauss", "S&P 500", "Cripto"], "subtitulos": ["Lo que suponen los modelos", "3 veces más eventos extremos", "5 veces más eventos extremos"], "rotulo_eje": "CURTOSIS", "titulo_1": "Cuanto más alto el número,", "titulo_2": "más te miente tu modelo."}`
+- ⚠ Afirmación no derivable: «3x / 5x más eventos extremos» no se deduce de una curtosis de 10 o 15; además la curtosis del S&P 500 depende mucho del período y de la frecuencia (diaria, mensual). Verificar o quitar.
+- ⚠ Precisión técnica: 3 es la curtosis de la normal; muchas fuentes reportan el exceso de curtosis (normal = 0). Conviene aclarar qué medida se usa.
+
+## Slide 6 — Caso histórico: LTCM (1998)
+
+- *cuerpo* (regular, 42 px): Así exactamente colapsó Long-Term Capital Management. Dos premios Nobel. Los quants más brillantes del planeta. US$ 100.000 millones en posiciones. Sus modelos decían que eran intocables. En 1998, un evento de cola gruesa casi derriba todo el sistema financiero global. La Reserva Federal tuvo que organizar un rescate de US$ 3.600 millones. Los modelos eran impecables —la realidad simplemente no cooperó.
+- **Gráfico** (línea de tiempo de la crisis de LTCM, 1994-1999 (captura de terceros)) — estrategia D: Línea de tiempo con mucho texto chico: se conserva la imagen y se entrega la traducción completa para rehacerla en Canva.
+- ⚠ Gráfico (estrategia D): REHACER EN CANVA la línea de tiempo con los textos de textos_es.md (se conservó la imagen original en inglés).
+- ⚠ Afirmación imprecisa: la Reserva Federal (de Nueva York) coordinó el rescate, pero los US$ 3.600 millones los pusieron 14 bancos privados, no la Fed. La traducción es fiel; considerar aclararlo.
+- ⚠ Cifra a verificar: «US$ 100.000 millones en posiciones». Las fuentes hablan de unos US$ 125.000 millones en activos y más de US$ 1 billón (1 trillion) de nocional en derivados.
+- ⚠ Línea de tiempo: la fecha de cierre del fondo (dic-1999 / principios de 2000) y la devolución de «US$ 3.600 millones de capital» deberían verificarse antes de rehacerla.
+
+## Slide 7 — Figura ejemplar y moraleja (Ed Thorp) + definición de «cisne negro»
+
+- *titulo* (bold, 47 px): Ed Thorp
+- *cuerpo* (regular, 42 px): El mismo hombre que usó el criterio de Kelly para ganarles a los casinos y después construyó uno de los fondos de cobertura más exitosos de la historia atravesó 1998 sin un rasguño. ¿Por qué? Nunca confió en la campana de Gauss. Construyó cada modelo esperando colas gruesas. Los quants que sobreviven décadas no son los que tienen la matemática más sofisticada. Son los que respetan lo que la matemática no puede ver.
+- **Gráfico** (ilustración de un cisne negro con definición de diccionario) — estrategia C: Ilustración: se conserva; el bloque de definición está sobre fondo liso y se traduce.
+- ⚠ Verificar: «sobrevivió 1998 sin un rasguño». En 1998 Thorp ya no dirigía Princeton Newport Partners (cerrado en 1988-1989); gestionaba Ridgeline Partners. No hay una fuente citada sobre su resultado en 1998.
+- ⚠ Precisión: Thorp «les ganó a los casinos» con el conteo de cartas en el blackjack; el criterio de Kelly lo usó para dimensionar las apuestas.
