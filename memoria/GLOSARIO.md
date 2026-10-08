@@ -191,4 +191,15 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | noise / signal | ruido / señal |
 | hold back (data) | reservar (datos) |
 | Robust model | modelo robusto |
+| spoofing / spoofer | spoofing / spoofer (sin traducir; «órdenes falsas» para spoof orders) |
+| order book | libro de órdenes |
+| bid / ask | punta compradora / vendedora (BID / ASK en gráficos) |
+| filled / to fill (an order) | ejecutada / ejecutarse |
+| cancel rate | tasa de cancelación |
+| retail traders | inversores minoristas |
+| Level 2 data | datos de nivel 2 (libro de órdenes completo) |
+| US Treasuries / Treasury futures | bonos del Tesoro de EE. UU. / futuros sobre bonos del Tesoro |
+| CFTC | CFTC (regulador de futuros de EE. UU.) |
+| fine / penalty | multa / sanción |
+| Dodd-Frank Act | ley Dodd-Frank |
 <!-- GLOSARIO:FIN -->

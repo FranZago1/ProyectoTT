@@ -35,7 +35,7 @@ _ESCALAS_EN = {"thousand": 1e3, "million": 1e6, "billion": 1e9, "trillion": 1e12
 _ESCALAS_ES = {"mil": 1e3, "millón": 1e6, "millones": 1e6, "billón": 1e12, "billones": 1e12,
                "mil millones": 1e9}
 
-_RE_EN = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*(thousand|million|billion|trillion|[kKmMbB]\b)?")
+_RE_EN = re.compile(r"(\d[\d,]*(?:\.\d+)?)\s*(thousand|million|billion|trillion|[kKmMbB]\b)?", re.IGNORECASE)
 _RE_ES = re.compile(r"(\d[\d.]*(?:,\d+)?)\s*(mil millones|millones|millón|billones|billón|mil\b)?")
 
 

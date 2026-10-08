@@ -272,3 +272,20 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
   inglés, con «(la prueba con datos históricos)» en la primera mención (uso habitual en la prensa
   financiera); «equity curve» → «curva de capital»; «drawdowns» → «caídas»; «Max DD» → «Caída máx.»;
   «go live» → «operar en real»; «Overfit "edge"» → «“Ventaja” ficticia».
+
+## tiktok-quantgent-158294 — «Spoofing» (2026-10-08)
+
+- **7 slides** en el orden de la publicación. Estrategias: 01 C (ilustración de libro de órdenes; BID /
+  ASK / SPREAD quedan, son de uso corriente); 02 A (tres paneles; pies sobre relleno de color con borrado
+  `plano`); 03 A (precio y volumen); 04 C (captura de plataforma con anotación ilegible: traducción
+  aproximada en `revisar.md`); 05 C (foto); 06 A (cancelaciones: títulos, leyendas y porcentajes); 07 sin
+  gráfico.
+- **Alertas principales**: contradicción interna (la portada dice que el algoritmo «ganó» US$ 300
+  millones; la slide 5, que esas son las pérdidas causadas a terceros); Sarao fue detenido por la policía
+  británica a pedido de EE. UU.; el Flash Crash duró ≈ 36 minutos; el caso Thakkar terminó sin condena.
+- **Control automático**: `cifras_en` no reconocía la escala con mayúscula («$300 Million», en títulos);
+  ahora la expresión regular es insensible a mayúsculas (`carrusel/formato.py`).
+- **Términos**: «spoofing», «spoofer» sin traducir (no hay equivalente asentado; «órdenes falsas» para
+  «spoof/fake orders»); «order book» → «libro de órdenes»; «filled» → «ejecutada»; «retail traders» →
+  «inversores minoristas»; «Level 2 data» → «datos de nivel 2 (el libro de órdenes completo)»; «US
+  Treasuries» → «bonos del Tesoro de EE. UU.»; la CFTC se explica en la primera mención.
