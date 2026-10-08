@@ -216,3 +216,16 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
 - Corrección de puntuación respecto de la referencia: «…más exitosos de la historia — atravesó 1998…»
   llevaba una raya entre sujeto y verbo, que en español no corresponde; se quitó.
 - Curtosis (B): el gráfico se ensanchó a 880 px porque a 730 px los subtítulos se pisaban.
+
+## tiktok-quantgent-437398 — «Bayes' Theorem» (2026-10-08)
+
+- **7 slides** en el orden de la publicación. Estrategias: 01 C (imagen decorativa); 02 C (foto);
+  03 A (dos barras 99 % / ~9 %: la prevalencia no está en el texto, así que no se regenera); 04 C
+  (grabado con pie «Thomas Bayes»); 05 A (curvas a priori / verosimilitud / a posteriori); 06 C (foto);
+  07 sin gráfico. Slide 6: el borrador no detectó la zona de texto; bloques escritos a mano.
+- **Alerta principal**: el carrusel omite la tasa base. «Menos del 10 %» solo vale con una prevalencia
+  de ≈ 1 en 1.000 (con 1 %, da 50 %). Va en `revisar.md` de las slides 2 y 3 con la sugerencia para Canva.
+- **Términos**: «test» → «prueba (médica)»; «You test positive» → «Te da positivo»; «Prior / Likelihood /
+  Posterior» → «A priori / Verosimilitud / A posteriori» (terminología estadística en español);
+  «Bayesian thinkers» → «quienes piensan de forma bayesiana»; «2012 US election» → «la elección
+  presidencial de 2012 en EE. UU.».

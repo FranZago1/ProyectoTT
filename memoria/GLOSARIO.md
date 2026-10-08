@@ -147,4 +147,15 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | Conservative / Aggressive / Insane / Suicidal | Conservador / Agresivo / Insensato / Suicida |
 | Return / Risk | Rendimiento / Riesgo |
 | trade-off | equilibrio |
+| Bayes' Theorem | teorema de Bayes |
+| (medical) test | prueba (médica) |
+| you test positive | te da positivo |
+| accurate (99%) | precisión (del 99 %) |
+| conditional probability | probabilidad condicional |
+| prior / likelihood / posterior | a priori / verosimilitud / a posteriori |
+| Bayesian inference | inferencia bayesiana |
+| Bayesian thinkers | quienes piensan de forma bayesiana |
+| self-driving cars | autos autónomos |
+| spam filters | filtros de spam |
+| base rate | tasa base (prevalencia) |
 <!-- GLOSARIO:FIN -->
