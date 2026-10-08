@@ -416,7 +416,14 @@
        ],
        "tam_px": 14,
        "alineacion": "izquierda",
-       "color": "#333333"
+       "color": "#333333",
+       "borrado": "plano",
+       "caja_borrar": [
+        652,
+        1270,
+        731,
+        1289
+       ]
       },
       {
        "texto_en": "Long-term\naverage",
@@ -919,7 +926,14 @@
        ],
        "tam_px": 12.5,
        "alineacion": "izquierda",
-       "color": "#1A1A1A"
+       "color": "#1A1A1A",
+       "borrado": "plano",
+       "caja_borrar": [
+        393,
+        1252,
+        545,
+        1270
+       ]
       },
       {
        "texto_en": "If no regression",
@@ -932,7 +946,14 @@
        ],
        "tam_px": 12.5,
        "alineacion": "izquierda",
-       "color": "#1A1A1A"
+       "color": "#1A1A1A",
+       "borrado": "plano",
+       "caja_borrar": [
+        393,
+        1270,
+        492,
+        1287
+       ]
       },
       {
        "texto_en": "Population mean",

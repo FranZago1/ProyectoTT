@@ -296,3 +296,13 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
   detectados. `scripts/curar_ergodicity_tiktok.py` llama a `ergodicity()` de `curar_referencia.py` y solo
   cambia las cajas: misma traducción, mismas estrategias (C, B, B, B, B, B, —), mismos datos exactos de
   los gráficos regenerados y mismas alertas. Marcado `version_de: ergodicity` para no duplicar evidencia.
+
+## tiktok-quantgent-110294 — «Regression to the Mean» (2026-10-08)
+
+- Es **la misma publicación** (ID 7616778102257110294) que `regresion-media`, ya traducida en una sesión
+  anterior. No se volvió a curar: se re-renderizó con `curar_regresion_media.curar()` sobre el nuevo slug
+  (textos y cajas idénticos a los del plan guardado en memoria) y **no se corrió el paso `memoria`**, para
+  no duplicar la ficha ni la evidencia de `ESTILO.md`.
+- Control de calidad: dos rótulos de leyenda arrastraban la muestra de color o la línea de la leyenda
+  (slide 3 «Persistente» y slide 6 «Regresión (pendiente = 0,58)» / «Sin regresión»). Se pasaron a borrado
+  `plano`, en el script y en el plan de la memoria.
