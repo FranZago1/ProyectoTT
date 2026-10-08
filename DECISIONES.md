@@ -127,3 +127,17 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
   12 % inferior) se reemplaza al mismo alto y lugar; si no, se agrega abajo al centro (alto 7 % del
   ancho) o en una esquina, solo sobre fondo libre y fuera de las zonas de gráfico. Si no hay lugar, se
   avisa en `revisar.md` (pasó en fat-tails 06, la línea de tiempo).
+
+## Instalación automática y entrega (2026-10-08)
+
+- **Hook de inicio** (`.claude/settings.json` → `.claude/hooks/session-start.sh` → `scripts/instalar.sh`),
+  sincrónico y para sesión local y web: crea `.venv`, instala `requirements.txt` solo si cambió (sello
+  SHA-256) y Tesseract con Homebrew o apt-get (sin pedir contraseña; si no puede, avisa). Desde cero
+  tarda ≈ 25 s; las siguientes veces, ≈ 0,5 s.
+- **Permisos preaprobados** para los comandos del traductor (`.venv/bin/python -m carrusel …`, scripts,
+  tests y lectura/escritura de `trabajo/`), para no pedir confirmación en cada paso.
+- **Carpeta de entrega** `listos/<slug>/`: solo las slides finales (01.png …), `revisar.md`,
+  `textos_es.md` y `fuente.txt` (link y autor). No se versiona.
+- **De a un carrusel por vez** (pedido del usuario): se descartó el procesamiento en paralelo; si se
+  pegan varios links, se traducen uno detrás de otro, cada uno completo antes del siguiente.
+- `descargar` acepta varios links (`SLUG …` / `ERROR …` por línea) y borra la carpeta si la descarga falla.

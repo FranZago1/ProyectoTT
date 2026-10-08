@@ -19,12 +19,14 @@ con una línea de justificación.
    negritas como en el original), roles, `funcion`, estrategia A/B/C/D de cada gráfico con `justificacion`,
    `datos` exactos si es B, `notas_revisar` con toda afirmación dudosa, `glosario_nuevo`, y `"curado": true`.
 4. `.venv/bin/python -m carrusel traducir $ARGUMENTS --desde graficos` (incluye el logo de Pulso
-   Económico: reemplaza la marca de agua original o lo agrega si hay espacio libre).
+   Económico: reemplaza la marca de agua original o lo agrega si hay espacio libre, y deja las fotos
+   finales en `listos/<slug>/`). Si hay varios links, procesalos de a uno: cada uno completo (pasos 1 a 7)
+   antes de empezar el siguiente.
 5. Control de calidad: abrí y mirá **cada** `salida/$ARGUMENTS/NN_es.png` y `control.png` (restos de inglés
    o de UI, desbordes, superposición con el gráfico, negritas, tildes/ñ/¿/—/×/σ, manchas de fondo, cifras,
    valores de los gráficos regenerados). Corregí y repetí; lo que no se pueda resolver va a `notas_revisar`
    con la indicación exacta para Canva.
 6. Memoria: el paso `memoria` ya escribió la ficha y el glosario; después corré `/estilo` para consolidar
    `memoria/ESTILO.md`.
-7. Commit de `memoria/`, `DECISIONES.md` y cambios de código. Informe final breve: estrategia por gráfico y
-   pendientes de `revisar.md` por slide.
+7. Commit de `memoria/`, `DECISIONES.md` y cambios de código. Informe final breve: carpeta
+   `listos/<slug>/`, estrategia por gráfico y pendientes de `revisar.md` por slide.
