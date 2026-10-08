@@ -257,3 +257,18 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
 - **Términos**: «edge» → «ventaja (de la casa)»; «win rate» → «gana el X % de las veces»; «trades» →
   «operaciones»; «claims» → «siniestros»; «originals» → «producciones propias»; «They're the house» →
   «Son la casa.»
+
+## tiktok-quantgent-284502 — «The Most Expensive Illusion in Trading» (sobreajuste) (2026-10-08)
+
+- **6 slides** en el orden de la publicación. Todos los gráficos van por **A** (ilustrativos, sin datos en
+  el texto, salvo las barras 1,2 / −0,2, que tienen solo dos valores y se resuelven reescribiendo los
+  rótulos): 01 curva backtest/real; 02 curva con tres métricas; 03 barras de Sharpe; 04 dos paneles
+  (20 vs. 2 parámetros); 05 mapa de calor; 06 sin gráfico.
+- **Fuente nueva**: `fuentes/Inter-Italic.otf` (OFL) para los rótulos en itálica.
+- **Alerta de hecho**: Knight Capital (2012) no perdió por sobreajuste sino por una falla de
+  implementación de software, y no «nunca se recuperó» (rescate y fusión con Getco en 2013). Va a
+  `revisar.md` como ERROR DE HECHO para corregir en Canva.
+- **Términos**: «overfitting» → «sobreajuste (overfitting)» en la primera mención; «backtest» se deja en
+  inglés, con «(la prueba con datos históricos)» en la primera mención (uso habitual en la prensa
+  financiera); «equity curve» → «curva de capital»; «drawdowns» → «caídas»; «Max DD» → «Caída máx.»;
+  «go live» → «operar en real»; «Overfit "edge"» → «“Ventaja” ficticia».

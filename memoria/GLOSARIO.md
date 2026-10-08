@@ -181,4 +181,14 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | Gut-feel trader | trader intuitivo |
 | Number of trades | cantidad de operaciones |
 | PROFIT / TIME (ejes) | GANANCIA / TIEMPO |
+| overfitting / overfit | sobreajuste (overfitting) / sobreajustado |
+| backtest | backtest (prueba con datos históricos) |
+| equity curve | curva de capital |
+| drawdown / Max DD | caída / caída máx. |
+| Sharpe ratio | ratio de Sharpe |
+| go live / live markets | operar en real / mercado real |
+| moving average | media móvil |
+| noise / signal | ruido / señal |
+| hold back (data) | reservar (datos) |
+| Robust model | modelo robusto |
 <!-- GLOSARIO:FIN -->
