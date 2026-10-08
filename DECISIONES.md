@@ -306,3 +306,17 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
 - Control de calidad: dos rótulos de leyenda arrastraban la muestra de color o la línea de la leyenda
   (slide 3 «Persistente» y slide 6 «Regresión (pendiente = 0,58)» / «Sin regresión»). Se pasaron a borrado
   `plano`, en el script y en el plan de la memoria.
+
+## Consolidación de ESTILO.md (11 carruseles, 2026-10-08)
+
+- Evidencia como «n/11»: 11 carruseles distintos. Las versiones de TikTok de fat-tails y ergodicity
+  (`version_de`) y la repetición de regresion-media no se cuentan aparte.
+- Patrones nuevos que pasan a la guía: estructura portada → planteo → respuesta contraintuitiva → por
+  qué falla la intuición → fórmula con retrato → «No es solo teoría» → «La lección de X no es la
+  matemática… es…» (8/11); variantes de 6 y 8 slides; fotos de banco (7/11, a evitar); bajada a Wall
+  Street (9/11).
+- «No hacer» incorpora las alertas de los 9 carruseles nuevos (tasa base omitida, Knight Capital,
+  contradicciones internas, probabilidad individual vs. acumulada, tasa de acierto vs. ventaja, gráficos
+  ajenos al texto, casos judiciales a medias).
+- Sección 10: se resumen kelly, bayes y ergodicity como los más representativos (la guía pide 2-3).
+  2.490 palabras.
