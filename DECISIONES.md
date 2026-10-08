@@ -289,3 +289,10 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
   «spoof/fake orders»); «order book» → «libro de órdenes»; «filled» → «ejecutada»; «retail traders» →
   «inversores minoristas»; «Level 2 data» → «datos de nivel 2 (el libro de órdenes completo)»; «US
   Treasuries» → «bonos del Tesoro de EE. UU.»; la CFTC se explica en la primera mención.
+
+## tiktok-quantgent-456663 — «Ergodicity», versión de TikTok (2026-10-08)
+
+- Es **el mismo carrusel que la referencia `ergodicity`** (Instagram, 4:5) en 9:16, con los mismos bloques
+  detectados. `scripts/curar_ergodicity_tiktok.py` llama a `ergodicity()` de `curar_referencia.py` y solo
+  cambia las cajas: misma traducción, mismas estrategias (C, B, B, B, B, B, —), mismos datos exactos de
+  los gráficos regenerados y mismas alertas. Marcado `version_de: ergodicity` para no duplicar evidencia.

@@ -758,5 +758,65 @@
         "proporcion": 0.105
       }
     ]
+  },
+  "tiktok-quantgent-456663": {
+    "fondo": "#FFFFFF",
+    "texto": "#030303",
+    "contenido": [
+      {
+        "hex": "#1F1F1F",
+        "proporcion": 0.497
+      },
+      {
+        "hex": "#587765",
+        "proporcion": 0.1
+      },
+      {
+        "hex": "#8B8A8A",
+        "proporcion": 0.094
+      },
+      {
+        "hex": "#3D4B43",
+        "proporcion": 0.083
+      },
+      {
+        "hex": "#AEADA9",
+        "proporcion": 0.078
+      },
+      {
+        "hex": "#D1D0C9",
+        "proporcion": 0.064
+      },
+      {
+        "hex": "#BE5A50",
+        "proporcion": 0.045
+      },
+      {
+        "hex": "#030303",
+        "proporcion": 0.039
+      }
+    ],
+    "acentos": [
+      {
+        "hex": "#438F63",
+        "proporcion": 0.368
+      },
+      {
+        "hex": "#C86459",
+        "proporcion": 0.326
+      },
+      {
+        "hex": "#246F44",
+        "proporcion": 0.162
+      },
+      {
+        "hex": "#91433A",
+        "proporcion": 0.059
+      },
+      {
+        "hex": "#B2463D",
+        "proporcion": 0.057
+      }
+    ]
   }
 }
