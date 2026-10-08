@@ -141,3 +141,25 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
 - **De a un carrusel por vez** (pedido del usuario): se descartó el procesamiento en paralelo; si se
   pegan varios links, se traducen uno detrás de otro, cada uno completo antes del siguiente.
 - `descargar` acepta varios links (`SLUG …` / `ERROR …` por línea) y borra la carpeta si la descarga falla.
+
+## tiktok-quantgent-308355 — «The Birthday Paradox» (2026-10-08)
+
+- **Orden**: el de la publicación (1 → 6); es obvio (portada, pregunta, respuesta, mecanismo, fórmula,
+  cierre). El carrusel tiene **6 slides**, no 7: se traduce tal cual y se anota como variante en `ESTILO.md`.
+- **Estrategias**: 01 C (superficie 3D sin datos explícitos; se traducen los dos rótulos de ejes rotados
+  y se conservan los ticks); 02 y 05 C (fotos sin texto); 03 **B** (barras: los valores salen exactos de
+  la fórmula de la slide 5 y coinciden a un decimal con el original); 04 A (diagrama con dos rótulos).
+- **Nuevo tipo de gráfico** `barras_umbral` en `carrusel/graficos.py` (barras de porcentajes con línea de
+  referencia y valores coloreados según el umbral); los valores se calculan en
+  `scripts/curar_cumpleanos.py` con la fórmula exacta.
+- **«Expected 50%» → «Esperado: 50 %»**, reubicado arriba de la línea a la izquierda: en el original
+  pisaba la barra de 70.
+- **Fórmula**: «P(match)» → «P(coincidencia)»; × en lugar de «x», − en lugar de «-» y superíndice ⁿ en
+  lugar de «^n»; a 37 px y columna de 920 px para que entre en una línea, como en el original.
+- **Términos**: «Birthday Paradox» → «paradoja del cumpleaños» (nombre establecido en español);
+  «trading desks» → «mesas de trading»; «unique pairs» → «pares distintos»; «match» → «coincidencia»;
+  «Quant Candidates» → «aspirantes a analistas cuantitativos (quants)» (primera mención, según el
+  glosario); «You» (rótulo) → «Vos» (voseo); «Here's why» → «Veamos por qué» (como en fat-tails);
+  «gut» → «intuición»; «override it» → «imponerse a él».
+- **Control de calidad**: la caja de borrado de «People in room» tocaba el tick «40» (inpaint lo
+  borroneaba); se ajustó la caja para excluirlo. Script de curación: `scripts/curar_cumpleanos.py`.

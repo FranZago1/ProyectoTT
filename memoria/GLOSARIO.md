@@ -101,4 +101,16 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | population mean | media poblacional |
 | Top 25% / Bottom 25% | cuartil superior / cuartil inferior |
 | fair value | valor justo |
+| Birthday Paradox | paradoja del cumpleaños |
+| trading desk | mesa de trading |
+| quant candidates | aspirantes a analistas cuantitativos (quants) |
+| share a birthday | cumplir años el mismo día |
+| (birthday) match | coincidencia (de cumpleaños) |
+| unique pairs | pares distintos |
+| better than even chance | probabilidad mayor al 50 % |
+| combinatorial problems | problemas combinatorios |
+| gut (instinct) | intuición / instinto |
+| People in room | Personas en la sala |
+| Days in year | Días del año |
+| Expected 50% | Esperado: 50 % |
 <!-- GLOSARIO:FIN -->

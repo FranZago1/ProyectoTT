@@ -1,7 +1,7 @@
 # Guía de estilo — carruseles de finanzas cuantitativas (ES-AR) · Pulso Económico
 
-Consolidada a partir de 3 carruseles (fat-tails e ergodicity, de Instagram; regresion-media, de TikTok).
-Evidencia indicada como «n/3». Se reescribe completa en cada actualización (comando `/estilo`).
+Consolidada a partir de 4 carruseles (fat-tails y ergodicity, de Instagram; regresion-media y
+cumpleaños —tiktok-quantgent-308355—, de TikTok). Evidencia indicada como «n/4». Se reescribe completa en cada actualización (comando `/estilo`).
 
 ## 1. Instrucciones para el modelo que lea esta guía
 
@@ -12,71 +12,76 @@ Evidencia indicada como «n/3». Se reescribe completa en cada actualización (c
 > podés verificar un dato, marcalo [DATO A VERIFICAR]. Nunca inventes cifras, fechas ni citas. Preferí
 > gráficos que se puedan generar a partir de datos o fórmulas explícitas.
 
-## 2. Estructura narrativa (7 slides)
+## 2. Estructura narrativa (7 slides; variante de 6)
 
-| Slide | Función | fat-tails | ergodicity | regresion-media |
-|---|---|---|---|---|
-| 1 | Portada: concepto + promesa | Colas gruesas | Ergodicidad + gancho | Regresión a la media + gancho |
-| 2 | Romper una creencia / ejemplo | «La matemática te miente» | Moneda +50 % / −40 % | El trayecto de 18 minutos |
-| 3 | Mecanismo o paradoja | Modelo normal y 2008 | 10.000 personas vs. 1 | Componente persistente + variable |
-| 4 | Nombrar / evidencia | «COLAS GRUESAS» | Paso a paso con $100 | NBA y fondos (S&P) |
-| 5 | Profundizar / distinguir | Curtosis | El orden no importa | No es reversión a la media |
-| 6 | Caso, historia o solución | LTCM, 1998 | Kelly (1956) y Ole Peters | Galton (1886) |
-| 7 | Cierre | Ed Thorp + cisne negro | Aforismo sin gráfico | Aforismo sin gráfico |
+| Slide | Función | fat-tails | ergodicity | regresion-media | cumpleaños (6) |
+|---|---|---|---|---|---|
+| 1 | Portada: concepto + promesa | Colas gruesas | Ergodicidad + gancho | Regresión a la media + gancho | Paradoja del cumpleaños + gancho |
+| 2 | Romper una creencia / ejemplo | «La matemática te miente» | Moneda +50 % / −40 % | El trayecto de 18 minutos | La pregunta y las respuestas intuitivas |
+| 3 | Mecanismo o paradoja | Modelo normal y 2008 | 10.000 personas vs. 1 | Persistente + variable | «La respuesta es 23» (barras) |
+| 4 | Nombrar / evidencia | «COLAS GRUESAS» | Paso a paso con $100 | NBA y fondos (S&P) | Por qué falla: 253 pares |
+| 5 | Profundizar / distinguir | Curtosis | El orden no importa | No es reversión a la media | La fórmula |
+| 6 | Caso, historia o solución | LTCM, 1998 | Kelly (1956) y Ole Peters | Galton (1886) | Cierre (sin gráfico) |
+| 7 | Cierre | Ed Thorp + cisne negro | Aforismo sin gráfico | Aforismo sin gráfico | — |
 
-Patrones (3/3): el concepto se nombra en la portada; las slides 2-5 lo explican sin jerga con un
-ejemplo concreto; la 6 aterriza en historia (LTCM, Kelly, Galton); la 7 cierra con una lección práctica
-en antítesis. Variantes: el concepto se remata en mayúsculas en la slide 4 (1/3); una slide dedicada a
-distinguirlo de un concepto vecino (1/3: regresión vs. reversión a la media).
+Patrones (4/4): el concepto se nombra en la portada; las slides 2-5 lo explican sin jerga con un
+ejemplo concreto; el cierre deja una lección práctica en antítesis. Caso histórico en la anteúltima
+(3/4: LTCM, Kelly, Galton); la variante de 6 slides lo reemplaza por la fórmula (1/4). Variantes:
+pregunta al lector seguida de las respuestas intuitivas y su refutación (1/4: «Todos están muy
+lejos.»); el concepto en mayúsculas en la slide 4 (1/4); una slide para distinguirlo de un concepto
+vecino (1/4: regresión vs. reversión a la media).
 
 ## 3. Portadas y títulos
 
-- Título: el concepto en 1-4 palabras, muy grande, en negrita (3/3): «Colas gruesas», «Ergodicidad»,
-  «Regresión a la media».
-- Subtítulo con promesa o paradoja, 6 a 9 palabras, en negrita o regular (3/3): «Por qué el valor
-  esperado destruye carteras»; «La ley que devuelve cada extremo a la normalidad».
-- Gancho opcional (2/3): 2-4 oraciones cortas con un ejemplo y una promesa: «El mejor fondo de este año
-  probablemente sea uno promedio el año que viene. El peor probablemente se recupere. Esta sola ley
-  explica las dos cosas.»
-- Gráfico o ilustración debajo (3/3). **Debe tener relación con el tema** (en ergodicity no la tenía).
-- Títulos internos (en 12 de 21 slides; 6/7 en regresion-media): afirmación o pregunta de 2 a 8
-  palabras, en negrita: «Por qué ocurre», «Dónde se descubrió», «Entonces, ¿qué está pasando en
-  realidad?».
+- Título: el concepto en 1-4 palabras, muy grande, en negrita (4/4): «Colas gruesas», «Ergodicidad»,
+  «Regresión a la media», «La paradoja del cumpleaños».
+- Subtítulo con promesa o paradoja, 6 a 12 palabras, en negrita o regular (4/4): «Por qué el valor
+  esperado destruye carteras»; «La pregunta de entrevista que desarma a los aspirantes a analistas
+  cuantitativos (quants)».
+- Gancho (3/4): 2-4 oraciones cortas con un ejemplo y una promesa, a menudo rematado con «Veamos por
+  qué.»: «El mejor fondo de este año probablemente sea uno promedio el año que viene. El peor
+  probablemente se recupere. Esta sola ley explica las dos cosas.»
+- Gráfico o ilustración debajo (4/4). **Debe tener relación con el tema** (en ergodicity no la tenía).
+- Títulos internos (en 16 de 27 slides): afirmación o pregunta de 2 a 8 palabras, en negrita: «Por qué
+  ocurre», «Dónde se descubrió», «La respuesta es 23.», «Por qué tu cerebro falla.».
 
 ## 4. Cuerpo
 
-- Densidad: 50 a 90 palabras por slide (3/3). Dos formas: párrafo único (fat-tails) o 2-4 párrafos
+- Densidad: 50 a 90 palabras por slide (4/4). Dos formas: párrafo único (fat-tails) o 2-4 párrafos
   cortos de 1-3 oraciones (ergodicity, regresion-media).
 - Oraciones de 3 a 20 palabras; fragmentos permitidos («Los grandes, casi nunca.»).
-- Segunda persona con voseo (3/3): «Imaginá», «Llegás en 18 minutos», «perdés».
+- Segunda persona con voseo (4/4): «Imaginá», «Llegás en 18 minutos», «No tirás el dado una vez.».
 - Recursos:
-  - pregunta-respuesta (2/3): «¿Los derrumbes? Prácticamente imposibles.»;
-  - tríadas (2/3): «Misma apuesta. Mismas probabilidades. Misma matemática.»;
-  - antítesis (3/3): «Los porcentajes parecen justos. Los dólares, no.»; «Una es una estrategia de
-    trading. La otra es una propiedad estadística de la varianza.»;
-  - ejemplo cotidiano antes del financiero (1/3): trayecto al trabajo → fondos → acciones;
+  - pregunta-respuesta (3/4): «¿Los derrumbes? Prácticamente imposibles.»; «Entonces necesitarías una
+    multitud, ¿no?»;
+  - tríadas (3/4): «Misma apuesta. Mismas probabilidades. Misma matemática.»; «No es un truco. No es
+    una adivinanza. Es probabilidad pura.»;
+  - antítesis (4/4): «Los porcentajes parecen justos. Los dólares, no.»; «Tu intuición cuenta
+    personas. La matemática cuenta conexiones.»;
+  - ejemplo cotidiano antes del financiero (2/4): trayecto al trabajo → fondos; cumpleaños en una fiesta → entrevistas de trading;
   - cifras concretas y redondas en cada slide ($100, 10.000 personas, 99,7 %, 18 minutos).
-- Negrita: una oración clave por slide, en párrafo propio al final del texto (2/3, casi todas las
-  slides): «El resultado extremo se corrigió solo. Esto es la regresión a la media.»
+- Negrita: una oración clave por slide, en párrafo propio, casi siempre al final (3/4): «El resultado extremo se corrigió solo. Esto es la regresión a la media.»
 
 ## 5. Cierres
 
-- Aforismo con antítesis (3/3): «Son los que respetan lo que la matemática no puede ver.»; «El mercado
+- Aforismo con antítesis (4/4): «Son los que respetan lo que la matemática no puede ver.»; «El mercado
   no te debe el valor esperado. Solo te debe el camino que efectivamente recorrés.»; «La respuesta
   correcta ante un valor atípico no es perseguirlo ni descartarlo.»
-- Sin gráfico (2/3) o con ilustración y definición de diccionario (1/3).
-- Matiz que evita la lectura simplista (1/3): «no implica que todo se vuelva promedio. Las diferencias
+- Sin gráfico (3/4) o con ilustración y definición de diccionario (1/4). Arranque con «La lección …
+  no es X…» y la oración clave en negrita (1/4).
+- Matiz que evita la lectura simplista (1/4): «no implica que todo se vuelva promedio. Las diferencias
   de habilidad son reales y persistentes».
 
 ## 6. Gráficos
 
-- Uno por slide salvo cierre y slides conceptuales (16 de 21 slides; dos paneles lado a lado en 2).
-- Dos familias (3/3):
+- Uno por slide salvo cierre y slides conceptuales (21 de 27 slides; dos paneles lado a lado en 2).
+- Dos familias (4/4), más fotos de stock (1/4: fiesta, sala de trading; sin fuente ni derechos claros:
+  evitarlas o usar imágenes propias):
   1. **Figuras importadas o ilustraciones**: papers, capturas, notación LaTeX (P(x), E(L), VaR, ES, σ),
      dispersión de datos reales (Galton).
   2. **Gráficos propios minimalistas** estilo matplotlib/seaborn: barras (también apiladas) con valores
      en negrita, líneas finas, ejes grises, sin recuadro superior ni derecho, diagramas de flujo simples.
-- Colores semánticos (3/3): verde = ganancia o persistente, rojo = pérdida o peor resultado, naranja =
+- Colores semánticos (4/4; en cumpleaños, rojo = supera el umbral del 50 %): verde = ganancia o persistente, rojo = pérdida o peor resultado, naranja =
   intermedio o variable, gris = neutro o punto de partida.
 - Rotulado: título corto arriba, a veces con fórmula en itálica gris («(0,5 × 1,50) + (0,5 × 0,60) =
   1,05»); anotaciones con flecha («Óptimo de Kelly, f = 25 %», «18 min»); línea punteada de referencia
@@ -90,7 +95,7 @@ distinguirlo de un concepto vecino (1/3: regresión vs. reversión a la media).
 
 - Formatos: Instagram 1080 × 1350 (4:5); TikTok 1080 × 1920 (9:16) con el contenido centrado
   verticalmente (texto desde ≈ 400-640 px, gráfico ≈ 1100-1600 px) y el logo abajo.
-- Fondo blanco con degradado gris suave en las esquinas; todo centrado (3/3).
+- Fondo blanco con degradado gris suave en las esquinas; todo centrado (4/4).
 - Columna de texto ≈ 75-80 % del ancho (800-860 px).
 - Tipografía: Inter. Título de portada Bold 80-100 px; títulos internos Bold 40-72 px; cuerpo Regular
   34 px (39-44 px en fat-tails); interlineado ≈ 1,4; destacados Bold al tamaño del cuerpo; pies 20-36 px
@@ -107,6 +112,7 @@ distinguirlo de un concepto vecino (1/3: regresión vs. reversión a la media).
 | fat-tails | #FEFEFE | #070707 | #E4AA58 (32%), #C9443E (31%), #73A3D7 (14%), #627D9C (10%), #4E5D8C (7%), #561F56 (7%) |
 | ergodicity | #FEFEFE | #1D1D1D | #568E66 (41%), #B96257 (34%), #3D6E4B (12%), #8B4E47 (9%) |
 | regresion-media | #FFFFFF | #1D1D1D | #42906C (43%), #AB1818 (20%), #EBA366 (16%), #EE871A (8%), #B75C5A (8%), #E2AF87 (6%) |
+| tiktok-quantgent-308355 | #FFFFFF | #090506 | #70331F (34%), #209A39 (33%), #C4984C (13%), #2F764A (11%), #48E3C8 (4%), #1752EB (4%) |
 
 <!-- PALETA:FIN -->
 
@@ -143,6 +149,12 @@ Tono de «lo que no te cuentan», sin lunfardo ni coloquialismos.
   millones» (lo pagaron 14 bancos privados); «US$ 100.000 millones en posiciones».
 - Confundir conceptos: la brecha promedio-trayectoria es la **no** ergodicidad.
 - Contradicciones texto-gráfico: «mil tiradas» con 300 en el gráfico; «todo 2008» con serie 2007-2009.
+- Frases de autoridad sin fuente: «las mesas de trading de Wall Street la usan»; «la mayoría arriesga
+  180»; qué buscan los entrevistadores.
+- Mezclar probabilidad individual y acumulada: «la persona 23 falla más de la mitad de las veces» (solo
+  22/365 ≈ 6 %; lo que supera el 50 % es la acumulada); tratar los 253 pares como tiradas
+  independientes sin decir que es una aproximación.
+- Fórmulas en texto plano con «x» y «^»: usar × y superíndices (365ⁿ), signo menos (−).
 
 ## 9. Glosario resumido
 
@@ -174,6 +186,9 @@ Tono de «lo que no te cuentan», sin lunfardo ni coloquialismos.
 | outlier | valor atípico |
 | Top 25% / Bottom 25% | cuartil superior / cuartil inferior |
 | tradeable strategy | estrategia de trading |
+| Birthday Paradox | paradoja del cumpleaños |
+| unique pairs / (birthday) match | pares distintos / coincidencia |
+| trading desk | mesa de trading |
 | "Past performance doesn't guarantee future results" | “Rendimientos pasados no garantizan rendimientos futuros” |
 
 Glosario completo: `memoria/GLOSARIO.md`.
@@ -201,3 +216,12 @@ resultado extremo se corrigió solo.»** (serie de 30 días). 3. Componente pers
 fondos del cuartil superior (flujo 10 / 25 / 30 / 35 %). 5. Regresión ≠ reversión a la media: **«Confundirlas
 es uno de los errores más caros en finanzas.»** 6. Galton, 1886: alturas de padres e hijos (dispersión).
 7. **«Es esperar que el próximo resultado sea menos extremo.»**
+
+**cumpleaños — «La paradoja del cumpleaños: la pregunta de entrevista que desarma a los aspirantes a
+quants»** (TikTok, 6 slides)
+1. Portada + gancho de entrevistas de Wall Street (superficie 3D). 2. ¿Cuántas personas hacen falta?
+Las respuestas intuitivas (180, 100, 50): **«Todos están muy lejos.»** (foto). 3. «La respuesta es 23»:
+50,7 % con 23 y 99,9 % con 70 (barras con línea del 50 %). 4. No es tu cumpleaños, son los 253 pares:
+**«Pero la pregunta no es sobre vos. Es sobre cualquier par.»** (diagrama circular). 5. La fórmula
+1 − 365! / ((365 − n)! × 365ⁿ) (foto de sala de trading). 6. **«Es que los humanos razonan de forma
+lineal ante problemas combinatorios.»**
