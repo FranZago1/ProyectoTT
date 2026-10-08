@@ -168,4 +168,17 @@ establecida, handles, tickers, «S&P 500», «quants» (después de la primera m
 | naturally occurring dataset | conjunto de datos natural |
 | decay | deterioro |
 | Expected 11.1% | Esperado: 11,1 % |
+| Law of Large Numbers | ley de los grandes números |
+| (casino / house) edge | ventaja (del casino / de la casa) |
+| trials | intentos |
+| win rate | tasa de acierto (gana el X % de las veces) |
+| trades | operaciones |
+| insurance companies | aseguradoras |
+| claims | siniestros |
+| policy | póliza |
+| originals (Netflix) | producciones propias |
+| +EV | con valor esperado positivo |
+| Gut-feel trader | trader intuitivo |
+| Number of trades | cantidad de operaciones |
+| PROFIT / TIME (ejes) | GANANCIA / TIEMPO |
 <!-- GLOSARIO:FIN -->

@@ -1,0 +1,989 @@
+{
+ "slug": "tiktok-quantgent-692630",
+ "slides": [
+  {
+   "n": 1,
+   "pagina_origen": 1,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    150,
+    348,
+    930,
+    1175
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The Law of Large Numbers",
+     "texto_es": "La ley de los grandes números",
+     "peso": "bold",
+     "tam_px": 88,
+     "interlineado": 1.2,
+     "color": "#0A0A0A",
+     "caja": [
+      174,
+      348,
+      906,
+      541
+     ],
+     "ancho_px": 800
+    },
+    {
+     "rol": "subtitulo",
+     "texto_en": "The Reason Casinos Never Lose",
+     "texto_es": "Por qué los casinos nunca pierden",
+     "peso": "bold",
+     "tam_px": 40,
+     "interlineado": 1.44,
+     "color": "#0A0A0A",
+     "caja": [
+      150,
+      635,
+      930,
+      675
+     ],
+     "ancho_px": 780,
+     "espacio_antes": 69
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "A casino's edge on most games is less than 2%. Barely better than a coin flip. So how do they make billions?",
+     "texto_es": "La ventaja de un casino en la mayoría de los juegos es menor al 2 %. Apenas mejor que tirar una moneda. Entonces, ¿cómo ganan miles de millones?",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.5,
+     "color": "#1D1D1D",
+     "caja": [
+      172,
+      761,
+      907,
+      992
+     ],
+     "ancho_px": 735,
+     "espacio_antes": 68
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "The answer is one of the most powerful equations in mathematics.",
+     "texto_es": "La respuesta es una de las ecuaciones más poderosas de la matemática.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.5,
+     "color": "#1D1D1D",
+     "caja": [
+      186,
+      1069,
+      927,
+      1175
+     ],
+     "ancho_px": 741,
+     "espacio_antes": 56
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      235,
+      1255,
+      845,
+      1660
+     ],
+     "estrategia": "C",
+     "justificacion": "Foto (cartas en una mesa de juego) sin texto relevante: se conserva.",
+     "tipo": "foto: cartas sobre una mesa de casino",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Portada: concepto + promesa + gancho",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "Precisión: la ventaja de la casa es menor al 2 % en algunos juegos (blackjack con buena estrategia, punto y banca, craps), pero no en «la mayoría»: ruleta europea 2,7 %, americana 5,26 %, tragamonedas 2-15 %. Además, «la ley de los grandes números» es un teorema, no una ecuación."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 803.8,
+    "y": 358,
+    "limite": 1203
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 2,
+   "pagina_origen": 2,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    127,
+    500,
+    952,
+    1414
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Flip a coin 10 times",
+     "texto_es": "Tirá una moneda 10 veces",
+     "peso": "bold",
+     "tam_px": 50,
+     "interlineado": 1.44,
+     "color": "#0A0A0A",
+     "caja": [
+      289,
+      500,
+      792,
+      555
+     ],
+     "ancho_px": 503
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "You might get 7 heads and 3 tails. That's 70% heads... wildly off from the \"true\" 50%.",
+     "texto_es": "Podrías sacar 7 caras y 3 cecas. Eso es un 70 % de caras… muy lejos del 50 % “real”.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.4,
+     "color": "#1D1D1D",
+     "caja": [
+      127,
+      658,
+      952,
+      814
+     ],
+     "ancho_px": 825,
+     "espacio_antes": 103
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Flip it **100** times? You'll probably land closer to 55/45.",
+     "texto_es": "¿La tirás **100** veces? Probablemente quedes más cerca de 55/45.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.4,
+     "color": "#1D1D1D",
+     "caja": [
+      165,
+      904,
+      916,
+      1003
+     ],
+     "ancho_px": 751,
+     "espacio_antes": 90
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "Flip it **10,000** times? You'll be almost exactly at 50%.",
+     "texto_es": "¿La tirás **10.000** veces? Vas a estar casi exactamente en el 50 %.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.4,
+     "color": "#1D1D1D",
+     "caja": [
+      169,
+      1089,
+      914,
+      1192
+     ],
+     "ancho_px": 745,
+     "espacio_antes": 86
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "The more you play, the more the randomness disappears.",
+     "texto_es": "Cuanto más jugás, más desaparece el azar.",
+     "peso": "bold",
+     "tam_px": 44,
+     "interlineado": 1.35,
+     "color": "#1D1D1D",
+     "caja": [
+      161,
+      1299,
+      919,
+      1414
+     ],
+     "ancho_px": 758,
+     "espacio_antes": 107
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Ejemplo: tirar una moneda 10, 100 y 10.000 veces",
+   "notas_revisar": [
+    "Precisión: con 100 tiradas, quedar «cerca de 55/45» es plausible (desvío estándar de 5 puntos), pero no es lo «probable» en sentido estricto; el valor más probable sigue siendo 50/50.",
+    "Imprecisión: «desaparece el azar». Lo que se reduce es la proporción; la diferencia absoluta entre caras y cecas, en promedio, crece con la cantidad de tiradas."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 896.0,
+    "y": 505,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 3,
+   "pagina_origen": 3,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    98,
+    485,
+    982,
+    1102
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "This is the **Law of Large Numbers**",
+     "texto_es": "Esta es la **ley de los grandes números**",
+     "peso": "regular",
+     "tam_px": 48,
+     "interlineado": 1.44,
+     "color": "#0A0A0A",
+     "caja": [
+      98,
+      485,
+      982,
+      539
+     ],
+     "ancho_px": 884
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "As the number of trials increases, the average result converges to the expected value. Not approximately. Mathematically guaranteed.",
+     "texto_es": "A medida que aumenta la cantidad de intentos, el resultado promedio converge al valor esperado. No de forma aproximada. Está garantizado matemáticamente.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.5,
+     "color": "#1D1D1D",
+     "caja": [
+      132,
+      647,
+      947,
+      865
+     ],
+     "ancho_px": 815,
+     "espacio_antes": 91
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "A casino doesn't need to win every hand. It just needs to play enough hands... And the math does the rest.",
+     "texto_es": "Un casino no necesita ganar cada mano. Solo necesita jugar suficientes manos… Y la matemática hace el resto.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.5,
+     "color": "#1D1D1D",
+     "caja": [
+      114,
+      952,
+      966,
+      1102
+     ],
+     "ancho_px": 852,
+     "espacio_antes": 68
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      150,
+      1210,
+      930,
+      1640
+     ],
+     "estrategia": "A",
+     "justificacion": "Gráfico ilustrativo sobre fondo negro con pocos rótulos: se reescriben sobre el negro (borrado plano); la curva se conserva.",
+     "tipo": "línea: ganancia acumulada (£) en el tiempo, con oscilaciones y tendencia creciente",
+     "etiquetas": [
+      {
+       "texto_en": "Doing only\n+EV Casino Offers",
+       "texto_es": "Solo ofertas de casino\ncon valor esperado positivo",
+       "caja": [
+        378,
+        1243,
+        640,
+        1283
+       ],
+       "tam_px": 16.5,
+       "interlineado": 1.2,
+       "alineacion": "izquierda",
+       "color": "#D9D9D9",
+       "borrado": "plano",
+       "caja_borrar": [
+        376,
+        1241,
+        532,
+        1285
+       ]
+      },
+      {
+       "texto_en": "PROFIT (£)",
+       "texto_es": "GANANCIA (£)",
+       "caja": [
+        240,
+        1238,
+        266,
+        1370
+       ],
+       "tam_px": 19,
+       "peso": "bold",
+       "rotacion": 90,
+       "color": "#3FB499",
+       "borrado": "plano",
+       "caja_borrar": [
+        240,
+        1243,
+        267,
+        1363
+       ]
+      },
+      {
+       "texto_en": "Lots of ups and\ndowns in profits\noccur",
+       "texto_es": "Las ganancias\nsuben y bajan\nmucho",
+       "caja": [
+        425,
+        1466,
+        560,
+        1527
+       ],
+       "tam_px": 16,
+       "interlineado": 1.25,
+       "alineacion": "izquierda",
+       "color": "#D9D9D9",
+       "borrado": "plano",
+       "caja_borrar": [
+        425,
+        1466,
+        560,
+        1527
+       ]
+      },
+      {
+       "texto_en": "But, the OVERALL TREND\non average is a steady,\ncontinuous INCREASE in\nprofits over time",
+       "texto_es": "Pero la TENDENCIA GENERAL,\nen promedio, es un AUMENTO\nconstante y continuo de las\nganancias con el tiempo",
+       "caja": [
+        645,
+        1381,
+        880,
+        1465
+       ],
+       "tam_px": 15.5,
+       "interlineado": 1.25,
+       "alineacion": "izquierda",
+       "color": "#D9D9D9",
+       "borrado": "plano",
+       "caja_borrar": [
+        644,
+        1381,
+        862,
+        1465
+       ]
+      },
+      {
+       "texto_en": "TIME",
+       "texto_es": "TIEMPO",
+       "caja": [
+        790,
+        1586,
+        858,
+        1607
+       ],
+       "tam_px": 19,
+       "peso": "bold",
+       "alineacion": "derecha",
+       "color": "#3FB499",
+       "borrado": "plano",
+       "caja_borrar": [
+        802,
+        1586,
+        859,
+        1607
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Definición: la ley de los grandes números (gráfico)",
+   "notas_revisar": [
+    "Imprecisión: «garantizado matemáticamente» vale para el límite (convergencia en probabilidad o casi segura), no para una cantidad finita de manos.",
+    "Gráfico ajeno al texto: muestra las ganancias (en libras) de un jugador que aprovecha ofertas de casino con valor esperado positivo, no las del casino. Sin fuente. Las negritas internas del original («only», «OVERALL TREND», «INCREASE») se reflejan en mayúsculas."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 602.0,
+    "y": 489,
+    "limite": 1144
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 4,
+   "pagina_origen": 4,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    106,
+    485,
+    973,
+    1201
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The formula looks like it's written in another language",
+     "texto_es": "La fórmula parece escrita en otro idioma",
+     "peso": "regular",
+     "tam_px": 46,
+     "interlineado": 1.25,
+     "color": "#0A0A0A",
+     "caja": [
+      106,
+      485,
+      973,
+      611
+     ],
+     "ancho_px": 867
+    },
+    {
+     "rol": "otro",
+     "texto_en": "As n → ∞, X̄ₙ → μ",
+     "texto_es": "Si n → ∞, X̄ₙ → μ",
+     "peso": "bold",
+     "tam_px": 50,
+     "interlineado": 1.44,
+     "color": "#0A0A0A",
+     "caja": [
+      316,
+      699,
+      765,
+      750
+     ],
+     "ancho_px": 449,
+     "espacio_antes": 88
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "As the number of trials grows, the average approaches the true expected value. That's it. The casino's edge is μ. Every single bet is random. But across millions of bets, randomness cancels out and only the edge remains.",
+     "texto_es": "A medida que crece la cantidad de intentos, el promedio se acerca al verdadero valor esperado. Eso es todo. La ventaja del casino es μ. Cada apuesta individual es aleatoria. Pero a lo largo de millones de apuestas, el azar se compensa y solo queda la ventaja.",
+     "peso": "regular",
+     "tam_px": 40,
+     "interlineado": 1.45,
+     "color": "#1D1D1D",
+     "caja": [
+      115,
+      842,
+      968,
+      1201
+     ],
+     "ancho_px": 853,
+     "espacio_antes": 92
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      370,
+      1300,
+      715,
+      1700
+     ],
+     "estrategia": "C",
+     "justificacion": "Retrato con pie que es un nombre propio (Jacob Bernoulli): se conserva.",
+     "tipo": "pintura: retrato de Jacob Bernoulli",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "La fórmula + Jacob Bernoulli",
+   "notas_revisar": [
+    "Contexto que falta: Jacob Bernoulli demostró la primera versión de la ley (publicada en 1713, en Ars Conjectandi); el carrusel no lo explica.",
+    "Precisión: μ es el valor esperado de cada apuesta; la ventaja del casino es μ solo si X es la ganancia del casino por unidad apostada."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 715.0,
+    "y": 484,
+    "limite": 1238
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 5,
+   "pagina_origen": 5,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    103,
+    428,
+    976,
+    1130
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "Now replace \"**casino**\" with \"**trader**\"",
+     "texto_es": "Ahora reemplazá “**casino**” por “**trader**”",
+     "peso": "regular",
+     "tam_px": 48,
+     "interlineado": 1.44,
+     "color": "#0A0A0A",
+     "caja": [
+      103,
+      428,
+      976,
+      480
+     ],
+     "ancho_px": 873
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "A strategy with a 52% win rate looks like noise after 10 trades. After 100, you might still be losing. But after 10,000 trades? The edge compounds into a certainty.",
+     "texto_es": "Una estrategia que gana el 52 % de las veces parece ruido después de 10 operaciones. Después de 100, todavía podrías estar perdiendo. ¿Pero después de 10.000 operaciones? La ventaja se acumula hasta volverse una certeza.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.5,
+     "color": "#1D1D1D",
+     "caja": [
+      122,
+      587,
+      959,
+      805
+     ],
+     "ancho_px": 837,
+     "espacio_antes": 107
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "This is why the best hedge funds don't make one big bet. They make thousands of small ones and let the Law of Large Numbers turn a tiny edge into a fortune.",
+     "texto_es": "Por eso los mejores fondos de cobertura no hacen una gran apuesta. Hacen miles de apuestas chicas y dejan que la ley de los grandes números convierta una ventaja mínima en una fortuna.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.5,
+     "color": "#1D1D1D",
+     "caja": [
+      117,
+      912,
+      966,
+      1130
+     ],
+     "ancho_px": 849,
+     "espacio_antes": 107
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      130,
+      1195,
+      945,
+      1705
+     ],
+     "estrategia": "A",
+     "justificacion": "Simulación sin semilla ni parámetros completos: no se regenera; se reescriben leyenda, ticks y rótulos.",
+     "tipo": "líneas: patrimonio simulado de un trader sistemático (52 %) vs. uno intuitivo, 10 a 10.000 operaciones (escala log)",
+     "etiquetas": [
+      {
+       "texto_en": "Systematic trader (52% edge, 10,000 trades)",
+       "texto_es": "Trader sistemático (ventaja del 52 %, 10.000 operaciones)",
+       "caja": [
+        257,
+        1204,
+        700,
+        1221
+       ],
+       "tam_px": 13,
+       "peso": "bold",
+       "alineacion": "izquierda",
+       "color": "#3E8A64",
+       "caja_borrar": [
+        254,
+        1203,
+        640,
+        1222
+       ]
+      },
+      {
+       "texto_en": "Gut-feel trader (no edge, big bets)",
+       "texto_es": "Trader intuitivo (sin ventaja, apuestas grandes)",
+       "caja": [
+        257,
+        1224,
+        700,
+        1242
+       ],
+       "tam_px": 13,
+       "peso": "bold",
+       "alineacion": "izquierda",
+       "color": "#B4474D",
+       "caja_borrar": [
+        254,
+        1223,
+        551,
+        1243
+       ]
+      },
+      {
+       "texto_en": "Start",
+       "texto_es": "Inicio",
+       "caja": [
+        870,
+        1553,
+        915,
+        1566
+       ],
+       "tam_px": 11.5,
+       "alineacion": "izquierda",
+       "color": "#A8A4A3",
+       "borrado": "inpaint",
+       "caja_borrar": [
+        873,
+        1553,
+        905,
+        1566
+       ]
+      },
+      {
+       "texto_en": "1,000",
+       "texto_es": "1.000",
+       "caja": [
+        637,
+        1646,
+        669,
+        1660
+       ],
+       "tam_px": 11.5,
+       "color": "#A8A7A6"
+      },
+      {
+       "texto_en": "10,000",
+       "texto_es": "10.000",
+       "caja": [
+        849,
+        1646,
+        889,
+        1660
+       ],
+       "tam_px": 11.5,
+       "color": "#A8A7A6"
+      },
+      {
+       "texto_en": "Number of trades →",
+       "texto_es": "Cantidad de operaciones →",
+       "caja": [
+        430,
+        1681,
+        665,
+        1695
+       ],
+       "tam_px": 11.5,
+       "color": "#ACACAC",
+       "caja_borrar": [
+        485,
+        1681,
+        610,
+        1695
+       ]
+      }
+     ]
+    }
+   ],
+   "funcion": "Aplicación al trading: muchas apuestas chicas (gráfico)",
+   "notas_revisar": [
+    "Contradicción interna: «ventaja del 52 %» en el gráfico es en realidad una tasa de acierto del 52 %; eso solo es una ventaja si ganancias y pérdidas son del mismo tamaño.",
+    "Exageración: «la ventaja se vuelve una certeza» (la probabilidad de terminar en pérdida baja, pero no se anula; con 10.000 operaciones al 52 % es ≈ 0,003 %). Sin fuente: qué hacen «los mejores fondos».",
+    "Gráfico simulado, sin fuente; rótulos reescritos. Revisar en Canva que la leyenda se lea bien."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.9,
+    "alto_total": 716.5,
+    "y": 417,
+    "limite": 1150
+   },
+   "avisos_render": [
+    "texto reducido al 90 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 6,
+   "pagina_origen": 6,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    111,
+    501,
+    968,
+    1324
+   ],
+   "bloques": [
+    {
+     "rol": "cuerpo",
+     "texto_en": "**Insurance companies** price every policy using it. That's how they stay profitable while paying out billions in claims.",
+     "texto_es": "Las **aseguradoras** calculan el precio de cada póliza con ella. Así siguen siendo rentables aunque paguen miles de millones en siniestros.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.45,
+     "color": "#1D1D1D",
+     "caja": [
+      141,
+      501,
+      940,
+      661
+     ],
+     "ancho_px": 799
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "**Casinos** in Vegas are designed around it the house edge on roulette is just 2.7%, but across 10 million spins a year, that's a guaranteed fortune.",
+     "texto_es": "Los **casinos** de Las Vegas están diseñados en torno a ella: la ventaja de la casa en la ruleta es de apenas el 2,7 %, pero a lo largo de 10 millones de tiradas por año, es una fortuna asegurada.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.45,
+     "color": "#1D1D1D",
+     "caja": [
+      111,
+      775,
+      968,
+      994
+     ],
+     "ancho_px": 857,
+     "espacio_antes": 114
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "And **Netflix**? They don't need every show to be a hit. Across hundreds of originals, the Law of Large Numbers turns a small average return into an empire.",
+     "texto_es": "¿Y **Netflix**? No necesita que cada serie sea un éxito. A lo largo de cientos de producciones propias, la ley de los grandes números convierte un rendimiento promedio chico en un imperio.",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.45,
+     "color": "#1D1D1D",
+     "caja": [
+      130,
+      1105,
+      950,
+      1324
+     ],
+     "ancho_px": 820,
+     "espacio_antes": 111
+    }
+   ],
+   "zonas_grafico": [
+    {
+     "caja": [
+      360,
+      1420,
+      920,
+      1680
+     ],
+     "estrategia": "C",
+     "justificacion": "Foto (cartel de Las Vegas): el texto es un nombre propio; se conserva.",
+     "tipo": "foto: cartel «Welcome to Fabulous Las Vegas»",
+     "etiquetas": []
+    }
+   ],
+   "funcion": "Casos: seguros, casinos de Las Vegas, Netflix",
+   "notas_revisar": [
+    "La foto es de terceros (sin fuente indicada en el original): verificar derechos de uso o reemplazarla en Canva.",
+    "Precisión: 2,7 % es la ventaja de la ruleta europea (un cero); en Las Vegas predomina la americana (doble cero), con 5,26 %. «10 millones de tiradas por año» no tiene fuente.",
+    "Analogía discutible: Netflix no es un caso de la ley de los grandes números en sentido estricto (sus series no son ensayos independientes e idénticos); es diversificación de una cartera de contenidos.",
+    "El original omite un signo entre «around it» y «the house edge»; en español se usaron dos puntos."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 0.96,
+    "alto_total": 797.9,
+    "y": 510,
+    "limite": 1360
+   },
+   "avisos_render": [
+    "texto reducido al 96 % para entrar en la zona",
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  },
+  {
+   "n": 7,
+   "pagina_origen": 7,
+   "elementos_ui_eliminados": [],
+   "color_fondo": "#FFFFFF",
+   "zona_texto": [
+    121,
+    620,
+    960,
+    1382
+   ],
+   "bloques": [
+    {
+     "rol": "titulo",
+     "texto_en": "The biggest lesson from the Law of Large Numbers isn't about math... it's about patience.",
+     "texto_es": "La mayor lección de la ley de los grandes números no es la matemática… es la paciencia.",
+     "peso": "bold",
+     "tam_px": 44,
+     "interlineado": 1.4,
+     "color": "#0A0A0A",
+     "caja": [
+      121,
+      620,
+      960,
+      796
+     ],
+     "ancho_px": 839
+    },
+    {
+     "rol": "cuerpo",
+     "texto_en": "One flip means nothing. One trade means nothing. One attempt means nothing. The edge only appears when you play enough times to let the math work. Most people quit before the numbers converge. The ones who don't?",
+     "texto_es": "Una tirada no significa nada. Una operación no significa nada. Un intento no significa nada. La ventaja solo aparece cuando jugás suficientes veces como para que la matemática funcione. La mayoría abandona antes de que los números converjan. ¿Y los que no?",
+     "peso": "regular",
+     "tam_px": 38,
+     "interlineado": 1.45,
+     "color": "#1D1D1D",
+     "caja": [
+      128,
+      897,
+      951,
+      1225
+     ],
+     "ancho_px": 823,
+     "espacio_antes": 101
+    },
+    {
+     "rol": "destacado",
+     "texto_en": "They're the house",
+     "texto_es": "Son la casa.",
+     "peso": "bold",
+     "tam_px": 48,
+     "interlineado": 1.44,
+     "color": "#0A0A0A",
+     "caja": [
+      342,
+      1337,
+      758,
+      1382
+     ],
+     "ancho_px": 416,
+     "espacio_antes": 112
+    }
+   ],
+   "zonas_grafico": [],
+   "funcion": "Cierre: la paciencia, sin gráfico",
+   "notas_revisar": [
+    "Advertencia de fondo: «la ventaja aparece si jugás suficientes veces» solo vale si la ventaja existe; con valor esperado negativo (el caso de casi todos los jugadores de casino), jugar más asegura perder.",
+    "El original no cierra «They're the house» con punto; en español se agregó."
+   ],
+   "curado": true,
+   "_render_texto": {
+    "escala": 1.0,
+    "alto_total": 852.6,
+    "y": 605,
+    "limite": 1800
+   },
+   "avisos_render": [
+    "marca de agua original reemplazada por el logo de Pulso Económico"
+   ],
+   "control_calidad": []
+  }
+ ],
+ "fuente": {
+  "plataforma": "tiktok",
+  "url": "https://vt.tiktok.com/ZSbg1VsAn/",
+  "url_canonica": "https://www.tiktok.com/@quantgent/photo/7614684363518692630?_r=1&_t=ZS-9AN4bhkZDsM",
+  "usuario": "quantgent",
+  "id": "7614684363518692630",
+  "descripcion": "A casino's edge is less than 2%. So how do they make billions? The Law of Large Numbers explains why #lawoflargenumbers #casino #mathematics #quantfinance #fyp",
+  "autor": "QuantGent",
+  "creada": "1772931871",
+  "metodo": "JSON embebido de la página (/video/)",
+  "imagenes": [
+   "01.jpg",
+   "02.jpg",
+   "03.jpg",
+   "04.jpg",
+   "05.jpg",
+   "06.jpg",
+   "07.jpg"
+  ]
+ },
+ "orden": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7
+ ],
+ "motor_ocr": "tesseract",
+ "titulo_en": "The Law of Large Numbers: The Reason Casinos Never Lose",
+ "titulo_es": "La ley de los grandes números: por qué los casinos nunca pierden",
+ "glosario_nuevo": [
+  {
+   "en": "Law of Large Numbers",
+   "es": "ley de los grandes números"
+  },
+  {
+   "en": "(casino / house) edge",
+   "es": "ventaja (del casino / de la casa)"
+  },
+  {
+   "en": "trials",
+   "es": "intentos"
+  },
+  {
+   "en": "win rate",
+   "es": "tasa de acierto (gana el X % de las veces)"
+  },
+  {
+   "en": "trades",
+   "es": "operaciones"
+  },
+  {
+   "en": "insurance companies",
+   "es": "aseguradoras"
+  },
+  {
+   "en": "claims",
+   "es": "siniestros"
+  },
+  {
+   "en": "policy",
+   "es": "póliza"
+  },
+  {
+   "en": "originals (Netflix)",
+   "es": "producciones propias"
+  },
+  {
+   "en": "+EV",
+   "es": "con valor esperado positivo"
+  },
+  {
+   "en": "Gut-feel trader",
+   "es": "trader intuitivo"
+  },
+  {
+   "en": "Number of trades",
+   "es": "cantidad de operaciones"
+  },
+  {
+   "en": "PROFIT / TIME (ejes)",
+   "es": "GANANCIA / TIEMPO"
+  }
+ ]
+}

@@ -241,3 +241,19 @@ Fecha: 2026-10-07. Una línea de justificación por decisión.
 - **Términos**: «IRS» → «IRS (el fisco de EE. UU.)» en la primera mención; «tax returns» → «declaraciones
   juradas»; «forensic accountants» → «contadores forenses»; «red flag» → «señal de alerta»; «decay» →
   «deterioro»; «They're wrong» → «Se equivocan.» (se agregó el punto que falta en el original).
+
+## tiktok-quantgent-692630 — «The Law of Large Numbers» (2026-10-08)
+
+- **7 slides** en el orden de la publicación. El OCR agrupó mal casi todo el texto (lo tomó como
+  gráfico), así que **todos los bloques se escribieron a mano** con medidas tomadas de la imagen
+  (`nuevo()` en `scripts/curar_tiktok.py`).
+- **Negritas internas** del original («Flip it **100** times», «**Insurance companies**», «"**casino**"»)
+  se conservan con la marca `**…**` del renderer.
+- **Estrategias**: 01, 04, 06 C (fotos y retrato de Bernoulli); 03 A (gráfico sobre fondo negro: borrado
+  `plano` y rótulos reescritos; las negritas internas del rótulo pasan a mayúsculas, porque las etiquetas
+  no admiten negrita parcial); 05 A (simulación sin semilla: leyenda, ticks de miles y rótulos
+  reescritos); 02 y 07 sin gráfico.
+- **Fórmula** «As n → ∞, X̄ₙ → μ» → «Si n → ∞, X̄ₙ → μ» (Inter tiene el macrón combinante y el subíndice).
+- **Términos**: «edge» → «ventaja (de la casa)»; «win rate» → «gana el X % de las veces»; «trades» →
+  «operaciones»; «claims» → «siniestros»; «originals» → «producciones propias»; «They're the house» →
+  «Son la casa.»
